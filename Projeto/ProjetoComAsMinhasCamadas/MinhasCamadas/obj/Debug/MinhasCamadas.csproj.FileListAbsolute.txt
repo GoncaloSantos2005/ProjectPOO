@@ -1,0 +1,7 @@
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\bin\Debug\MinhasCamadas.exe.config
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\bin\Debug\MinhasCamadas.exe
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\bin\Debug\MinhasCamadas.pdb
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\obj\Debug\MinhasCamadas.csproj.AssemblyReference.cache
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\obj\Debug\MinhasCamadas.csproj.CoreCompileInputs.cache
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\obj\Debug\MinhasCamadas.exe
+C:\_2ano\POO\ProjectPOO\ProjectPOO\MinhasCamadas\obj\Debug\MinhasCamadas.pdb
