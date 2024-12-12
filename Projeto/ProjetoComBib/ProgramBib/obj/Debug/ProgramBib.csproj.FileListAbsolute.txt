@@ -1,0 +1,16 @@
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\obj\Debug\ProgramBib.csproj.AssemblyReference.cache
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\obj\Debug\ProgramBib.csproj.CoreCompileInputs.cache
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ProgramBib.exe.config
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ProgramBib.exe
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ProgramBib.pdb
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\DadosNegocio.dll
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ObjetosNegocio.dll
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ProjectException.dll
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\RegrasNegocio.dll
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\DadosNegocio.pdb
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ObjetosNegocio.pdb
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\ProjectException.pdb
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\bin\Debug\RegrasNegocio.pdb
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\obj\Debug\ProgramBib.csproj.Up2Date
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\obj\Debug\ProgramBib.exe
+C:\_2ano\POO\ProjectPOO\ProjectPOO\ProgramBib\obj\Debug\ProgramBib.pdb

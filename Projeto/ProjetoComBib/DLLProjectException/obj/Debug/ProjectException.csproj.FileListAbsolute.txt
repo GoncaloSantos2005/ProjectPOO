@@ -1,0 +1,12 @@
+C:\_2ano\POO\Teste\Teste\ProjectException\bin\Debug\ProjectException.dll
+C:\_2ano\POO\Teste\Teste\ProjectException\bin\Debug\ProjectException.pdb
+C:\_2ano\POO\Teste\Teste\ProjectException\obj\Debug\ProjectException.csproj.AssemblyReference.cache
+C:\_2ano\POO\Teste\Teste\ProjectException\obj\Debug\ProjectException.csproj.CoreCompileInputs.cache
+C:\_2ano\POO\Teste\Teste\ProjectException\obj\Debug\ProjectException.dll
+C:\_2ano\POO\Teste\Teste\ProjectException\obj\Debug\ProjectException.pdb
+C:\_2ano\POO\ProjectPOO\ComBiblioteca\DLLProjectException\bin\Debug\ProjectException.dll
+C:\_2ano\POO\ProjectPOO\ComBiblioteca\DLLProjectException\bin\Debug\ProjectException.pdb
+C:\_2ano\POO\ProjectPOO\ComBiblioteca\DLLProjectException\obj\Debug\ProjectException.csproj.AssemblyReference.cache
+C:\_2ano\POO\ProjectPOO\ComBiblioteca\DLLProjectException\obj\Debug\ProjectException.csproj.CoreCompileInputs.cache
+C:\_2ano\POO\ProjectPOO\ComBiblioteca\DLLProjectException\obj\Debug\ProjectException.dll
+C:\_2ano\POO\ProjectPOO\ComBiblioteca\DLLProjectException\obj\Debug\ProjectException.pdb
