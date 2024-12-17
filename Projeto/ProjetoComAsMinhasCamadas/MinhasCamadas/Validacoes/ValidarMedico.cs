@@ -44,6 +44,7 @@ namespace MinhasCamadas
         /// -4: Morada Inválida
         /// -5: CRM Inválido
         /// -6: Especialidade Inválida
+        /// -7: Objeto Medico Nulo
         /// 
         ///  1: Valido
         /// </returns>

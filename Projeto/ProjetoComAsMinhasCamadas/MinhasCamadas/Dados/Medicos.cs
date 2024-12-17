@@ -9,8 +9,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Reflection.Emit;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Runtime.Serialization.Formatters.Binary;
 
 namespace MinhasCamadas
@@ -44,9 +42,26 @@ namespace MinhasCamadas
         /// Retorna todos os médicos da lista.
         /// </summary>
         /// <returns>Lista de objetos <see cref="Medico"/>.</returns>
+        /// <example>ESTE METODO É SÓ UTILIZADO PARA TESTAR A LISTA</example>
         public static List<Medico> ObterTodos()
         {
             return medicos;
+        }
+
+        /// <summary>
+        /// Verifica se existe algum CRM na lista
+        /// </summary>
+        /// <param name="crm"></param>
+        /// <returns>true: Existe
+        /// false: Não existe</returns>
+        public static bool ExisteCRM(int crm)
+        {
+            foreach(Medico medico in medicos)
+            {
+                if (medico.CRM.Equals(crm))
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>
@@ -69,6 +84,7 @@ namespace MinhasCamadas
 
             medicos.Add(medico);
             contador++;
+            //GuardarMedicosFicheiro()
             return resultado;
         }
 
@@ -273,19 +289,22 @@ namespace MinhasCamadas
         /// <returns>1 em caso de sucesso, 0 caso contrário.</returns>
         public static int GuardarMedicosFicheiro(string fileName)
         {
-            try
+            if (File.Exists(fileName))
             {
-                using (FileStream s = new FileStream(fileName, FileMode.Create, FileAccess.Write))
+                try
                 {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    formatter.Serialize(s, medicos); // Serializa a lista estática
+                    Stream stream = File.Open(fileName, FileMode.OpenOrCreate, FileAccess.ReadWrite);
+                    BinaryFormatter bin = new BinaryFormatter();
+                    bin.Serialize(stream, medicos);
+                    stream.Close();
+                    return 1;
                 }
-                return 1; // Sucesso
+                catch (IOException e)
+                {
+                    throw e;
+                }
             }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            return -31;
         }
 
         /// <summary>
@@ -298,24 +317,22 @@ namespace MinhasCamadas
         /// </returns>
         public static int LerMedicosFicheiro(string fileName)
         {
-            try
+            if (File.Exists(fileName))
             {
-                if (!File.Exists(fileName))
+                try
                 {
-                    return -31;
+                    Stream stream = File.Open(fileName, FileMode.Open);
+                    BinaryFormatter bin = new BinaryFormatter();
+                    medicos = (List<Medico>)bin.Deserialize(stream);
+                    stream.Close();
+                    return 1;
                 }
-
-                using (FileStream s = new FileStream(fileName, FileMode.Open, FileAccess.Read))
+                catch (IOException e)
                 {
-                    BinaryFormatter formatter = new BinaryFormatter();
-                    medicos = (List<Medico>)formatter.Deserialize(s); 
+                    throw e;
                 }
-                return 1; // Sucesso
             }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            return -31;
         }
 
         #endregion
