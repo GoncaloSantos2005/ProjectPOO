@@ -44,16 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dados\Medicos.cs" />
-    <Compile Include="Objetos\Medico.cs" />
-    <Compile Include="Objetos\MiniMedico.cs" />
-    <Compile Include="Objetos\Morada.cs" />
-    <Compile Include="Objetos\Pessoa.cs" />
+    <Compile Include="Objetos\Consulta\Consulta.cs" />
+    <Compile Include="Objetos\Medico\Medico.cs" />
+    <Compile Include="Objetos\Medico\MiniMedico.cs" />
+    <Compile Include="Objetos\Medico\Morada.cs" />
+    <Compile Include="Objetos\Medico\Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectException\ListaMedicosException.cs" />
     <Compile Include="ProjectException\MedicoException.cs" />
     <Compile Include="ProjectException\RegrasMedicosException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Regras\RegrasMedicos.cs" />
+    <Compile Include="Validacoes\ValidarConsulta.cs" />
     <Compile Include="Validacoes\ValidarListaMedicos.cs" />
     <Compile Include="Validacoes\ValidarMedico.cs" />
   </ItemGroup>

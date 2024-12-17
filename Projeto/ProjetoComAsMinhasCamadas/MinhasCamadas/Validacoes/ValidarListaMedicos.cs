@@ -40,7 +40,7 @@ namespace MinhasCamadas
         /// -11: Lista nula
         /// -12: Lista vazia
         /// -13: CRM Duplicado
-        /// -14: Médico não encontrado
+        /// -14: CRM não existente      
         ///  1: Valido
         /// </returns>
         public static int ValidarLista(List<Medico> medicos_)
@@ -61,12 +61,24 @@ namespace MinhasCamadas
         /// </returns>
         public static int VerificarCRMDuplicado(int crm)
         {
-            foreach(Medico m in Medicos.ObterTodos())
-            {
-                if (m.CRM.Equals(crm))
-                    return -13;
-            }
+            if (Medicos.ExisteCRM(crm))
+                return -13;
             return 1;
+        }
+
+        /// <summary>
+        /// Verifica se existe algum CRM já na lista
+        /// </summary>
+        /// <param name="crm">campo crm para validação.</param>
+        /// <returns>
+        /// -14: Não existe CRM
+        ///  1: Valido
+        /// </returns>
+        public static int ExisteCRM(int crm)
+        {
+            if (Medicos.ExisteCRM(crm))
+                return 1;
+            return -14;
         }
 
         #endregion

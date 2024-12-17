@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,9 +11,10 @@ namespace MinhasCamadas
     {
         static void Main(string[] args)
         {
-            //Medicos.LerMedicosFicheiro("ListaMedicos");
+            string fileName = "ListaMedicos";
+            Medicos.LerMedicosFicheiro(fileName);
             Medicos.ObterTodos();
-
+            #region Testes
             /*
             //Cria medico
             Medico medico = null;
@@ -69,8 +71,10 @@ namespace MinhasCamadas
             //listaMedicos.AdicionarMedico(new Medico("João Silva", new DateTime(1980, 5, 12), 123456789, new Morada(), 1234, ESPECIALIDADE.Cardiologia));
             //listaMedicos.AdicionarMedico(new Medico("Maria Santos", new DateTime(1985, 8, 20), 987654321, new Morada(), 5678, ESPECIALIDADE.Neurologia));
             //listaMedicos.AdicionarMedico(new Medico("Carlos Costa", new DateTime(1990, 12, 15), 123987456, new Morada(), 9012, ESPECIALIDADE.Cardiologia));
+            #endregion
 
-            
+            #region Testes
+            /*
             Medico medico1 = null;
             Medico medico2 = null;
             Medico medico3 = null;
@@ -187,7 +191,10 @@ namespace MinhasCamadas
                Console.WriteLine("Médico não criado!");
             
             Medicos.ObterTodos();
-
+            */
+            #endregion
+            #region Organizar
+            /*
             try
             {
                 int res = Medicos.OrganizarMedicosAlfabeticamente();
@@ -197,8 +204,8 @@ namespace MinhasCamadas
             {
 
             }
-
-
+            */
+            #endregion
 
             //medico1 = RegrasMedicos.TentarEditarMedico(PERMISSOES.High, medico1, "Goncalo", new DateTime(1986, 5, 12), 111111111, new Morada(), ESPECIALIDADE.Cardiologia);
 
@@ -206,7 +213,7 @@ namespace MinhasCamadas
 
 
 
-            int res123 = Medicos.GuardarMedicosFicheiro("ListaMedicos");
+            int res123 = Medicos.GuardarMedicosFicheiro(fileName);
             if (res123 != 1)
                 Console.WriteLine("Erro ao gravar no ficheiro");
             Medicos.ObterTodos();
