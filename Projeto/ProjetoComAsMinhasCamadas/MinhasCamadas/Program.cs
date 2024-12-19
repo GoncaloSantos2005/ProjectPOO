@@ -1,4 +1,12 @@
-﻿using System;
+﻿using MinhasCamadas.Dados;
+using MinhasCamadas.Files;
+using MinhasCamadas.Objetos;
+using MinhasCamadas.Objetos.Consulta;
+using MinhasCamadas.ProjectException;
+using MinhasCamadas.ProjectException.Consulta;
+using MinhasCamadas.ProjectException.Medico;
+using MinhasCamadas.Regras;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -12,9 +20,16 @@ namespace MinhasCamadas
         static void Main(string[] args)
         {
             string fileName = "ListaMedicos";
+            string fileName3 = "ListaConsultas";
+            string fileName2 = "Tudo";
+            
             Medicos.LerMedicosFicheiro(fileName);
+            
+            //FileManagement.LerTudoFicheiro(fileName2);
             Medicos.ObterTodos();
-            #region Testes
+            //FileManagement.GuardarTudoFicheiro(fileName2);
+            //Medicos.ObterTodos();
+            #region Testes Medicos
             /*
             //Cria medico
             Medico medico = null;
@@ -73,7 +88,7 @@ namespace MinhasCamadas
             //listaMedicos.AdicionarMedico(new Medico("Carlos Costa", new DateTime(1990, 12, 15), 123987456, new Morada(), 9012, ESPECIALIDADE.Cardiologia));
             #endregion
 
-            #region Testes
+            #region Testes Medicos
             /*
             Medico medico1 = null;
             Medico medico2 = null;
@@ -209,15 +224,51 @@ namespace MinhasCamadas
 
             //medico1 = RegrasMedicos.TentarEditarMedico(PERMISSOES.High, medico1, "Goncalo", new DateTime(1986, 5, 12), 111111111, new Morada(), ESPECIALIDADE.Cardiologia);
 
-            //RegrasMedicos.TentarAtualizarMedico(PERMISSOES.High, medico1);
-
-
+            //RegrasMedicos.TentarAtualizarMedico(PERMISSOES.High, medico1
 
             int res123 = Medicos.GuardarMedicosFicheiro(fileName);
             if (res123 != 1)
                 Console.WriteLine("Erro ao gravar no ficheiro");
             Medicos.ObterTodos();
 
+            res123 = TodasConsultas.LerConsultasFicheiro(fileName3);
+            if (res123 != 1)
+                Console.WriteLine("Erro:" + res123);
+            #region Testes Consultas
+            Consulta consulta1;
+            Consulta consulta2;
+            Consulta consulta3;
+            Consulta consulta4;
+            try
+            {
+                consulta1 = RegrasConsulta.TentaCriarConsulta(PERMISSOES.Low, new DateTime(2024, 12, 20, 15, 0, 0), new DateTime(2024, 12, 20, 15, 59, 0), 123456789, 1, 3456, 1, TIPOCONSULTA.Planeamento_Familiar, ESTADO.Agendada);
+                RegrasConsulta.TentarAdicionarConsulta(PERMISSOES.High, consulta1);
+                consulta2 = RegrasConsulta.TentaCriarConsulta(PERMISSOES.Low, new DateTime(2024, 12, 20, 16, 0, 0), new DateTime(2024, 12, 20, 16, 59, 0), 123456789, 1, 3456, 2, TIPOCONSULTA.Planeamento_Familiar, ESTADO.Agendada);
+                RegrasConsulta.TentarAdicionarConsulta(PERMISSOES.High, consulta2);
+                consulta3 = RegrasConsulta.TentaCriarConsulta(PERMISSOES.Low, new DateTime(2024, 12, 20, 14, 30, 0), new DateTime(2024, 12, 20, 15, 30, 0), 123456789, 1, 3456, 3, TIPOCONSULTA.Planeamento_Familiar, ESTADO.Agendada);
+                RegrasConsulta.TentarAdicionarConsulta(PERMISSOES.High, consulta3);
+                consulta4 = RegrasConsulta.TentaCriarConsulta(PERMISSOES.High, new DateTime(2024, 12, 20, 15, 0, 0), new DateTime(2024, 12, 20, 15, 59, 0), 123456789, 1, 3456, 4, TIPOCONSULTA.Planeamento_Familiar, ESTADO.Agendada);
+                RegrasConsulta.TentarAdicionarConsulta(PERMISSOES.High, consulta4);
+
+            }
+            catch (ConsultaException ce)
+            {
+                FileManagement.CriarLog(ce);
+            }
+            catch (ListaConsultaException lc)
+            {
+                FileManagement.CriarLog(lc);
+            }
+            catch (RegrasConsultaException rc)
+            {
+                FileManagement.CriarLog(rc);
+            }
+
+
+            #endregion
+            res123 = TodasConsultas.GuardarConsultasFicheiro(fileName3);
+            if (res123 != 1)
+                Console.WriteLine("Erro:" + res123);
         }
     }
 }

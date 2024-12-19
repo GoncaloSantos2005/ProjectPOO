@@ -40,7 +40,7 @@ namespace MinhasCamadas
         /// -11: Lista nula
         /// -12: Lista vazia
         /// -13: CRM Duplicado
-        /// -14: CRM não existente      
+        /// -14: CRM não existente
         ///  1: Valido
         /// </returns>
         public static int ValidarLista(List<Medico> medicos_)

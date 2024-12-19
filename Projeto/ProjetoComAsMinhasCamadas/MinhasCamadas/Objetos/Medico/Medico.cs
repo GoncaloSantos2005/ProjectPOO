@@ -6,16 +6,11 @@
 *   <date>12/1/2024 6:21:02 PM</date>
 *	<description></description>
 **/
+using MinhasCamadas.Objetos;
 using System;
 
 namespace MinhasCamadas
 {
-    public enum ESPECIALIDADE
-    {
-        Ginecologia = 0,
-        Neurologia = 1,
-        Cardiologia = 2,
-    }
     /// <summary>
     /// Purpose: Class responsável por manipular Medico
     /// Created by: gonca
@@ -97,7 +92,7 @@ namespace MinhasCamadas
         {
             int res = ValidarMedico.ValidarObjetoMedico(outroMedico);
             if (res != 1)
-                throw new MedicoException("Operação de Comparar foi interrompida! ", res);
+                throw new MedicoException(res);
 
             string nome1 = this.Nome.ToLower();
             string nome2 = outroMedico.Nome.ToLower();
@@ -148,7 +143,7 @@ namespace MinhasCamadas
             int resultado = ValidarMedico.ValidarCamposMedico(novoNome, novaDataN, novoNif, novaMorada, novaEspecialidade);
             if (resultado != 1)
             {
-                throw new MedicoException("Médico não editado", resultado);
+                throw new MedicoException(resultado);
             }
 
             this.Nome = novoNome;
@@ -178,7 +173,7 @@ namespace MinhasCamadas
             int resultado = ValidarMedico.ValidarCamposMedico(nome, dataN, nif, morada, especialidade);
             if (resultado != 1)
             {
-                throw new MedicoException("Médico não criado", resultado);
+                throw new MedicoException(resultado);
             }
             return new Medico(nome, dataN, nif, morada, crm, especialidade);
         }
