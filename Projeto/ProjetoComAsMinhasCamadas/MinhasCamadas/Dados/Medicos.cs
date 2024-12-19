@@ -6,6 +6,7 @@
 *   <date>12/2/2024 11:13:59 AM</date>
 *	<description></description>
 **/
+using MinhasCamadas.Objetos;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -21,12 +22,12 @@ namespace MinhasCamadas
     /// <remarks></remarks>
     /// <example></example>
     [Serializable]
-    public static class Medicos
+    public class Medicos
     {
         #region Attributes
-        static List<Medico> medicos = new List<Medico>();
+        static List<Medico> _medicos = new List<Medico>();
         [NonSerialized]
-        static int contador=0;
+        static int _contador=0;
         #endregion
 
         #region Methods
@@ -45,7 +46,7 @@ namespace MinhasCamadas
         /// <example>ESTE METODO É SÓ UTILIZADO PARA TESTAR A LISTA</example>
         public static List<Medico> ObterTodos()
         {
-            return medicos;
+            return _medicos;
         }
 
         /// <summary>
@@ -56,7 +57,7 @@ namespace MinhasCamadas
         /// false: Não existe</returns>
         public static bool ExisteCRM(int crm)
         {
-            foreach(Medico medico in medicos)
+            foreach(Medico medico in _medicos)
             {
                 if (medico.CRM.Equals(crm))
                     return true;
@@ -82,8 +83,8 @@ namespace MinhasCamadas
             if (resultado != 1)
                 return resultado;
 
-            medicos.Add(medico);
-            contador++;
+            _medicos.Add(medico);
+            _contador++;
             //GuardarMedicosFicheiro()
             return resultado;
         }
@@ -101,8 +102,8 @@ namespace MinhasCamadas
         {
             try
             {
-                medicos.Remove(FindMedico(crm));
-                contador--;
+                _medicos.Remove(FindMedico(crm));
+                _contador--;
             }
             catch (ListaMedicosException ex) 
             {
@@ -153,10 +154,10 @@ namespace MinhasCamadas
             try { 
                 res = ValidarMedico.ValidarCRM(crm);
                 if (res != 1)
-                    throw new ListaMedicosException("Não foi possível encontrar o Médico", res);
+                    throw new ListaMedicosException(res);
                 Medico medico = null;
 
-                foreach(Medico m in medicos)
+                foreach(Medico m in _medicos)
                 {
                     if (m.CRM.Equals(crm))
                     {
@@ -167,7 +168,7 @@ namespace MinhasCamadas
                 res = ValidarMedico.ValidarObjetoMedico(medico);
                 if (res == 1)
                     return medico;
-                throw new ListaMedicosException("Não foi possível encontrar o Médico",-14);
+                throw new ListaMedicosException(-14);
             }
             catch (ListaMedicosException)
             {
@@ -189,7 +190,7 @@ namespace MinhasCamadas
         {
             List<Medico> lista = null;
             int contador_ = 0;
-            foreach (Medico m in medicos)
+            foreach (Medico m in _medicos)
             {
                 if (m.Especialidade.Equals(esp))
                 {
@@ -198,7 +199,7 @@ namespace MinhasCamadas
                 }
             }
             if (contador_ == 0)
-                throw new ListaMedicosException("", -14);
+                throw new ListaMedicosException(-14);
 
             return lista;
         }
@@ -217,7 +218,7 @@ namespace MinhasCamadas
 
             if(listaFiltro.Count == 0)
             {
-                throw new ListaMedicosException("", -14);
+                throw new ListaMedicosException(-14);
             }
 
             List<MiniMedico> lista = new List<MiniMedico>();
@@ -242,7 +243,11 @@ namespace MinhasCamadas
         {
             try {
                 Medico medico = FindMedico(crm);
-                return new MiniMedico(medico.Nome, medico.CRM);
+                MiniMedico mini = new MiniMedico(medico.Nome, medico.CRM);
+                int res = ValidarMedico.ValidarMiniObjeto(mini);
+                if (res != 1)
+                    throw new MedicoException(res);
+                return mini;
             } catch (ListaMedicosException) 
             { 
                 throw;
@@ -259,12 +264,12 @@ namespace MinhasCamadas
         /// </returns>
         public static int OrganizarMedicosAlfabeticamente()
         {   
-            int resultado = ValidarListaMedicos.ValidarLista(medicos);
+            int resultado = ValidarListaMedicos.ValidarLista(_medicos);
 
             if (resultado != 1)
                 return resultado;
             try {
-            medicos.Sort(); //usa o metodo implementado em Medico para organizar alfabeticamente
+            _medicos.Sort(); //usa o metodo implementado em Medico para organizar alfabeticamente
             }catch(MedicoException me)
             {
                 throw me;
@@ -277,7 +282,7 @@ namespace MinhasCamadas
         /// </summary>
         public static int Contador
         {
-            get { return contador; }
+            get { return _contador; }
         }
         #endregion
 
@@ -289,13 +294,11 @@ namespace MinhasCamadas
         /// <returns>1 em caso de sucesso, 0 caso contrário.</returns>
         public static int GuardarMedicosFicheiro(string fileName)
         {
-            if (File.Exists(fileName))
-            {
                 try
                 {
                     Stream stream = File.Open(fileName, FileMode.OpenOrCreate, FileAccess.ReadWrite);
                     BinaryFormatter bin = new BinaryFormatter();
-                    bin.Serialize(stream, medicos);
+                    bin.Serialize(stream, _medicos);
                     stream.Close();
                     return 1;
                 }
@@ -303,8 +306,6 @@ namespace MinhasCamadas
                 {
                     throw e;
                 }
-            }
-            return -31;
         }
 
         /// <summary>
@@ -313,7 +314,7 @@ namespace MinhasCamadas
         /// <param name="fileName">O nome do ficheiro de onde os dados serão lidos.</param>
         /// <returns>
         ///   1: Sucesso,
-        /// -31: Ficheiro não encontrado
+        /// -151: Ficheiro não encontrado.
         /// </returns>
         public static int LerMedicosFicheiro(string fileName)
         {
@@ -323,7 +324,7 @@ namespace MinhasCamadas
                 {
                     Stream stream = File.Open(fileName, FileMode.Open);
                     BinaryFormatter bin = new BinaryFormatter();
-                    medicos = (List<Medico>)bin.Deserialize(stream);
+                    _medicos = (List<Medico>)bin.Deserialize(stream);
                     stream.Close();
                     return 1;
                 }
@@ -332,7 +333,7 @@ namespace MinhasCamadas
                     throw e;
                 }
             }
-            return -31;
+            return -151;
         }
 
         #endregion

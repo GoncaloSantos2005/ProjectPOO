@@ -6,19 +6,13 @@
 *   <date>12/2/2024 12:20:26 PM</date>
 *	<description></description>
 **/
+using MinhasCamadas.Objetos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace MinhasCamadas
 {
-    [Serializable]
-    public enum PERMISSOES
-    {
-        None = 0,
-        Low = 1,
-        High = 2,
-    }
     /// <summary>
     /// Purpose: Regras de Negócio para Medico
     /// Created by: gonca
@@ -64,7 +58,7 @@ namespace MinhasCamadas
             switch (perm) 
             {
                 case PERMISSOES.None:
-                    throw new RegrasMedicosException("", -21);
+                    throw new RegrasMedicosException(-21);
                 case PERMISSOES.Low:
                 case PERMISSOES.High:
                     try
@@ -72,7 +66,7 @@ namespace MinhasCamadas
                         int res = ValidarListaMedicos.VerificarCRMDuplicado(crm);
                         if (res != 1)
                         
-                            throw new ListaMedicosException("", res);
+                            throw new ListaMedicosException(res);
 
                             Medico medico = Medico.CriaMedico(nome, dataN, nif, morada, crm, especialidade);
                             return medico;
@@ -88,7 +82,7 @@ namespace MinhasCamadas
                     }
                     
                 default:
-                    throw new RegrasMedicosException("", -21);
+                    throw new RegrasMedicosException(-21);
             }
         }
 
@@ -113,7 +107,9 @@ namespace MinhasCamadas
                 case PERMISSOES.High:
                     try 
                     {
-                        Medicos.AdicionarMedico(medico);                                    
+                        int res = Medicos.AdicionarMedico(medico);   
+                        if (res != 1)
+                            return res; 
                     }
                     catch (ListaMedicosException lme)
                     {
@@ -145,7 +141,9 @@ namespace MinhasCamadas
                 case PERMISSOES.High:
                     try
                     {
-                        Medicos.RemoverMedico(crm);
+                       int res = Medicos.RemoverMedico(crm);
+                        if (res != 1)
+                            return res;
                     }
                     catch (ListaMedicosException lme)
                     {
@@ -179,12 +177,12 @@ namespace MinhasCamadas
         {
             int res = ValidarMedico.ValidarObjetoMedico(medico);
             if (res != 1)
-                throw new MedicoException("", res);
+                throw new MedicoException(res);
             switch (perm)
             {
                 case PERMISSOES.None:
                 case PERMISSOES.Low:
-                    throw new RegrasMedicosException("", -21);
+                    throw new RegrasMedicosException(-21);
                 case PERMISSOES.High:
                     try
                     {
@@ -196,7 +194,7 @@ namespace MinhasCamadas
                         throw lme;
                     }
                 default:
-                    throw new RegrasMedicosException("", -21);
+                    throw new RegrasMedicosException(-21);
             }            
         }
         /// <summary>
@@ -252,7 +250,7 @@ namespace MinhasCamadas
             switch (permissoes)
             {
                 case PERMISSOES.None:
-                    throw new RegrasMedicosException("", -21);
+                    throw new RegrasMedicosException(-21);
                     
                 case PERMISSOES.Low:
                     return Medicos.ObterMiniMedicoFiltro(especialidade).Cast<object>().ToList();
@@ -261,7 +259,7 @@ namespace MinhasCamadas
                     return Medicos.ObterMedicoFiltro(especialidade).Cast<object>().ToList();
 
                 default:
-                    throw new RegrasMedicosException("", -21);
+                    throw new RegrasMedicosException(-21);
             }
         }
         #endregion

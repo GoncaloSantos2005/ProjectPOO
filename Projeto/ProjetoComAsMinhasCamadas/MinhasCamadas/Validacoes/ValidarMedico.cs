@@ -6,6 +6,7 @@
 *   <date>12/4/2024 10:55:25 AM</date>
 *	<description></description>
 **/
+using MinhasCamadas.Objetos;
 using System;
 
 namespace MinhasCamadas
@@ -50,7 +51,6 @@ namespace MinhasCamadas
         /// </returns>
         public static int ValidarCamposMedico(string nome, DateTime dataN, int nif, Morada morada, ESPECIALIDADE especialidade)
         {
-
             int res = ValidarNome(nome);
             if (res != 1)
                 return res;
@@ -171,6 +171,26 @@ namespace MinhasCamadas
         public static int ValidarObjetoMedico(Medico medico)
         {
             if (medico == null) return -7;
+            return 1;
+        }
+
+        /// <summary>
+        /// Verifica o objeto MiniMedico
+        /// </summary>
+        /// <param name="medico">Objeto MiniMedico para validação.</param>
+        /// <returns>
+        /// -8: Objeto MiniMedico nulo
+        ///  1: Valido
+        /// </returns>
+        public static int ValidarMiniObjeto(MiniMedico medico)
+        {
+            if(medico == null) return -8;
+            int res = ValidarNome(medico.Nome);
+            if (res != 1)
+                return res;
+            res = ValidarCRM(medico.CRM);
+            if (res != 1)
+                return res;
             return 1;
         }
 

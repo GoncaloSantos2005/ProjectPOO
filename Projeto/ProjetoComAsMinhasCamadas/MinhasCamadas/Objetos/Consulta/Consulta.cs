@@ -12,23 +12,6 @@ using System;
 
 namespace MinhasCamadas.Objetos.Consulta
 {
-    public enum TIPOCONSULTA
-    {
-        Planeamento_Familiar = 0,
-        Saude_Adultos = 1,
-        Saude_Materna = 2,
-        Saude_Infantil = 3,
-        Reforco = 4,
-        Teleconsulta = 5,
-    }
-
-    public enum ESTADO
-    {
-        Agendada = 0,
-        Concluida = 1,
-        NaoRealizada = 2,
-        Em_Processo = 3,
-    }
     /// <summary>
     /// Purpose:
     /// Created by: gonca
@@ -40,7 +23,7 @@ namespace MinhasCamadas.Objetos.Consulta
     public class Consulta
     {
         #region Attributes
-        static int totalConsultas;
+        static int totalConsultas = 0;
         int idConsulta;
         DateTime dataInicio;
         DateTime dataFim;
@@ -66,6 +49,7 @@ namespace MinhasCamadas.Objetos.Consulta
         }
         public Consulta(DateTime dataI, DateTime dataF, int nif, int crm, int numeroS, int? idDiagnostico, TIPOCONSULTA tp, ESTADO es)
         {
+            this.idConsulta = totalConsultas++;
             this.dataInicio = dataI;
             this.dataFim = dataF;
             this.nif = nif;
@@ -81,12 +65,10 @@ namespace MinhasCamadas.Objetos.Consulta
         #region Properties
         public static int TotalConsultas {
             get {  return totalConsultas; }
-            set { totalConsultas = value; }
         }
         public int IdConsulta
         {
             get { return idConsulta; }
-            set { idConsulta = value; }
         }
         public DateTime DataInicio
         {
@@ -108,12 +90,12 @@ namespace MinhasCamadas.Objetos.Consulta
             get { return crm; }
             set { crm = value; }
         }
-        int NumeroStaff //staff
+        public int NumeroStaff //staff
         {
             get { return numeroStaff; }
             set { numeroStaff = value; }
         }
-        int? IdDiagnostico
+        public int? IdDiagnostico
         {
             get { return idDiagnostico; }
             set { idDiagnostico = value; }
@@ -154,15 +136,12 @@ namespace MinhasCamadas.Objetos.Consulta
         {
             int res = ValidarListaMedicos.ExisteCRM(crm);
             if (res != 1)
-                throw new ListaMedicosException(res);
-            res = ValidarConsulta.ValidarCamposConsulta(dataI, dataF, nif, crm, numeroStaff, idDiagnostico, tp, es);
-                if (res != 1)
-                throw new ConsultaException(res);
+                throw new ListaMedicosException(res);            
             try
             {
                 Consulta c = new Consulta(dataI, dataF,nif,crm,numeroStaff,idDiagnostico,tp,es);
                 res = ValidarConsulta.ValidarObjetoConsulta(c);
-                if (res != 1)
+                if (res == 1)
                 {
                     totalConsultas++;
                     return c;

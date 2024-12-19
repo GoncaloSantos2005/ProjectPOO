@@ -6,8 +6,10 @@
 *   <date>12/17/2024 3:02:28 PM</date>
 *	<description></description>
 **/
+using MinhasCamadas.Objetos;
 using MinhasCamadas.Objetos.Consulta;
 using System;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace MinhasCamadas.Validacoes
 {
@@ -45,6 +47,22 @@ namespace MinhasCamadas.Validacoes
         #endregion
 
         #region OtherMethods
+        /// <summary>
+        /// Valida a data de início da consulta
+        /// </summary>
+        /// <param name="dataI">Data de Início da Consulta.</param>
+        /// <returns>
+        /// -100: Id invalido
+        ///  1: Válido
+        /// </returns>
+        public static int ValidarIdConsulta(int id)
+        {
+            if (id < 0)
+                return -100;
+            
+            return 1;
+        }
+
         /// <summary>
         /// Verifica os campos de uma consulta
         /// </summary>
@@ -117,7 +135,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarDataInicio(DateTime dataI)
         {
             if (dataI < DateTime.Now)
-                return -1;
+                return -101;
             return 1;
         }
 
@@ -133,7 +151,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarDataFim(DateTime dataI, DateTime dataF)
         {
             if (dataF <= dataI)
-                return -2;
+                return -102;
             return 1;
         }
 
@@ -148,7 +166,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarNIF(int nif)
         {
             if (nif.ToString().Length<9 || nif <= 0)
-                return -3;
+                return -103;
             return 1;
         }
 
@@ -163,7 +181,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarCRM(int crm)
         {
             if (crm < 0)
-                return -3;
+                return -104;
             return 1;
         }
 
@@ -178,7 +196,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarNumeroStaff(int numeroS)
         {
             if (numeroS <= 0)
-                return -5;
+                return -105;
             return 1;
         }
 
@@ -192,8 +210,9 @@ namespace MinhasCamadas.Validacoes
         /// </returns>
         public static int ValidarIDDepartamento(int? idD)
         {
-            if (idD <= 0)
-                return -6;
+            if (idD < 0)
+                return -106;
+            //Implementar o verificar IdDepartamento
             return 1;
         }
 
@@ -208,7 +227,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarTipoConsulta(TIPOCONSULTA tp)
         {
             if (!Enum.IsDefined(typeof(TIPOCONSULTA), tp))
-                return -7;
+                return -107;
             return 1;
         }
 
@@ -223,7 +242,7 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarEstado(ESTADO es)
         {
             if (!Enum.IsDefined(typeof(ESTADO), es))
-                return -8;
+                return -108;
             return 1;
         }
 
@@ -237,9 +256,44 @@ namespace MinhasCamadas.Validacoes
         /// </returns>
         public static int ValidarObjetoConsulta(Consulta consulta)
         {
-            if (consulta == null) return -7;
+            if (consulta == null) return -109;
+            int res = ValidarCamposConsulta(consulta.DataInicio, consulta.DataFim, consulta.NIF, consulta.CRM, consulta.NumeroStaff, consulta.IdDiagnostico, consulta.TipoConsulta, consulta.Estado);
+            if (res != 1) return res;
+
             return 1;
         }
+
+        /// <summary>
+        /// Verifica o objeto MiniConsulta
+        /// </summary>
+        /// <param name="miniConsulta">Objeto MiniConsulta para validação.</param>
+        /// <returns>
+        /// -110: Objeto MiniConsulta nulo
+        ///  1: Valido
+        /// </returns>
+        public static int ValidarObjetoMiniConsulta(MiniConsulta miniConsulta)
+        {
+            if (miniConsulta == null) return -110;
+
+            int res = ValidarDataInicio(miniConsulta.DataInicio);
+            if (res != 1)
+                return res;
+
+            res = ValidarDataFim(miniConsulta.DataInicio, miniConsulta.DataFim);
+            if (res != 1)
+                return res;
+
+            res = ValidarNIF(miniConsulta.NIF);
+            if (res != 1)
+                return res;
+
+            res = ValidarCRM(miniConsulta.CRM);
+            if (res != 1)
+                return res;
+            return 1;
+        }
+
+
         #endregion
 
         #region Destructor

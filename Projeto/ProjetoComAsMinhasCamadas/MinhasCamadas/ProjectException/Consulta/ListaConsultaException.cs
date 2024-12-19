@@ -1,23 +1,24 @@
 ﻿/*
-*	<copyright file="MinhasCamadas.cs" company="IPCA">
+*	<copyright file="MinhasCamadas.ProjectException.Medico.cs" company="IPCA">
 *		Copyright (c) 2024 All Rights Reserved
 *	</copyright>
 * 	<author>gonca</author>
-*   <date>12/2/2024 10:16:12 AM</date>
+*   <date>12/18/2024 3:23:45 PM</date>
 *	<description></description>
 **/
 using System;
 using System.Collections.Generic;
 
-namespace MinhasCamadas
+namespace MinhasCamadas.ProjectException.Medico
 {
     /// <summary>
-    /// Purpose: Exceção personalizada para erros relacionados com médicos.
+    /// Purpose:
     /// Created by: gonca
-    /// Created on: 12/2/2024 10:16:12 AM
+    /// Created on: 12/18/2024 3:23:45 PM
     /// </summary>
-    /// <remarks>Esta classe é usada para lançar exceções específicas quando ocorre um erro relacionado com a criação ou manipulação de objetos do tipo Médico.</remarks>
-    public class MedicoException : Exception
+    /// <remarks></remarks>
+    /// <example></example>
+    public class ListaConsultaException : Exception
     {
         /// <summary>
         /// Código de erro associado à exceção.
@@ -27,22 +28,21 @@ namespace MinhasCamadas
         /// <summary>
         /// Dicionário que contém mensagens de erro associadas a códigos específicos.
         /// </summary>
-        private static readonly Dictionary<int, string> MedicoErrorMessage = new Dictionary<int, string>()
+        private static readonly Dictionary<int, string> LConsultasErrorMessage = new Dictionary<int, string>()
         {
-            { -1, "Nome Inválido" },
-            { -2, "Idade Incorreta" },
-            { -3, "NIF Inválido" },
-            { -4, "Morada Inválida" },
-            { -5, "CRM não existente" },
-            { -6, "Especialidade Inválida" },
-            { -7, "Objeto Medico nulo" },
-            { -8, "Objeto MiniMedico nulo" },
+            { -111, "Lista nula" },
+            { -112, "Lista vazia" },
+            { -113, "A data está dentro do intervalo de outra consulta" },
+            { -114, "A consulta está duplicada" },
+            { -115, "A data do Inicio está dentro do intervalo de outra consulta" },
+            { -116, "A data do Fim está dentro do intervalo de outra consulta" },
         };
+
         /// <summary>
         /// Construtor que inicializa a exceção com um código de erro.
         /// </summary>
         /// <param name="error">Código de erro associado.</param>
-        public MedicoException(int error) : base(MedicoErrorMessage.ContainsKey(error) ? MedicoErrorMessage[error] : "Erro desconhecido")
+        public ListaConsultaException(int error) : base(LConsultasErrorMessage.ContainsKey(error) ? LConsultasErrorMessage[error] : "Erro desconhecido")
         {
             ErrorCode = error;
             Console.WriteLine("\nErro: " + ErrorCode + " -> " + Message);

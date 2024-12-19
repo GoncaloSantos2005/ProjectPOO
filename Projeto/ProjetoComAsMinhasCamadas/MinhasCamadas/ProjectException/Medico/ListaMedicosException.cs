@@ -17,17 +17,6 @@ namespace MinhasCamadas
     /// Created on: 12/2/2024 11:24:28 AM
     /// </summary>
     /// <remarks>Esta classe é usada para lançar exceções específicas quando ocorre um erro relacionado com a criação ou manipulação de objetos do tipo Médicos.</remarks>
-    /// <example>Exemplo de utilização:
-    /// <code>
-    /// try
-    /// {
-    ///     throw new ListaMedicosException("O objeto referenciado é nulo");
-    /// }
-    /// catch (ListaMedicosException ex)
-    /// {
-    ///     Console.WriteLine($"Erro: {ex.Message}");
-    /// }
-    /// </code></example>
     public class ListaMedicosException : Exception
     {
         /// <summary>
