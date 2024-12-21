@@ -169,9 +169,13 @@ namespace MinhasCamadas.Files
         {
             int res123 = Log(ex);
             if (res123 == 1)
-                Console.WriteLine("Erro registado no ficheiro de log.");
+            {
+                return res123;
+            }
             else
-                Console.WriteLine("Falha ao registar o erro no ficheiro de log.");
+            {
+                return res123;
+            }
             throw ex;
         }
 

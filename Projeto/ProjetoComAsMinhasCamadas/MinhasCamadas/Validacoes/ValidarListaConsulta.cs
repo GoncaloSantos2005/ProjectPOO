@@ -182,7 +182,7 @@ namespace MinhasCamadas.Validacoes
                     return res;
             }
             return 1; //não existe sobreposições
-        }
+        }                                                                                    
         #endregion
 
         #region Destructor

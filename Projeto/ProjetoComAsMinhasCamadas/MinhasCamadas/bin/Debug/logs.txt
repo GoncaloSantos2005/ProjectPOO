@@ -1,3 +1,4 @@
 [19/12/2024 16:15:54] [Tipo: ListaConsultaException] [Código: -115] [Mensagem: A data do Inicio está dentro do intervalo de outra consulta]
 [19/12/2024 16:16:27] [Tipo: ListaConsultaException] [Código: -115] [Mensagem: A data do Inicio está dentro do intervalo de outra consulta]
 [19/12/2024 16:18:45] [Tipo: ListaConsultaException] [Código: -115] [Mensagem: A data do Inicio está dentro do intervalo de outra consulta]
+[21/12/2024 17:48:36] [Tipo: ConsultaException] [Código: -101] [Mensagem: Data de Início Inválida]

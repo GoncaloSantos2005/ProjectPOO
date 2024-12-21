@@ -257,7 +257,14 @@ namespace MinhasCamadas.Validacoes
         public static int ValidarObjetoConsulta(Consulta consulta)
         {
             if (consulta == null) return -109;
-            int res = ValidarCamposConsulta(consulta.DataInicio, consulta.DataFim, consulta.NIF, consulta.CRM, consulta.NumeroStaff, consulta.IdDiagnostico, consulta.TipoConsulta, consulta.Estado);
+            int res = ValidarCamposConsulta(consulta.DataInicio,
+                consulta.DataFim,
+                consulta.NIF,
+                consulta.CRM,
+                consulta.NumeroStaff,
+                consulta.IdDiagnostico,
+                consulta.TipoConsulta,
+                consulta.Estado);
             if (res != 1) return res;
 
             return 1;
