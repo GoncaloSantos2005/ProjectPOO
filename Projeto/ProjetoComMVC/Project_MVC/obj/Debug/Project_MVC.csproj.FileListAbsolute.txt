@@ -1,0 +1,2 @@
+C:\_2ano\POO\ProjectPOO\ProjectPOO\Project_MVC\obj\Debug\Project_MVC.csproj.AssemblyReference.cache
+C:\_2ano\POO\ProjectPOO\ProjectPOO\Project_MVC\obj\Debug\Project_MVC.csproj.CoreCompileInputs.cache
