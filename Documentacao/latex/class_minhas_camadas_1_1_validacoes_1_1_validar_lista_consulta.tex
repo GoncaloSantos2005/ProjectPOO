@@ -1,0 +1,171 @@
+\doxysection{Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta Class Reference}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta}\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+
+
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 7\+:40\+:56 PM.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Validar\+Lista\+Consulta} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ Validar\+Lista} (List$<$ \textbf{ Consulta} $>$ consultas)
+\begin{DoxyCompactList}\small\item\em Verifica se a lista tem alguma informação. \end{DoxyCompactList}\item 
+static int \textbf{ Verificar\+Existe\+Consulta} (\textbf{ Mini\+Consulta} mini\+Consulta)
+\begin{DoxyCompactList}\small\item\em Verifica se já existe alguma consulta com os mesmos parâmetros. \end{DoxyCompactList}\item 
+static int \textbf{ Compara\+Intervalos\+Data} (Date\+Time data\+AComparar, \textbf{ Mini\+Consulta} mini)
+\begin{DoxyCompactList}\small\item\em Compara se a data fornecida está dentro do intervalo de datas da Mini\+Consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Pode\+Criar\+Consulta} (\textbf{ Mini\+Consulta} mini)
+\begin{DoxyCompactList}\small\item\em 1ª Verificação para ver se é possível criar uma nova consulta com base no objeto fornecido. \end{DoxyCompactList}\item 
+static int \textbf{ Encontra\+Disponbibilidade\+Paciente} (\textbf{ Mini\+Consulta} mini)
+\begin{DoxyCompactList}\small\item\em 2ª Verificação para ver se o paciente tem disponibilidade com base no intervalo de datas da Mini\+Consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Encontra\+Disponbibilidade\+Medico} (\textbf{ Mini\+Consulta} mini)
+\begin{DoxyCompactList}\small\item\em 3ª Verificação para ver se o medico tem disponibilidade com base no intervalo de datas da Mini\+Consulta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 7\+:40\+:56 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_acc17861fa5661624f3d24fbaf8ed5fcd} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!ValidarListaConsulta@{ValidarListaConsulta}}
+\index{ValidarListaConsulta@{ValidarListaConsulta}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{ValidarListaConsulta()}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Validar\+Lista\+Consulta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_ac084fb3bc0059c1953a331b9d1f0c18d} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!ComparaIntervalosData@{ComparaIntervalosData}}
+\index{ComparaIntervalosData@{ComparaIntervalosData}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{ComparaIntervalosData()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Compara\+Intervalos\+Data (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+AComparar,  }\item[{\textbf{ Mini\+Consulta}}]{mini }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara se a data fornecida está dentro do intervalo de datas da Mini\+Consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+AComparar} & Data a ser comparada.\\
+\hline
+{\em mini} & Objeto Mini\+Consulta com o intervalo (Data\+Inicio e Data\+Fim).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{Data\+No\+Intervalo\+:}} -\/113, a data está dentro do intervalo.
+\end{DoxyReturn}
+
+\begin{DoxyItemize}
+\item {\bfseries{1\+:}} se a data estiver fora do intervalo. 
+\end{DoxyItemize}\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_a3c262af6dc87a7c1e159ad24db35901a} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!EncontraDisponbibilidadeMedico@{EncontraDisponbibilidadeMedico}}
+\index{EncontraDisponbibilidadeMedico@{EncontraDisponbibilidadeMedico}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{EncontraDisponbibilidadeMedico()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Encontra\+Disponbibilidade\+Medico (\begin{DoxyParamCaption}\item[{\textbf{ Mini\+Consulta}}]{mini }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+3ª Verificação para ver se o medico tem disponibilidade com base no intervalo de datas da Mini\+Consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mini} & Objeto do tipo Mini\+Consulta com as informações da consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{1\+:}} O medico tem disponibilidade (sem sobreposições).
+\end{DoxyReturn}
+
+
+{\bfseries{-\/113,-\/115,-\/116\+:}} A data de início ou fim da consulta está dentro do intervalo de outra consulta.\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_afa435d4c97f3c629e463aef20b72f90d} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!EncontraDisponbibilidadePaciente@{EncontraDisponbibilidadePaciente}}
+\index{EncontraDisponbibilidadePaciente@{EncontraDisponbibilidadePaciente}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{EncontraDisponbibilidadePaciente()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Encontra\+Disponbibilidade\+Paciente (\begin{DoxyParamCaption}\item[{\textbf{ Mini\+Consulta}}]{mini }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+2ª Verificação para ver se o paciente tem disponibilidade com base no intervalo de datas da Mini\+Consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mini} & Objeto do tipo Mini\+Consulta com as informações da consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{1\+:}} O paciente tem disponibilidade (sem sobreposições).
+\end{DoxyReturn}
+
+
+{\bfseries{-\/113,-\/115,-\/116\+:}} A data de início ou fim da consulta está dentro do intervalo de outra consulta.\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_a77c361920fabbcea845c999305d1ab5a} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!PodeCriarConsulta@{PodeCriarConsulta}}
+\index{PodeCriarConsulta@{PodeCriarConsulta}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{PodeCriarConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Pode\+Criar\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ Mini\+Consulta}}]{mini }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+1ª Verificação para ver se é possível criar uma nova consulta com base no objeto fornecido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mini} & Objeto do tipo Mini\+Consulta a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{-\/114\+:}} A consulta está duplicada.
+\end{DoxyReturn}
+
+
+{\bfseries{1\+:}} A consulta pode ser criada com sucesso.\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_a568be680d774419a9f5a512fb4167800} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!ValidarLista@{ValidarLista}}
+\index{ValidarLista@{ValidarLista}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{ValidarLista()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Validar\+Lista (\begin{DoxyParamCaption}\item[{List$<$ \textbf{ Consulta} $>$}]{consultas }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se a lista tem alguma informação. 
+
+\begin{DoxyReturn}{Returns}
+-\/111\+: Lista nula -\/112\+: Lista vazia 1\+: Valido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_ac604d32acd26a9e2f8b8da41791dac2f} 
+\index{MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}!VerificarExisteConsulta@{VerificarExisteConsulta}}
+\index{VerificarExisteConsulta@{VerificarExisteConsulta}!MinhasCamadas.Validacoes.ValidarListaConsulta@{MinhasCamadas.Validacoes.ValidarListaConsulta}}
+\doxysubsubsection{VerificarExisteConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Lista\+Consulta.\+Verificar\+Existe\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ Mini\+Consulta}}]{mini\+Consulta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se já existe alguma consulta com os mesmos parâmetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mini\+Consulta} & Consulta minimizada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Erro\+: Consultar dicionário de erros
+\end{DoxyReturn}
+
+
+Não existe\+: 1
+
+Existe\+: 0 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Validacoes/\textbf{ Validar\+Lista\+Consulta.\+cs}\end{DoxyCompactItemize}

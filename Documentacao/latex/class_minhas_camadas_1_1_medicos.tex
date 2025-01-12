@@ -1,0 +1,253 @@
+\doxysection{Minhas\+Camadas.\+Medicos Class Reference}
+\label{class_minhas_camadas_1_1_medicos}\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+
+
+Purpose\+: Guarda numa List um conjunto de Medico Created by\+: gonca Created on\+: 12/2/2024 11\+:13\+:59 AM.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \textbf{ Medico} $>$ \textbf{ Obter\+Todos} ()
+\begin{DoxyCompactList}\small\item\em Retorna todos os médicos da lista. \end{DoxyCompactList}\item 
+static bool \textbf{ Existe\+CRM} (int crm)
+\begin{DoxyCompactList}\small\item\em Verifica se existe algum CRM na lista. \end{DoxyCompactList}\item 
+static int \textbf{ Adicionar\+Medico} (\textbf{ Medico} medico)
+\begin{DoxyCompactList}\small\item\em Adiciona um Médico à lista dos Medicos. \end{DoxyCompactList}\item 
+static int \textbf{ Remover\+Medico} (int crm)
+\begin{DoxyCompactList}\small\item\em Remove um Médico da lista através do CRM. \end{DoxyCompactList}\item 
+static int \textbf{ Atualizar\+Medico} (\textbf{ Medico} medico\+Atualizado)
+\begin{DoxyCompactList}\small\item\em Atualiza um Médico da lista. \end{DoxyCompactList}\item 
+static List$<$ \textbf{ Medico} $>$ \textbf{ Obter\+Medico\+Filtro} (\textbf{ ESPECIALIDADE} esp)
+\begin{DoxyCompactList}\small\item\em Encontra uma lista de Médicos com uma certa especialidade. \end{DoxyCompactList}\item 
+static List$<$ \textbf{ Mini\+Medico} $>$ \textbf{ Obter\+Mini\+Medico\+Filtro} (\textbf{ ESPECIALIDADE} esp)
+\begin{DoxyCompactList}\small\item\em Encontra uma lista de Médicos com uma certa especialidade e retorna um conjunto de atributos reduzidos do Médico Mini\+Medico \end{DoxyCompactList}\item 
+static \textbf{ Mini\+Medico} \textbf{ Obter\+Medico} (int crm)
+\begin{DoxyCompactList}\small\item\em Obtem uma informação reduzida de um Médico. \end{DoxyCompactList}\item 
+static int \textbf{ Organizar\+Medicos\+Alfabeticamente} ()
+\begin{DoxyCompactList}\small\item\em Organiza a Lista de Medicos Alfabeticamente. \end{DoxyCompactList}\item 
+static int \textbf{ Guardar\+Medicos\+Ficheiro} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Guarda a lista de médicos num ficheiro. \end{DoxyCompactList}\item 
+static int \textbf{ Ler\+Medicos\+Ficheiro} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Lê a lista de médicos de um ficheiro. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ Contador}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Retorna o número total de médicos na lista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Guarda numa List um conjunto de Medico Created by\+: gonca Created on\+: 12/2/2024 11\+:13\+:59 AM. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_medicos_af503de61ee6bc8a68a8c07fc75860674} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!AdicionarMedico@{AdicionarMedico}}
+\index{AdicionarMedico@{AdicionarMedico}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{AdicionarMedico()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Medicos.\+Adicionar\+Medico (\begin{DoxyParamCaption}\item[{\textbf{ Medico}}]{medico }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adiciona um Médico à lista dos Medicos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico} & Objeto a adicionar do tipo Medico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível 1\+: sucesso 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_a00b55b6fb868b8b1da46adc9842e7fb8} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!AtualizarMedico@{AtualizarMedico}}
+\index{AtualizarMedico@{AtualizarMedico}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{AtualizarMedico()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Medicos.\+Atualizar\+Medico (\begin{DoxyParamCaption}\item[{\textbf{ Medico}}]{medico\+Atualizado }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Atualiza um Médico da lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Atualizado} & Objeto a atualizar do tipo Medico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível Lista\+Medicos\+Exception\+: Exceção 1\+: sucesso 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_a73aa2644606373cf29add94c0df211ae} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!ExisteCRM@{ExisteCRM}}
+\index{ExisteCRM@{ExisteCRM}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{ExisteCRM()}
+{\footnotesize\ttfamily static bool Minhas\+Camadas.\+Medicos.\+Existe\+CRM (\begin{DoxyParamCaption}\item[{int}]{crm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe algum CRM na lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em crm} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true\+: Existe false\+: Não existe
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_a65e975a0a2919b4b7c2966cd14b58bbd} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!GuardarMedicosFicheiro@{GuardarMedicosFicheiro}}
+\index{GuardarMedicosFicheiro@{GuardarMedicosFicheiro}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{GuardarMedicosFicheiro()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Medicos.\+Guardar\+Medicos\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Guarda a lista de médicos num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & O nome do ficheiro onde os dados serão guardados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 em caso de sucesso, 0 caso contrário.
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_af0771c301175e4844df3ceff9f97b219} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!LerMedicosFicheiro@{LerMedicosFicheiro}}
+\index{LerMedicosFicheiro@{LerMedicosFicheiro}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{LerMedicosFicheiro()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Medicos.\+Ler\+Medicos\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Lê a lista de médicos de um ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & O nome do ficheiro de onde os dados serão lidos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1\+: Sucesso, -\/151\+: Ficheiro não encontrado. 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_a2cb645a27de6d1a43538475fa5565f58} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!ObterMedico@{ObterMedico}}
+\index{ObterMedico@{ObterMedico}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{ObterMedico()}
+{\footnotesize\ttfamily static \textbf{ Mini\+Medico} Minhas\+Camadas.\+Medicos.\+Obter\+Medico (\begin{DoxyParamCaption}\item[{int}]{crm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtem uma informação reduzida de um Médico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em crm} & CRM do Médico a ser encontrado\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível Lista\+Medicos\+Exception\+: Exceção Objeto Mini\+Medico\+: Objeto com a informação reduzida do Médico Mini\+Medico 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_af03b154729602e1c89111fdd6ecb3feb} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!ObterMedicoFiltro@{ObterMedicoFiltro}}
+\index{ObterMedicoFiltro@{ObterMedicoFiltro}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{ObterMedicoFiltro()}
+{\footnotesize\ttfamily static List$<$ \textbf{ Medico} $>$ Minhas\+Camadas.\+Medicos.\+Obter\+Medico\+Filtro (\begin{DoxyParamCaption}\item[{\textbf{ ESPECIALIDADE}}]{esp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Encontra uma lista de Médicos com uma certa especialidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em esp} & Especialidade a ser filtrada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível lista\+: Lista do tipo Medico com os resultados encontrados. 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_ae224a00c30e40eebab14473b42a53ac2} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!ObterMiniMedicoFiltro@{ObterMiniMedicoFiltro}}
+\index{ObterMiniMedicoFiltro@{ObterMiniMedicoFiltro}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{ObterMiniMedicoFiltro()}
+{\footnotesize\ttfamily static List$<$ \textbf{ Mini\+Medico} $>$ Minhas\+Camadas.\+Medicos.\+Obter\+Mini\+Medico\+Filtro (\begin{DoxyParamCaption}\item[{\textbf{ ESPECIALIDADE}}]{esp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Encontra uma lista de Médicos com uma certa especialidade e retorna um conjunto de atributos reduzidos do Médico Mini\+Medico 
+
+
+\begin{DoxyParams}{Parameters}
+{\em esp} & Especialidade a ser filtrada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível lista\+: Lista do tipo Mini\+Medico com os resultados encontrados e reduzidos. 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_a6aad64e83fef74009ab3095756f85b98} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!ObterTodos@{ObterTodos}}
+\index{ObterTodos@{ObterTodos}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{ObterTodos()}
+{\footnotesize\ttfamily static List$<$ \textbf{ Medico} $>$ Minhas\+Camadas.\+Medicos.\+Obter\+Todos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Retorna todos os médicos da lista. 
+
+\begin{DoxyReturn}{Returns}
+Lista de objetos Medico.
+\end{DoxyReturn}
+
+
+ESTE METODO É SÓ UTILIZADO PARA TESTAR A LISTA\label{class_minhas_camadas_1_1_medicos_a5724f1f0f6f8665a2b090b1133f05ec7} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!OrganizarMedicosAlfabeticamente@{OrganizarMedicosAlfabeticamente}}
+\index{OrganizarMedicosAlfabeticamente@{OrganizarMedicosAlfabeticamente}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{OrganizarMedicosAlfabeticamente()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Medicos.\+Organizar\+Medicos\+Alfabeticamente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Organiza a Lista de Medicos Alfabeticamente. 
+
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível Medico\+Exception\+: Exceção 1\+: Sucesso 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medicos_a4a2796f2891e4aa4b8127522b0590744} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!RemoverMedico@{RemoverMedico}}
+\index{RemoverMedico@{RemoverMedico}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{RemoverMedico()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Medicos.\+Remover\+Medico (\begin{DoxyParamCaption}\item[{int}]{crm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um Médico da lista através do CRM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em crm} & Identificador do objeto Medico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível Lista\+Medicos\+Exception\+: Exceção 1\+: sucesso 
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\label{class_minhas_camadas_1_1_medicos_a6469faf29bfec556d69d54bd458ae2b7} 
+\index{MinhasCamadas.Medicos@{MinhasCamadas.Medicos}!Contador@{Contador}}
+\index{Contador@{Contador}!MinhasCamadas.Medicos@{MinhasCamadas.Medicos}}
+\doxysubsubsection{Contador}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Medicos.\+Contador\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Retorna o número total de médicos na lista. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\textbf{ Medicos.\+cs}\end{DoxyCompactItemize}

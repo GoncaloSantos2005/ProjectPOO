@@ -1,0 +1,204 @@
+\doxysection{Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta Class Reference}
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta}\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+
+
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 2\+:49\+:06 PM.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Consulta} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\textbf{ Consulta} (Date\+Time dataI, Date\+Time dataF, int nif, int crm, int numeroS, int? id\+Diagnostico, \textbf{ TIPOCONSULTA} tp, \textbf{ ESTADO} es)
+\item 
+int \textbf{ Adicionar\+Diagnostico} (int id)
+\begin{DoxyCompactList}\small\item\em Método para adicionar um diagnostico a uma consulta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Consulta} \textbf{ Cria\+Consulta} (Date\+Time dataI, Date\+Time dataF, int nif, int crm, int numero\+Staff, int? id\+Diagnostico, \textbf{ TIPOCONSULTA} tp, \textbf{ ESTADO} es)
+\begin{DoxyCompactList}\small\item\em Cria um objeto da classe Consulta com os parâmetros fornecidos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ Total\+Consultas}\hspace{0.3cm}{\ttfamily  [get]}
+\item 
+int \textbf{ Id\+Consulta}\hspace{0.3cm}{\ttfamily  [get]}
+\item 
+Date\+Time \textbf{ Data\+Inicio}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+Date\+Time \textbf{ Data\+Fim}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+int \textbf{ NIF}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+int \textbf{ CRM}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+int \textbf{ Numero\+Staff}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+int? \textbf{ Id\+Diagnostico}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+\textbf{ TIPOCONSULTA} \textbf{ Tipo\+Consulta}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+\textbf{ ESTADO} \textbf{ Estado}\hspace{0.3cm}{\ttfamily  [get, set]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 2\+:49\+:06 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_ac060ed246209e3561a9756c7449a84b3} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!Consulta@{Consulta}}
+\index{Consulta@{Consulta}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{Consulta()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Consulta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default Constructor. 
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a85a6ea399270d220b5b52209a78e3f5d} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!Consulta@{Consulta}}
+\index{Consulta@{Consulta}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{Consulta()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Consulta (\begin{DoxyParamCaption}\item[{Date\+Time}]{dataI,  }\item[{Date\+Time}]{dataF,  }\item[{int}]{nif,  }\item[{int}]{crm,  }\item[{int}]{numeroS,  }\item[{int?}]{id\+Diagnostico,  }\item[{\textbf{ TIPOCONSULTA}}]{tp,  }\item[{\textbf{ ESTADO}}]{es }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a33617b6b6cef6711d4a259af14be51cb} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!AdicionarDiagnostico@{AdicionarDiagnostico}}
+\index{AdicionarDiagnostico@{AdicionarDiagnostico}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{AdicionarDiagnostico()}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Adicionar\+Diagnostico (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Método para adicionar um diagnostico a uma consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id do Diagnostioc\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1\+: sucesso
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a3e240d0208996c509b748d72827d873a} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!CriaConsulta@{CriaConsulta}}
+\index{CriaConsulta@{CriaConsulta}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{CriaConsulta()}
+{\footnotesize\ttfamily static \textbf{ Consulta} Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Cria\+Consulta (\begin{DoxyParamCaption}\item[{Date\+Time}]{dataI,  }\item[{Date\+Time}]{dataF,  }\item[{int}]{nif,  }\item[{int}]{crm,  }\item[{int}]{numero\+Staff,  }\item[{int?}]{id\+Diagnostico,  }\item[{\textbf{ TIPOCONSULTA}}]{tp,  }\item[{\textbf{ ESTADO}}]{es }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Cria um objeto da classe Consulta com os parâmetros fornecidos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataI} & Data de início da consulta.\\
+\hline
+{\em dataF} & Data de fim da consulta.\\
+\hline
+{\em nif} & NIF do paciente.\\
+\hline
+{\em crm} & CRM do médico.\\
+\hline
+{\em numero\+Staff} & Número do staff responsável.\\
+\hline
+{\em id\+Diagnostico} & ID do diagnóstico associado (opcional).\\
+\hline
+{\em tp} & Tipo da consulta.\\
+\hline
+{\em es} & Estado da consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto do tipo Consulta.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Lançada quando os parâmetros fornecidos não são válidos. \\
+\hline
+\end{DoxyExceptions}
+\\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Property Documentation}
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_ac955c26c24ac064fbdd220844ae9787f} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!CRM@{CRM}}
+\index{CRM@{CRM}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{CRM}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+CRM\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a5632c7e85cb2b9ee4df75eae9c78c4f5} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!DataFim@{DataFim}}
+\index{DataFim@{DataFim}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{DataFim}
+{\footnotesize\ttfamily Date\+Time Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Data\+Fim\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_ab0c62268cca253ae61677a6525122265} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!DataInicio@{DataInicio}}
+\index{DataInicio@{DataInicio}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{DataInicio}
+{\footnotesize\ttfamily Date\+Time Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Data\+Inicio\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a0b495cb52ca147c8ef1f8c3c4ec80363} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!Estado@{Estado}}
+\index{Estado@{Estado}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{Estado}
+{\footnotesize\ttfamily \textbf{ ESTADO} Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Estado\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a092bf969dd836811dea8810f213e8529} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!IdConsulta@{IdConsulta}}
+\index{IdConsulta@{IdConsulta}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{IdConsulta}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Id\+Consulta\hspace{0.3cm}{\ttfamily [get]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_add15e9ed9d8a28694d2b92ca0b359e45} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!IdDiagnostico@{IdDiagnostico}}
+\index{IdDiagnostico@{IdDiagnostico}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{IdDiagnostico}
+{\footnotesize\ttfamily int? Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Id\+Diagnostico\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a4af7d72833322bb9efa11c22748e6eb0} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!NIF@{NIF}}
+\index{NIF@{NIF}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{NIF}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+NIF\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_ac2b026115a09d73cd56a581106d3eb3e} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!NumeroStaff@{NumeroStaff}}
+\index{NumeroStaff@{NumeroStaff}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{NumeroStaff}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Numero\+Staff\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a912d8f4ac3d94ebd1ce2fc2284edd278} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!TipoConsulta@{TipoConsulta}}
+\index{TipoConsulta@{TipoConsulta}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{TipoConsulta}
+{\footnotesize\ttfamily \textbf{ TIPOCONSULTA} Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Tipo\+Consulta\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_a5571361d5d85c97bf5f6216412e9c029} 
+\index{MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}!TotalConsultas@{TotalConsultas}}
+\index{TotalConsultas@{TotalConsultas}!MinhasCamadas.Objetos.Consulta.Consulta@{MinhasCamadas.Objetos.Consulta.Consulta}}
+\doxysubsubsection{TotalConsultas}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Objetos.\+Consulta.\+Consulta.\+Total\+Consultas\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Objetos/\+Consulta/\textbf{ Consulta.\+cs}\end{DoxyCompactItemize}

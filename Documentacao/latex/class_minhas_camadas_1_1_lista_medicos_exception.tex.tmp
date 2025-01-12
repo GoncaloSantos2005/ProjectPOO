@@ -1,0 +1,66 @@
+\doxysection{Minhas\+Camadas.\+Lista\+Medicos\+Exception Class Reference}
+\label{class_minhas_camadas_1_1_lista_medicos_exception}\index{MinhasCamadas.ListaMedicosException@{MinhasCamadas.ListaMedicosException}}
+
+
+Purpose\+: Exceção personalizada para erros relacionados com lista de médicos. Created by\+: gonca Created on\+: 12/2/2024 11\+:24\+:28 AM.  
+
+
+
+
+Inheritance diagram for Minhas\+Camadas.\+Lista\+Medicos\+Exception\+:
+% FIG 0
+
+
+Collaboration diagram for Minhas\+Camadas.\+Lista\+Medicos\+Exception\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Lista\+Medicos\+Exception} (int error)
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa a exceção com um código de erro. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ Error\+Code}\hspace{0.3cm}{\ttfamily  [get, set]}
+\begin{DoxyCompactList}\small\item\em Propriedade para obter ou definir o código de erro associado à exceção. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Exceção personalizada para erros relacionados com lista de médicos. Created by\+: gonca Created on\+: 12/2/2024 11\+:24\+:28 AM. 
+
+Esta classe é usada para lançar exceções específicas quando ocorre um erro relacionado com a criação ou manipulação de objetos do tipo Médicos.
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_lista_medicos_exception_a57af316c3e652f7e168373c8d67731ee} 
+\index{MinhasCamadas.ListaMedicosException@{MinhasCamadas.ListaMedicosException}!ListaMedicosException@{ListaMedicosException}}
+\index{ListaMedicosException@{ListaMedicosException}!MinhasCamadas.ListaMedicosException@{MinhasCamadas.ListaMedicosException}}
+\doxysubsubsection{ListaMedicosException()}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Lista\+Medicos\+Exception.\+Lista\+Medicos\+Exception (\begin{DoxyParamCaption}\item[{int}]{error }\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa a exceção com um código de erro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em error} & Código de erro associado.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Property Documentation}
+\label{class_minhas_camadas_1_1_lista_medicos_exception_ad0532b79b1c8b866bd1c2cac71a46334} 
+\index{MinhasCamadas.ListaMedicosException@{MinhasCamadas.ListaMedicosException}!ErrorCode@{ErrorCode}}
+\index{ErrorCode@{ErrorCode}!MinhasCamadas.ListaMedicosException@{MinhasCamadas.ListaMedicosException}}
+\doxysubsubsection{ErrorCode}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Lista\+Medicos\+Exception.\+Error\+Code\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para obter ou definir o código de erro associado à exceção. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Project\+Exception/\+Medico/\textbf{ Lista\+Medicos\+Exception.\+cs}\end{DoxyCompactItemize}

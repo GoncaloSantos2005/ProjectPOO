@@ -1,0 +1,128 @@
+\doxysection{Minhas\+Camadas.\+Files.\+File\+Management Class Reference}
+\label{class_minhas_camadas_1_1_files_1_1_file_management}\index{MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}}
+
+
+Purpose\+: Created by\+: gonca Created on\+: 12/19/2024 12\+:03\+:15 PM.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ File\+Management} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ Guardar\+Tudo\+Ficheiro} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Guarda todas as listas (médicos, consultas, etc.) num único ficheiro. \end{DoxyCompactList}\item 
+static int \textbf{ Ler\+Tudo\+Ficheiro} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Lê todas as listas (médicos, consultas, etc.) de um único ficheiro. \end{DoxyCompactList}\item 
+static int \textbf{ Log} (Exception ex)
+\begin{DoxyCompactList}\small\item\em Grava uma exceção no ficheiro de log com informações detalhadas. \end{DoxyCompactList}\item 
+static int \textbf{ Criar\+Log} (Exception ex)
+\begin{DoxyCompactList}\small\item\em Regista uma exceção no ficheiro de log e notifica o utilizador. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: gonca Created on\+: 12/19/2024 12\+:03\+:15 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_files_1_1_file_management_a960930c85483b9de433b5d4ef1a6f5f4} 
+\index{MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}!FileManagement@{FileManagement}}
+\index{FileManagement@{FileManagement}!MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}}
+\doxysubsubsection{FileManagement()}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Files.\+File\+Management.\+File\+Management (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_files_1_1_file_management_a307fb91cf87ba6d11e795bbd6004b475} 
+\index{MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}!CriarLog@{CriarLog}}
+\index{CriarLog@{CriarLog}!MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}}
+\doxysubsubsection{CriarLog()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Files.\+File\+Management.\+Criar\+Log (\begin{DoxyParamCaption}\item[{Exception}]{ex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Regista uma exceção no ficheiro de log e notifica o utilizador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ex} & Exceção a ser registada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{1\+:}} Log registado com sucesso. ~\newline
+ {\bfseries{-\/1\+:}} Falha ao registar o log. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & A exceção original será novamente lançada após o registo. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_files_1_1_file_management_ae20f634ad2486a1890c11b1de2acd48b} 
+\index{MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}!GuardarTudoFicheiro@{GuardarTudoFicheiro}}
+\index{GuardarTudoFicheiro@{GuardarTudoFicheiro}!MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}}
+\doxysubsubsection{GuardarTudoFicheiro()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Files.\+File\+Management.\+Guardar\+Tudo\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Guarda todas as listas (médicos, consultas, etc.) num único ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & O nome do ficheiro onde os dados serão guardados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{1\+:}} Sucesso. 
+\end{DoxyReturn}
+{\bfseries{-\/151\+:}} Ficheiro não encontrado. \label{class_minhas_camadas_1_1_files_1_1_file_management_a012a1f22b2a2d2397ab80900bb016eae} 
+\index{MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}!LerTudoFicheiro@{LerTudoFicheiro}}
+\index{LerTudoFicheiro@{LerTudoFicheiro}!MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}}
+\doxysubsubsection{LerTudoFicheiro()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Files.\+File\+Management.\+Ler\+Tudo\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Lê todas as listas (médicos, consultas, etc.) de um único ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & O nome do ficheiro de onde os dados serão lidos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{1\+:}} Sucesso. 
+\end{DoxyReturn}
+{\bfseries{-\/1511\+:}} Ficheiro não encontrado. \label{class_minhas_camadas_1_1_files_1_1_file_management_aff0ba6754ea47caa5a2782b5b5e1534c} 
+\index{MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}!Log@{Log}}
+\index{Log@{Log}!MinhasCamadas.Files.FileManagement@{MinhasCamadas.Files.FileManagement}}
+\doxysubsubsection{Log()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Files.\+File\+Management.\+Log (\begin{DoxyParamCaption}\item[{Exception}]{ex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Grava uma exceção no ficheiro de log com informações detalhadas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ex} & Exceção a ser registada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{1\+:}} Log registado com sucesso. ~\newline
+ {\bfseries{-\/1\+:}} Falha ao registar o log. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Files/\textbf{ File\+Management.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,233 @@
+\doxysection{Minhas\+Camadas.\+Regras.\+Regras\+Consulta Class Reference}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta}\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+
+
+Purpose\+: Created by\+: gonca Created on\+: 12/18/2024 7\+:36\+:12 PM.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Regras\+Consulta} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Consulta} \textbf{ Tenta\+Criar\+Consulta} (\textbf{ PERMISSOES} perm, Date\+Time dataI, Date\+Time dataF, int nif, int numeroS, int crm, int? id\+Diagnostico, \textbf{ TIPOCONSULTA} tp, \textbf{ ESTADO} e)
+\begin{DoxyCompactList}\small\item\em Tenta criar um objeto do tipo Consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Tentar\+Adicionar\+Consulta} (\textbf{ PERMISSOES} perm, \textbf{ Consulta} consulta)
+\begin{DoxyCompactList}\small\item\em Tenta adicionar uma consulta aos dados das Consultas. \end{DoxyCompactList}\item 
+static int \textbf{ Tenta\+Remover\+Consulta} (\textbf{ PERMISSOES} perm, int id\+Consulta)
+\begin{DoxyCompactList}\small\item\em Tenta remover uma consulta dos dados do sistema. \end{DoxyCompactList}\item 
+static List$<$ \textbf{ Mini\+Consulta} $>$ \textbf{ Obter\+Consultas\+Paciente} (\textbf{ PERMISSOES} perm, int nif)
+\begin{DoxyCompactList}\small\item\em Obtém todas as consultas associadas a um paciente com base no NIF fornecido. \end{DoxyCompactList}\item 
+static List$<$ \textbf{ Mini\+Consulta} $>$ \textbf{ Obter\+Consultas\+Medico} (\textbf{ PERMISSOES} perm, int crm)
+\begin{DoxyCompactList}\small\item\em Obtém todas as consultas associadas a um médico com base no CRM fornecido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: gonca Created on\+: 12/18/2024 7\+:36\+:12 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta_af2e78fa6b558b0523f8f406ed7dfb37f} 
+\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}!RegrasConsulta@{RegrasConsulta}}
+\index{RegrasConsulta@{RegrasConsulta}!MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+\doxysubsubsection{RegrasConsulta()}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Regras.\+Regras\+Consulta.\+Regras\+Consulta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta_a03d845968973aaae465674bc00c56291} 
+\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}!ObterConsultasMedico@{ObterConsultasMedico}}
+\index{ObterConsultasMedico@{ObterConsultasMedico}!MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+\doxysubsubsection{ObterConsultasMedico()}
+{\footnotesize\ttfamily static List$<$ \textbf{ Mini\+Consulta} $>$ Minhas\+Camadas.\+Regras.\+Regras\+Consulta.\+Obter\+Consultas\+Medico (\begin{DoxyParamCaption}\item[{\textbf{ PERMISSOES}}]{perm,  }\item[{int}]{crm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém todas as consultas associadas a um médico com base no CRM fornecido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perm} & Permissão do utilizador.\\
+\hline
+{\em crm} & CRM do médico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{-\/141\+:}} O utilizador não tem permissão para acessar as consultas.
+\end{DoxyReturn}
+
+
+{\bfseries{Consulta\+Exception\+:}} Exceção lançada caso o CRM seja inválido ou a validação de uma consulta falhe.
+
+{\bfseries{Lista de Mini\+Consultas\+:}} Retorna uma lista de consultas associadas ao médico.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & Lançada quando o CRM fornecido é inválido ou uma consulta falha na validação. \\
+\hline
+{\em Regras\+Consulta\+Exception} & Lançada quando o utilizador não tem permissão suficiente para acessar as consultas. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta_a4f3f2ba504426e5e7408da71c16331ee} 
+\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}!ObterConsultasPaciente@{ObterConsultasPaciente}}
+\index{ObterConsultasPaciente@{ObterConsultasPaciente}!MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+\doxysubsubsection{ObterConsultasPaciente()}
+{\footnotesize\ttfamily static List$<$ \textbf{ Mini\+Consulta} $>$ Minhas\+Camadas.\+Regras.\+Regras\+Consulta.\+Obter\+Consultas\+Paciente (\begin{DoxyParamCaption}\item[{\textbf{ PERMISSOES}}]{perm,  }\item[{int}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém todas as consultas associadas a um paciente com base no NIF fornecido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perm} & Permissão do utilizador.\\
+\hline
+{\em nif} & Número de Identificação Fiscal (NIF) do paciente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{-\/141\+:}} O utilizador não tem permissão para obter as consultas.
+\end{DoxyReturn}
+
+
+{\bfseries{Consulta\+Exception\+:}} Exceção lançada caso o NIF seja inválido ou a validação de uma consulta falhe.
+
+{\bfseries{Lista de Mini\+Consultas\+:}} Devolve uma lista de consultas associadas ao paciente.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & Lançada quando o NIF fornecido é inválido ou uma consulta falha na validação. \\
+\hline
+{\em Regras\+Consulta\+Exception} & Lançada quando o utilizador não tem permissão suficiente para acessar as consultas. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta_af0abfdd64237c5f88a303eeb8afc56bf} 
+\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}!TentaCriarConsulta@{TentaCriarConsulta}}
+\index{TentaCriarConsulta@{TentaCriarConsulta}!MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+\doxysubsubsection{TentaCriarConsulta()}
+{\footnotesize\ttfamily static \textbf{ Consulta} Minhas\+Camadas.\+Regras.\+Regras\+Consulta.\+Tenta\+Criar\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ PERMISSOES}}]{perm,  }\item[{Date\+Time}]{dataI,  }\item[{Date\+Time}]{dataF,  }\item[{int}]{nif,  }\item[{int}]{numeroS,  }\item[{int}]{crm,  }\item[{int?}]{id\+Diagnostico,  }\item[{\textbf{ TIPOCONSULTA}}]{tp,  }\item[{\textbf{ ESTADO}}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tenta criar um objeto do tipo Consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perm} & Permissão do utilizador.\\
+\hline
+{\em dataI} & Data de início da consulta.\\
+\hline
+{\em dataF} & Data de fim da consulta.\\
+\hline
+{\em nif} & NIF do paciente.\\
+\hline
+{\em numeroS} & Número do staff associado à consulta.\\
+\hline
+{\em crm} & CRM do médico para validações específicas.\\
+\hline
+{\em id\+Diagnostico} & ID do diagnóstico associado (opcional).\\
+\hline
+{\em tp} & Tipo da consulta \doxyref{TIPOCONSULTA}{p.}{namespace_minhas_camadas_1_1_objetos_a2dad4866c441e7f8935560ab3f10e957}.\\
+\hline
+{\em e} & Estado da consulta \doxyref{ESTADO}{p.}{namespace_minhas_camadas_1_1_objetos_ad053030eec7f6d5445dda4b5037cecb0}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o objeto Consulta criado, caso todas as validações sejam bem-\/sucedidas.
+\end{DoxyReturn}
+
+
+{\bfseries{Exceções Lançadas\+:}}
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Regras\+Consulta\+Exception\+:}} Código de erro -\/141 quando o utilizador não tem permissão. 
+\item {\bfseries{Consulta\+Exception\+:}} Lançada caso haja um erro na validação dos campos da consulta. 
+\item {\bfseries{Lista\+Consulta\+Exception\+:}} Lançada caso a consulta seja duplicada, ou existam sobreposições nas datas do paciente ou médico. 
+\end{DoxyItemize}
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Regras\+Consulta\+Exception} & Código de erro -\/141\+: Permissão insuficiente.\\
+\hline
+{\em Consulta\+Exception} & Erro na validação dos campos.\\
+\hline
+{\em Lista\+Consulta\+Exception} & Erro em validações relacionadas à consulta.\\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta_a41f6480150aaee09845e3e30c5a2ba7b} 
+\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}!TentarAdicionarConsulta@{TentarAdicionarConsulta}}
+\index{TentarAdicionarConsulta@{TentarAdicionarConsulta}!MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+\doxysubsubsection{TentarAdicionarConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Regras.\+Regras\+Consulta.\+Tentar\+Adicionar\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ PERMISSOES}}]{perm,  }\item[{\textbf{ Consulta}}]{consulta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tenta adicionar uma consulta aos dados das Consultas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perm} & Permissão do utilizador.\\
+\hline
+{\em consulta} & Objeto do tipo Consulta a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{-\/141\+:}} O utilizador não tem permissão para adicionar a consulta.
+\end{DoxyReturn}
+
+
+{\bfseries{Lista\+Consulta\+Exception\+:}} Exceção lançada caso haja problemas com a lista de consultas.
+
+{\bfseries{1\+:}} Consulta adicionada com sucesso.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Lista\+Consulta\+Exception} & Lançada quando ocorre um erro relacionado à lista de consultas. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_regras_1_1_regras_consulta_ab39c6f2cc9a20451ce438c190f407528} 
+\index{MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}!TentaRemoverConsulta@{TentaRemoverConsulta}}
+\index{TentaRemoverConsulta@{TentaRemoverConsulta}!MinhasCamadas.Regras.RegrasConsulta@{MinhasCamadas.Regras.RegrasConsulta}}
+\doxysubsubsection{TentaRemoverConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Regras.\+Regras\+Consulta.\+Tenta\+Remover\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ PERMISSOES}}]{perm,  }\item[{int}]{id\+Consulta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tenta remover uma consulta dos dados do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perm} & Permissão do utilizador.\\
+\hline
+{\em id\+Consulta} & ID da consulta a ser removida.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{-\/141\+:}} O utilizador não tem permissão para remover a consulta.
+\end{DoxyReturn}
+
+
+{\bfseries{Lista\+Medicos\+Exception\+:}} Exceção lançada caso haja problemas com a remoção.
+
+{\bfseries{1\+:}} Consulta removida com sucesso.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Lista\+Medicos\+Exception} & Lançada quando ocorre um erro relacionado à remoção da consulta. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Regras/\textbf{ Regras\+Consulta.\+cs}\end{DoxyCompactItemize}

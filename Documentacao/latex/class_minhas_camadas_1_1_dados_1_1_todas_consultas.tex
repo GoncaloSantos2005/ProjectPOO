@@ -1,0 +1,239 @@
+\doxysection{Minhas\+Camadas.\+Dados.\+Todas\+Consultas Class Reference}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas}\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+
+
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 5\+:34\+:25 PM.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \textbf{ Existe\+Consulta} (int id)
+\begin{DoxyCompactList}\small\item\em Verifica se existe o id da consulta na lista. \end{DoxyCompactList}\item 
+static int \textbf{ Adicionar\+Consulta} (\textbf{ Consulta} consulta)
+\begin{DoxyCompactList}\small\item\em Adiciona uma Consulta à lista das Consultas. \end{DoxyCompactList}\item 
+static int \textbf{ Remover\+Consulta} (int id)
+\begin{DoxyCompactList}\small\item\em Remove uma Consulta da lista através do id. \end{DoxyCompactList}\item 
+static \textbf{ Mini\+Consulta} \textbf{ Obter\+Consulta} (int id)
+\begin{DoxyCompactList}\small\item\em Método que procura uma Consulta pelo id. \end{DoxyCompactList}\item 
+static List$<$ int $>$ \textbf{ Encontra\+Todas\+Consultas\+Paciente} (int nif)
+\begin{DoxyCompactList}\small\item\em Encontra todas as consultas associadas a um paciente com base no seu NIF. \end{DoxyCompactList}\item 
+static List$<$ int $>$ \textbf{ Encontra\+Todas\+Consultas\+Medico} (int crm)
+\begin{DoxyCompactList}\small\item\em Encontra todas as consultas associadas a um medico com base no seu CRM. \end{DoxyCompactList}\item 
+static int \textbf{ Find\+Consulta\+Param} (\textbf{ Mini\+Consulta} mini)
+\begin{DoxyCompactList}\small\item\em Verifica se existe uma Consulta com vários parâmetros dentro da Mini\+Consulta \end{DoxyCompactList}\item 
+static int \textbf{ Guardar\+Consultas\+Ficheiro} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Guarda a lista de consultas num ficheiro. \end{DoxyCompactList}\item 
+static int \textbf{ Ler\+Consultas\+Ficheiro} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Lê a lista de consultas de um ficheiro. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 5\+:34\+:25 PM. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_a96315a6d1ca3e6cb522729d6cab357c4} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!AdicionarConsulta@{AdicionarConsulta}}
+\index{AdicionarConsulta@{AdicionarConsulta}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{AdicionarConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Adicionar\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ Consulta}}]{consulta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adiciona uma Consulta à lista das Consultas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em consulta} & Objeto a adicionar do tipo Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Erro\+: Ver lista de erros possível
+\end{DoxyReturn}
+
+
+Sucesso\+: 1
+
+CONTINUAR A PARTIR DAQUI \label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_a08b1362f7e28dd9cde6b284199ade271} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!EncontraTodasConsultasMedico@{EncontraTodasConsultasMedico}}
+\index{EncontraTodasConsultasMedico@{EncontraTodasConsultasMedico}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{EncontraTodasConsultasMedico()}
+{\footnotesize\ttfamily static List$<$ int $>$ Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Encontra\+Todas\+Consultas\+Medico (\begin{DoxyParamCaption}\item[{int}]{crm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Encontra todas as consultas associadas a um medico com base no seu CRM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em crm} & CRM do médico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Uma lista com os IDs das consultas encontradas.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & Lançada quando o CRM fornecido não é válido. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_af0a08e398e598674d3279d61dcad6aa3} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!EncontraTodasConsultasPaciente@{EncontraTodasConsultasPaciente}}
+\index{EncontraTodasConsultasPaciente@{EncontraTodasConsultasPaciente}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{EncontraTodasConsultasPaciente()}
+{\footnotesize\ttfamily static List$<$ int $>$ Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Encontra\+Todas\+Consultas\+Paciente (\begin{DoxyParamCaption}\item[{int}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Encontra todas as consultas associadas a um paciente com base no seu NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & NIF do paciente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Uma lista com os IDs das consultas encontradas.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & Lançada quando o NIF fornecido não é válido. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_add2d41bce054b511d91008a260902ef7} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!ExisteConsulta@{ExisteConsulta}}
+\index{ExisteConsulta@{ExisteConsulta}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{ExisteConsulta()}
+{\footnotesize\ttfamily static bool Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Existe\+Consulta (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe o id da consulta na lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id da Consulta\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true\+: Existe false\+: Não existe
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_a9e861e66a7e107d061b2dfbf03e80bf8} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!FindConsultaParam@{FindConsultaParam}}
+\index{FindConsultaParam@{FindConsultaParam}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{FindConsultaParam()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Find\+Consulta\+Param (\begin{DoxyParamCaption}\item[{\textbf{ Mini\+Consulta}}]{mini }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe uma Consulta com vários parâmetros dentro da Mini\+Consulta 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mini} & Objeto do tipo Mini\+Consulta com a informação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Encontrou\+: 1
+\end{DoxyReturn}
+
+
+Não encontrou\+: 0\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_abccaa3c7c376744c3ca873f3ea509b4b} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!GuardarConsultasFicheiro@{GuardarConsultasFicheiro}}
+\index{GuardarConsultasFicheiro@{GuardarConsultasFicheiro}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{GuardarConsultasFicheiro()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Guardar\+Consultas\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Guarda a lista de consultas num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & O nome do ficheiro onde os dados serão guardados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 em caso de sucesso
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_a60be1b38eca829aaf827fe00658be32a} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!LerConsultasFicheiro@{LerConsultasFicheiro}}
+\index{LerConsultasFicheiro@{LerConsultasFicheiro}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{LerConsultasFicheiro()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Ler\+Consultas\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Lê a lista de consultas de um ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & O nome do ficheiro de onde os dados serão lidos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1\+: Sucesso, -\/151\+: Ficheiro não encontrado 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_a72c0ec089a66be13bd9652c44d23f71e} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!ObterConsulta@{ObterConsulta}}
+\index{ObterConsulta@{ObterConsulta}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{ObterConsulta()}
+{\footnotesize\ttfamily static \textbf{ Mini\+Consulta} Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Obter\+Consulta (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método que procura uma Consulta pelo id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id da Consulta a ser procurada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\bfseries{✅ Sucesso\+:}} Retorna um objeto do tipo Mini\+Consulta com as informações necessárias
+\end{DoxyReturn}
+
+
+{\bfseries{❌ Erro\+:}} Ver lista de erros
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Consulta\+Exception} & \\
+\hline
+{\em Lista\+Consulta\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_dados_1_1_todas_consultas_a7322d3a3a0394c99bcdfd8ac44556d39} 
+\index{MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}!RemoverConsulta@{RemoverConsulta}}
+\index{RemoverConsulta@{RemoverConsulta}!MinhasCamadas.Dados.TodasConsultas@{MinhasCamadas.Dados.TodasConsultas}}
+\doxysubsubsection{RemoverConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Dados.\+Todas\+Consultas.\+Remover\+Consulta (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove uma Consulta da lista através do id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador da Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ver lista de erros possível
+\end{DoxyReturn}
+
+
+1\+: sucesso
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Lista\+Consulta\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\textbf{ Todas\+Consultas.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,299 @@
+\doxysection{Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta Class Reference}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta}\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+
+
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 3\+:02\+:28 PM.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Validar\+Consulta} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ Validar\+Id\+Consulta} (int id)
+\begin{DoxyCompactList}\small\item\em Valida a data de início da consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Campos\+Consulta} (Date\+Time dataI, Date\+Time dataF, int nif, int crm, int numeroS, int? idD, \textbf{ TIPOCONSULTA} tp, \textbf{ ESTADO} es)
+\begin{DoxyCompactList}\small\item\em Verifica os campos de uma consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Data\+Inicio} (Date\+Time dataI)
+\begin{DoxyCompactList}\small\item\em Valida a data de início da consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Data\+Fim} (Date\+Time dataI, Date\+Time dataF)
+\begin{DoxyCompactList}\small\item\em Valida a data de fim da consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+NIF} (int nif)
+\begin{DoxyCompactList}\small\item\em Valida o nif do Paciente. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+CRM} (int crm)
+\begin{DoxyCompactList}\small\item\em Valida o crm do Médico. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Numero\+Staff} (int numeroS)
+\begin{DoxyCompactList}\small\item\em Valida o número do staff. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+IDDepartamento} (int? idD)
+\begin{DoxyCompactList}\small\item\em Valida o ID do departamento. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Tipo\+Consulta} (\textbf{ TIPOCONSULTA} tp)
+\begin{DoxyCompactList}\small\item\em Valida o tipo da consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Estado} (\textbf{ ESTADO} es)
+\begin{DoxyCompactList}\small\item\em Valida o estado da consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Objeto\+Consulta} (\textbf{ Consulta} consulta)
+\begin{DoxyCompactList}\small\item\em Verifica o objeto Consulta. \end{DoxyCompactList}\item 
+static int \textbf{ Validar\+Objeto\+Mini\+Consulta} (\textbf{ Mini\+Consulta} mini\+Consulta)
+\begin{DoxyCompactList}\small\item\em Verifica o objeto Mini\+Consulta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: gonca Created on\+: 12/17/2024 3\+:02\+:28 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_a6aa343edb6ffd20a83f85550935c1383} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarConsulta@{ValidarConsulta}}
+\index{ValidarConsulta@{ValidarConsulta}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarConsulta()}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Consulta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_aca7c908f1ed166854ab326ea6ab09e74} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarCamposConsulta@{ValidarCamposConsulta}}
+\index{ValidarCamposConsulta@{ValidarCamposConsulta}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarCamposConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Campos\+Consulta (\begin{DoxyParamCaption}\item[{Date\+Time}]{dataI,  }\item[{Date\+Time}]{dataF,  }\item[{int}]{nif,  }\item[{int}]{crm,  }\item[{int}]{numeroS,  }\item[{int?}]{idD,  }\item[{\textbf{ TIPOCONSULTA}}]{tp,  }\item[{\textbf{ ESTADO}}]{es }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica os campos de uma consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataI} & Data de Início da Consulta\\
+\hline
+{\em dataF} & Data de Fim da Consulta\\
+\hline
+{\em nif} & NIF do Paciente\\
+\hline
+{\em crm} & CRM do Médico\\
+\hline
+{\em numeroS} & Número do Staff\\
+\hline
+{\em idD} & ID do Departamento\\
+\hline
+{\em tp} & Tipo de Consulta\\
+\hline
+{\em es} & Estado da Consulta\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/101\+: Data de Início Inválida -\/102\+: Data de Fim Inválida -\/103\+: NIF Inválido -\/104\+: CRM Inválido -\/105\+: Número do Staff Inválido -\/106\+: ID de Departamento Inválido -\/107\+: Tipo de Consulta Inválido -\/108\+: Estado de Consulta Inválido -\/109\+: Ojeto Consulta nulo
+
+1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_ae30d6f2ced2444373647e20097b95cf8} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarCRM@{ValidarCRM}}
+\index{ValidarCRM@{ValidarCRM}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarCRM()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+CRM (\begin{DoxyParamCaption}\item[{int}]{crm }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida o crm do Médico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em crm} & CRM do Médico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/104\+: CRM inválido 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_acc467f17964b1580b02e934b7dc3393a} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarDataFim@{ValidarDataFim}}
+\index{ValidarDataFim@{ValidarDataFim}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarDataFim()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Data\+Fim (\begin{DoxyParamCaption}\item[{Date\+Time}]{dataI,  }\item[{Date\+Time}]{dataF }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida a data de fim da consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataI} & Data de Início da Consulta.\\
+\hline
+{\em dataF} & Data de Fim da Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/102\+: Data de Fim Inválida 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_a93003e426075b94001b6552eb2a869bf} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarDataInicio@{ValidarDataInicio}}
+\index{ValidarDataInicio@{ValidarDataInicio}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarDataInicio()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Data\+Inicio (\begin{DoxyParamCaption}\item[{Date\+Time}]{dataI }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida a data de início da consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataI} & Data de Início da Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/101\+: Data de Início Inválida 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_abc275d7645663ba7bb706825d78c14d6} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarEstado@{ValidarEstado}}
+\index{ValidarEstado@{ValidarEstado}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarEstado()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Estado (\begin{DoxyParamCaption}\item[{\textbf{ ESTADO}}]{es }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida o estado da consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em es} & Estado da Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/108\+: Estado de Consulta Inválido 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_af228fb5ad2fd9c13ac6c0647a7cedca7} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarIdConsulta@{ValidarIdConsulta}}
+\index{ValidarIdConsulta@{ValidarIdConsulta}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarIdConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Id\+Consulta (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida a data de início da consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataI} & Data de Início da Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/100\+: Id invalido 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_a69ac92fa5f8db7c837c36df7207b56fb} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarIDDepartamento@{ValidarIDDepartamento}}
+\index{ValidarIDDepartamento@{ValidarIDDepartamento}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarIDDepartamento()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+IDDepartamento (\begin{DoxyParamCaption}\item[{int?}]{idD }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida o ID do departamento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em idD} & ID do Departamento.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/106\+: ID de Departamento Inválido 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_ab05a0e856f21da20ddf53b063c7b7013} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarNIF@{ValidarNIF}}
+\index{ValidarNIF@{ValidarNIF}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarNIF()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+NIF (\begin{DoxyParamCaption}\item[{int}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida o nif do Paciente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & NIF do Paciente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/103\+: NIF inválido 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_ae0ce7eda6a1428446220c0f1896f064c} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarNumeroStaff@{ValidarNumeroStaff}}
+\index{ValidarNumeroStaff@{ValidarNumeroStaff}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarNumeroStaff()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Numero\+Staff (\begin{DoxyParamCaption}\item[{int}]{numeroS }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida o número do staff. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em numeroS} & Número do Staff.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/105\+: Número do Staff Inválido 1\+: Válido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_aace05c91931e5968ecb72eec0245ddd0} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarObjetoConsulta@{ValidarObjetoConsulta}}
+\index{ValidarObjetoConsulta@{ValidarObjetoConsulta}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarObjetoConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Objeto\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ Consulta}}]{consulta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica o objeto Consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em consulta} & Objeto Consulta para validação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/109\+: Objeto Consulta nulo 1\+: Valido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_aec9ae2de6b5e49ac41198653674f50db} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarObjetoMiniConsulta@{ValidarObjetoMiniConsulta}}
+\index{ValidarObjetoMiniConsulta@{ValidarObjetoMiniConsulta}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarObjetoMiniConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Objeto\+Mini\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ Mini\+Consulta}}]{mini\+Consulta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica o objeto Mini\+Consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mini\+Consulta} & Objeto Mini\+Consulta para validação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/110\+: Objeto Mini\+Consulta nulo 1\+: Valido 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_a5401a5a7525ff1aee18817e791717a8f} 
+\index{MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}!ValidarTipoConsulta@{ValidarTipoConsulta}}
+\index{ValidarTipoConsulta@{ValidarTipoConsulta}!MinhasCamadas.Validacoes.ValidarConsulta@{MinhasCamadas.Validacoes.ValidarConsulta}}
+\doxysubsubsection{ValidarTipoConsulta()}
+{\footnotesize\ttfamily static int Minhas\+Camadas.\+Validacoes.\+Validar\+Consulta.\+Validar\+Tipo\+Consulta (\begin{DoxyParamCaption}\item[{\textbf{ TIPOCONSULTA}}]{tp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Valida o tipo da consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tp} & Tipo de Consulta.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/107\+: Tipo de Consulta Inválido 1\+: Válido 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Validacoes/\textbf{ Validar\+Consulta.\+cs}\end{DoxyCompactItemize}

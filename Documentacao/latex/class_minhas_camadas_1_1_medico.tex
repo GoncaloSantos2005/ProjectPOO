@@ -1,0 +1,200 @@
+\doxysection{Minhas\+Camadas.\+Medico Class Reference}
+\label{class_minhas_camadas_1_1_medico}\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+
+
+Purpose\+: Class responsável por manipular Medico Created by\+: gonca Created on\+: 12/1/2024 6\+:21\+:02 PM.  
+
+
+
+
+Inheritance diagram for Minhas\+Camadas.\+Medico\+:
+% FIG 0
+
+
+Collaboration diagram for Minhas\+Camadas.\+Medico\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Medico} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\textbf{ Medico} (string nome, Date\+Time dataN, int nif, \textbf{ Morada} morada, int crm, \textbf{ ESPECIALIDADE} especialidade)
+\item 
+override string \textbf{ To\+String} ()
+\begin{DoxyCompactList}\small\item\em Método que retorna uma representação textual do objeto. \end{DoxyCompactList}\item 
+int \textbf{ Compare\+To} (\textbf{ Medico} outro\+Medico)
+\begin{DoxyCompactList}\small\item\em Compara os nomes dos médicos para ordenar alfabeticamente. \end{DoxyCompactList}\item 
+\textbf{ Medico} \textbf{ Edita\+Medico} (string novo\+Nome, Date\+Time nova\+DataN, int novo\+Nif, \textbf{ Morada} nova\+Morada, \textbf{ ESPECIALIDADE} nova\+Especialidade)
+\begin{DoxyCompactList}\small\item\em Edita um objeto da classe Medico após validar os parâmetros fornecidos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \textbf{ Minhas\+Camadas.\+Pessoa}}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Pessoa} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\textbf{ Pessoa} (string n, Date\+Time data, int ni, \textbf{ Morada} m)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Medico} \textbf{ Cria\+Medico} (string nome, Date\+Time dataN, int nif, \textbf{ Morada} morada, int crm, \textbf{ ESPECIALIDADE} especialidade)
+\begin{DoxyCompactList}\small\item\em Cria um objeto da classe Medico após validar os parâmetros fornecidos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ CRM}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+\textbf{ ESPECIALIDADE} \textbf{ Especialidade}\hspace{0.3cm}{\ttfamily  [get, set]}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \textbf{ Minhas\+Camadas.\+Pessoa}}
+\begin{DoxyCompactItemize}
+\item 
+string \textbf{ Nome}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+Date\+Time \textbf{ DataN}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+\textbf{ Morada} \textbf{ Morada}\hspace{0.3cm}{\ttfamily  [get, set]}
+\item 
+int \textbf{ NIF}\hspace{0.3cm}{\ttfamily  [get, set]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Class responsável por manipular Medico Created by\+: gonca Created on\+: 12/1/2024 6\+:21\+:02 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\label{class_minhas_camadas_1_1_medico_a3a640ea93bc776a8eee1e0432eabfd91} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!Medico@{Medico}}
+\index{Medico@{Medico}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{Medico()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Medico.\+Medico (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default Constructor. 
+
+\label{class_minhas_camadas_1_1_medico_a6d1a9cc7d5710eaa9f35aaad8602aced} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!Medico@{Medico}}
+\index{Medico@{Medico}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{Medico()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Minhas\+Camadas.\+Medico.\+Medico (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{Date\+Time}]{dataN,  }\item[{int}]{nif,  }\item[{\textbf{ Morada}}]{morada,  }\item[{int}]{crm,  }\item[{\textbf{ ESPECIALIDADE}}]{especialidade }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\label{class_minhas_camadas_1_1_medico_a94237479363353a0d7bfb671800ad859} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{CompareTo()}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Medico.\+Compare\+To (\begin{DoxyParamCaption}\item[{\textbf{ Medico}}]{outro\+Medico }\end{DoxyParamCaption})}
+
+
+
+Compara os nomes dos médicos para ordenar alfabeticamente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em outro\+Medico} & Outro objeto Medico para comparação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/1 se este nome for menor, 0 se igual, 1 se maior. 
+\end{DoxyReturn}
+\label{class_minhas_camadas_1_1_medico_afdc41b59980d382d7ca0faf7ffdc8c1f} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!CriaMedico@{CriaMedico}}
+\index{CriaMedico@{CriaMedico}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{CriaMedico()}
+{\footnotesize\ttfamily static \textbf{ Medico} Minhas\+Camadas.\+Medico.\+Cria\+Medico (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{Date\+Time}]{dataN,  }\item[{int}]{nif,  }\item[{\textbf{ Morada}}]{morada,  }\item[{int}]{crm,  }\item[{\textbf{ ESPECIALIDADE}}]{especialidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Cria um objeto da classe Medico após validar os parâmetros fornecidos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome do médico.\\
+\hline
+{\em dataN} & Data de nascimento do médico.\\
+\hline
+{\em nif} & Número de Identificação Fiscal (NIF).\\
+\hline
+{\em morada} & Objeto do tipo Morada com a morada do médico.\\
+\hline
+{\em crm} & CRM do médico.\\
+\hline
+{\em especialidade} & Especialidade do médico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto do tipo Medico.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Medico\+Exception} & Lançada quando os parâmetros fornecidos não são válidos. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_medico_aae416ccbd710b4d26cf6f8e99c62f404} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!EditaMedico@{EditaMedico}}
+\index{EditaMedico@{EditaMedico}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{EditaMedico()}
+{\footnotesize\ttfamily \textbf{ Medico} Minhas\+Camadas.\+Medico.\+Edita\+Medico (\begin{DoxyParamCaption}\item[{string}]{novo\+Nome,  }\item[{Date\+Time}]{nova\+DataN,  }\item[{int}]{novo\+Nif,  }\item[{\textbf{ Morada}}]{nova\+Morada,  }\item[{\textbf{ ESPECIALIDADE}}]{nova\+Especialidade }\end{DoxyParamCaption})}
+
+
+
+Edita um objeto da classe Medico após validar os parâmetros fornecidos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em novo\+Nome} & Nome do médico.\\
+\hline
+{\em nova\+DataN} & Data de nascimento do médico.\\
+\hline
+{\em novo\+Nif} & Número de Identificação Fiscal (NIF).\\
+\hline
+{\em nova\+Morada} & Objeto do tipo Morada com a morada do médico.\\
+\hline
+{\em nova\+Especialidade} & Especialidade do médico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Objeto do tipo Medico já com os atributos editados.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Medico\+Exception} & Lançada quando os parâmetros fornecidos não são válidos. \\
+\hline
+\end{DoxyExceptions}
+\label{class_minhas_camadas_1_1_medico_ae9c64970be10fa698d949aaba7629177} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!ToString@{ToString}}
+\index{ToString@{ToString}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{ToString()}
+{\footnotesize\ttfamily override string Minhas\+Camadas.\+Medico.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que retorna uma representação textual do objeto. 
+
+\begin{DoxyReturn}{Returns}
+Uma string formatada contendo o CRM, o Nome, o NIF, a Data de Nascimento e a Especialidade. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\label{class_minhas_camadas_1_1_medico_a2139d9601cde169d23b19402d6868118} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!CRM@{CRM}}
+\index{CRM@{CRM}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{CRM}
+{\footnotesize\ttfamily int Minhas\+Camadas.\+Medico.\+CRM\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\label{class_minhas_camadas_1_1_medico_ab2d7300792ee4f1beaa5c27a56c941e2} 
+\index{MinhasCamadas.Medico@{MinhasCamadas.Medico}!Especialidade@{Especialidade}}
+\index{Especialidade@{Especialidade}!MinhasCamadas.Medico@{MinhasCamadas.Medico}}
+\doxysubsubsection{Especialidade}
+{\footnotesize\ttfamily \textbf{ ESPECIALIDADE} Minhas\+Camadas.\+Medico.\+Especialidade\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Objetos/\+Medico/\textbf{ Medico.\+cs}\end{DoxyCompactItemize}
