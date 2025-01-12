@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_regras_medicos_exception" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::RegrasMedicosException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_regras_medicos_exception_1af73de1a7a726ba7941f32f6860a1f466" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.RegrasMedicosException.errorCode</definition>
+        <argsstring></argsstring>
+        <name>errorCode</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicosException.errorCode</qualifiedname>
+        <briefdescription>
+<para>Código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/RegrasMedicosException.cs" line="25" column="21" bodyfile="ProjectException/RegrasMedicosException.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_regras_medicos_exception_1a25dbcf49325e93257217c4477188c95e" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; int, string &gt;</type>
+        <definition>readonly Dictionary&lt;int, string&gt; MinhasCamadas.RegrasMedicosException.RegrasMedicosErrorMessage</definition>
+        <argsstring></argsstring>
+        <name>RegrasMedicosErrorMessage</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicosException.RegrasMedicosErrorMessage</qualifiedname>
+        <initializer>= new Dictionary&lt;int, string&gt;()
+        {
+            { -21, &quot;Sem Permissão&quot; },
+        }</initializer>
+        <briefdescription>
+<para>Dicionário que contém mensagens de erro associadas a códigos específicos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/RegrasMedicosException.cs" line="30" column="44" bodyfile="ProjectException/RegrasMedicosException.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_regras_medicos_exception_1aca8a3afc9b03ed19dea3a4374305e1d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.RegrasMedicosException.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicosException.ErrorCode</qualifiedname>
+        <briefdescription>
+<para>Propriedade para obter ou definir o código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/RegrasMedicosException.cs" line="47" column="20" bodyfile="ProjectException/RegrasMedicosException.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_exception_1a70555250db03d2990943e46ba1b3ae10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.RegrasMedicosException.RegrasMedicosException</definition>
+        <argsstring>(int error)</argsstring>
+        <name>RegrasMedicosException</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicosException.RegrasMedicosException</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Construtor que inicializa a exceção com um código de erro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código de erro associado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/RegrasMedicosException.cs" line="38" column="16" bodyfile="ProjectException/RegrasMedicosException.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Exceção personalizada para erros relacionados com regras de médicos. Created by: gonca Created on: 12/2/2024 12:21:52 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Esta classe é usada para lançar exceções específicas quando ocorre um erro relacionado com as Regras de consulta, escrita, edição, remoção entre Medicos e Medico.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.RegrasMedicosException</label>
+        <link refid="class_minhas_camadas_1_1_regras_medicos_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.RegrasMedicosException</label>
+        <link refid="class_minhas_camadas_1_1_regras_medicos_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ProjectException/RegrasMedicosException.cs" line="20" column="11" bodyfile="ProjectException/RegrasMedicosException.cs" bodystart="21" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1af73de1a7a726ba7941f32f6860a1f466" prot="private" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicosException</scope><name>errorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1aca8a3afc9b03ed19dea3a4374305e1d0" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicosException</scope><name>ErrorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1a25dbcf49325e93257217c4477188c95e" prot="private" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicosException</scope><name>RegrasMedicosErrorMessage</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1a70555250db03d2990943e46ba1b3ae10" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicosException</scope><name>RegrasMedicosException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

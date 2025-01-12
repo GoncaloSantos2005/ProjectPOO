@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Validacoes::ValidarListaConsulta</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1acc17861fa5661624f3d24fbaf8ed5fcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Validacoes.ValidarListaConsulta.ValidarListaConsulta</definition>
+        <argsstring>()</argsstring>
+        <name>ValidarListaConsulta</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.ValidarListaConsulta</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="35" column="16" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="35" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a568be680d774419a9f5a512fb4167800" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Validacoes.ValidarListaConsulta.ValidarLista</definition>
+        <argsstring>(List&lt; Consulta &gt; consultas)</argsstring>
+        <name>ValidarLista</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.ValidarLista</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta" kindref="compound">Consulta</ref> &gt;</type>
+          <declname>consultas</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se a lista tem alguma informação. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>-111: Lista nula -112: Lista vazia 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="56" column="27" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1ac604d32acd26a9e2f8b8da41791dac2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Validacoes.ValidarListaConsulta.VerificarExisteConsulta</definition>
+        <argsstring>(MiniConsulta miniConsulta)</argsstring>
+        <name>VerificarExisteConsulta</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.VerificarExisteConsulta</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref></type>
+          <declname>miniConsulta</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se já existe alguma consulta com os mesmos parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>miniConsulta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Consulta minimizada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Erro: Consultar dicionário de erros</para>
+</simplesect>
+</para>
+<para>Não existe: 1</para>
+<para>Existe: 0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="73" column="27" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="73" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1ac084fb3bc0059c1953a331b9d1f0c18d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Validacoes.ValidarListaConsulta.ComparaIntervalosData</definition>
+        <argsstring>(DateTime dataAComparar, MiniConsulta mini)</argsstring>
+        <name>ComparaIntervalosData</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.ComparaIntervalosData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataAComparar</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref></type>
+          <declname>mini</declname>
+        </param>
+        <briefdescription>
+<para>Compara se a data fornecida está dentro do intervalo de datas da MiniConsulta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataAComparar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data a ser comparada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mini</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto MiniConsulta com o intervalo (DataInicio e DataFim).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>DataNoIntervalo:</bold> -113, a data está dentro do intervalo.</para>
+</simplesect>
+<itemizedlist>
+<listitem><para><bold>1:</bold> se a data estiver fora do intervalo. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="94" column="27" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="94" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a77c361920fabbcea845c999305d1ab5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Validacoes.ValidarListaConsulta.PodeCriarConsulta</definition>
+        <argsstring>(MiniConsulta mini)</argsstring>
+        <name>PodeCriarConsulta</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.PodeCriarConsulta</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref></type>
+          <declname>mini</declname>
+        </param>
+        <briefdescription>
+<para>1ª Verificação para ver se é possível criar uma nova consulta com base no objeto fornecido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mini</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo MiniConsulta a ser verificado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>-114:</bold> A consulta está duplicada.</para>
+</simplesect>
+</para>
+<para><bold>1:</bold> A consulta pode ser criada com sucesso.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="115" column="27" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1afa435d4c97f3c629e463aef20b72f90d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Validacoes.ValidarListaConsulta.EncontraDisponbibilidadePaciente</definition>
+        <argsstring>(MiniConsulta mini)</argsstring>
+        <name>EncontraDisponbibilidadePaciente</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.EncontraDisponbibilidadePaciente</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref></type>
+          <declname>mini</declname>
+        </param>
+        <briefdescription>
+<para>2ª Verificação para ver se o paciente tem disponibilidade com base no intervalo de datas da MiniConsulta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mini</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo MiniConsulta com as informações da consulta.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>1:</bold> O paciente tem disponibilidade (sem sobreposições).</para>
+</simplesect>
+</para>
+<para><bold>-113,-115,-116:</bold> A data de início ou fim da consulta está dentro do intervalo de outra consulta.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="131" column="27" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="131" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a3c262af6dc87a7c1e159ad24db35901a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Validacoes.ValidarListaConsulta.EncontraDisponbibilidadeMedico</definition>
+        <argsstring>(MiniConsulta mini)</argsstring>
+        <name>EncontraDisponbibilidadeMedico</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.EncontraDisponbibilidadeMedico</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref></type>
+          <declname>mini</declname>
+        </param>
+        <briefdescription>
+<para>3ª Verificação para ver se o medico tem disponibilidade com base no intervalo de datas da MiniConsulta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mini</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo MiniConsulta com as informações da consulta.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>1:</bold> O medico tem disponibilidade (sem sobreposições).</para>
+</simplesect>
+</para>
+<para><bold>-113,-115,-116:</bold> A data de início ou fim da consulta está dentro do intervalo de outra consulta.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="163" column="27" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="163" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a9405ceade63bb9dd67683944288ceb1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Validacoes.ValidarListaConsulta.~ValidarListaConsulta</definition>
+        <argsstring>()</argsstring>
+        <name>~ValidarListaConsulta</name>
+        <qualifiedname>MinhasCamadas.Validacoes.ValidarListaConsulta.~ValidarListaConsulta</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaConsulta.cs" line="192" column="9" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="192" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/17/2024 7:40:56 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Validacoes/ValidarListaConsulta.cs" line="23" column="11" bodyfile="Validacoes/ValidarListaConsulta.cs" bodystart="24" bodyend="198"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1ac084fb3bc0059c1953a331b9d1f0c18d" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>ComparaIntervalosData</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a3c262af6dc87a7c1e159ad24db35901a" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>EncontraDisponbibilidadeMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1afa435d4c97f3c629e463aef20b72f90d" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>EncontraDisponbibilidadePaciente</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a77c361920fabbcea845c999305d1ab5a" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>PodeCriarConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a568be680d774419a9f5a512fb4167800" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>ValidarLista</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1acc17861fa5661624f3d24fbaf8ed5fcd" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>ValidarListaConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1ac604d32acd26a9e2f8b8da41791dac2f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>VerificarExisteConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a9405ceade63bb9dd67683944288ceb1e" prot="private" virt="non-virtual"><scope>MinhasCamadas::Validacoes::ValidarListaConsulta</scope><name>~ValidarListaConsulta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

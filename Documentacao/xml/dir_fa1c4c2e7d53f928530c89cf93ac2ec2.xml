@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_fa1c4c2e7d53f928530c89cf93ac2ec2" kind="dir">
+    <compoundname>Validacoes</compoundname>
+    <innerfile refid="_validar_consulta_8cs">ValidarConsulta.cs</innerfile>
+    <innerfile refid="_validar_lista_consulta_8cs">ValidarListaConsulta.cs</innerfile>
+    <innerfile refid="_validar_lista_medicos_8cs">ValidarListaMedicos.cs</innerfile>
+    <innerfile refid="_validar_medico_8cs">ValidarMedico.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Validacoes/"/>
+  </compounddef>
+</doxygen>

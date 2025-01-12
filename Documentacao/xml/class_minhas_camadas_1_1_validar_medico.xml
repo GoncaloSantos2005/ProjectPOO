@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_validar_medico" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::ValidarMedico</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1acbc29536377dfb41c78b6e40f2b07d88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarCamposMedico</definition>
+        <argsstring>(string nome, DateTime dataN, int nif, Morada morada, ESPECIALIDADE especialidade)</argsstring>
+        <name>ValidarCamposMedico</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarCamposMedico</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>morada</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <briefdescription>
+<para>Verifica os campos de um objeto médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do Médico</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-1: Nome Incorreto -2: Idade Incorreta -3: NIF Inválido -4: Morada Inválida -5: CRM Inválido -6: Especialidade Inválida -7: Objeto Medico Nulo</para>
+<para>1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="52" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="52" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1a4e560b00a69a99f1a6fd8458b9f6ea4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarNome</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>ValidarNome</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarNome</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Valida o nome do Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do Médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-1: Nome Incorreto <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="84" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1a4d5fcced8804b50812724fca9a29ff53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarData</definition>
+        <argsstring>(DateTime dataN)</argsstring>
+        <name>ValidarData</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataN</declname>
+        </param>
+        <briefdescription>
+<para>Valida a data de nascimento do Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de Nascimento do Médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-2: Idade Incorreta <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="98" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1a23e935839438b36e13a0d21e8f78d49e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarNIF</definition>
+        <argsstring>(int nif)</argsstring>
+        <name>ValidarNIF</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarNIF</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <briefdescription>
+<para>Valida o nif do Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NIF do Médico</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-3: NIF Inválido <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="112" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1ae025c917a4245462b1c8b1eb6f0a9898" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarMorada</definition>
+        <argsstring>(Morada morada)</argsstring>
+        <name>ValidarMorada</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarMorada</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>morada</declname>
+        </param>
+        <briefdescription>
+<para>Valida a Morada do Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>morada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Morada do Médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-4: Morada Inválida <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="126" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1a4c70ae0c68356e3d100d1f0ff49cbcff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarCRM</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>ValidarCRM</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarCRM</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Valida o CRM do Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do Médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-5: CRM Inválido <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="140" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1a8cc1c9642a17ff243e3f4e984b86d5e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarEspecialidade</definition>
+        <argsstring>(ESPECIALIDADE especialidade)</argsstring>
+        <name>ValidarEspecialidade</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarEspecialidade</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <briefdescription>
+<para>Valida a especialidade do Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>especialidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade do Médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-6: Especialidade Inválida <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="154" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="154" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1ab894a9a502faefc3717ac9e3c09fecc0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarObjetoMedico</definition>
+        <argsstring>(Medico medico)</argsstring>
+        <name>ValidarObjetoMedico</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarObjetoMedico</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>medico</declname>
+        </param>
+        <briefdescription>
+<para>Verifica o objeto Medico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>medico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto Medico para validação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-7: Objeto Medico nulo 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="171" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="171" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_medico_1ab58995aad8bfb9eeaf235662e0af4916" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarMedico.ValidarMiniObjeto</definition>
+        <argsstring>(MiniMedico medico)</argsstring>
+        <name>ValidarMiniObjeto</name>
+        <qualifiedname>MinhasCamadas.ValidarMedico.ValidarMiniObjeto</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_mini_medico" kindref="compound">MiniMedico</ref></type>
+          <declname>medico</declname>
+        </param>
+        <briefdescription>
+<para>Verifica o objeto MiniMedico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>medico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto MiniMedico para validação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-8: Objeto MiniMedico nulo 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarMedico.cs" line="185" column="27" bodyfile="Validacoes/ValidarMedico.cs" bodystart="185" bodyend="195"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/4/2024 10:55:25 AM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Validacoes/ValidarMedico.cs" line="21" column="19" bodyfile="Validacoes/ValidarMedico.cs" bodystart="22" bodyend="198"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1acbc29536377dfb41c78b6e40f2b07d88" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarCamposMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1a4c70ae0c68356e3d100d1f0ff49cbcff" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarCRM</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1a4d5fcced8804b50812724fca9a29ff53" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarData</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1a8cc1c9642a17ff243e3f4e984b86d5e2" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarEspecialidade</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1ab58995aad8bfb9eeaf235662e0af4916" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarMiniObjeto</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1ae025c917a4245462b1c8b1eb6f0a9898" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarMorada</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1a23e935839438b36e13a0d21e8f78d49e" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarNIF</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1a4e560b00a69a99f1a6fd8458b9f6ea4e" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarNome</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_medico_1ab894a9a502faefc3717ac9e3c09fecc0" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarMedico</scope><name>ValidarObjetoMedico</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

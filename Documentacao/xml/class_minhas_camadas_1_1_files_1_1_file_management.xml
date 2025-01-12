@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_files_1_1_file_management" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Files::FileManagement</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_files_1_1_file_management_1a7cdb5ccad644f5ecc685034f2fe23305" prot="private" static="no" mutable="no">
+        <type><ref refid="class_minhas_camadas_1_1_medicos" kindref="compound">Medicos</ref></type>
+        <definition>Medicos MinhasCamadas.Files.FileManagement._medicos</definition>
+        <argsstring></argsstring>
+        <name>_medicos</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement._medicos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="32" column="17" bodyfile="Files/FileManagement.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_files_1_1_file_management_1a50bb7da663d90eb09d57217e0e60312b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas" kindref="compound">TodasConsultas</ref></type>
+        <definition>TodasConsultas MinhasCamadas.Files.FileManagement._todasConsultas</definition>
+        <argsstring></argsstring>
+        <name>_todasConsultas</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement._todasConsultas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="33" column="24" bodyfile="Files/FileManagement.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_files_1_1_file_management_1a1fe31bd5437626eaa66b5e39423e4e8a" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string MinhasCamadas.Files.FileManagement._LogFilePath</definition>
+        <argsstring></argsstring>
+        <name>_LogFilePath</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement._LogFilePath</qualifiedname>
+        <initializer>= &quot;logs.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="36" column="32" bodyfile="Files/FileManagement.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_files_1_1_file_management_1a960930c85483b9de433b5d4ef1a6f5f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Files.FileManagement.FileManagement</definition>
+        <argsstring>()</argsstring>
+        <name>FileManagement</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement.FileManagement</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="46" column="16" bodyfile="Files/FileManagement.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_files_1_1_file_management_1ae20f634ad2486a1890c11b1de2acd48b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Files.FileManagement.GuardarTudoFicheiro</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>GuardarTudoFicheiro</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement.GuardarTudoFicheiro</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Guarda todas as listas (médicos, consultas, etc.) num único ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do ficheiro onde os dados serão guardados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>1:</bold> Sucesso. </para>
+</simplesect>
+<bold>-151:</bold> Ficheiro não encontrado. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="72" column="27" bodyfile="Files/FileManagement.cs" bodystart="72" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_files_1_1_file_management_1a012a1f22b2a2d2397ab80900bb016eae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Files.FileManagement.LerTudoFicheiro</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LerTudoFicheiro</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement.LerTudoFicheiro</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Lê todas as listas (médicos, consultas, etc.) de um único ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do ficheiro de onde os dados serão lidos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>1:</bold> Sucesso. </para>
+</simplesect>
+<bold>-1511:</bold> Ficheiro não encontrado. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="96" column="27" bodyfile="Files/FileManagement.cs" bodystart="96" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_files_1_1_file_management_1aff0ba6754ea47caa5a2782b5b5e1534c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Files.FileManagement.Log</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>Log</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement.Log</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>Grava uma exceção no ficheiro de log com informações detalhadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Exceção a ser registada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>1:</bold> Log registado com sucesso. <linebreak/>
+ <bold>-1:</bold> Falha ao registar o log. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="126" column="27" bodyfile="Files/FileManagement.cs" bodystart="126" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_files_1_1_file_management_1a307fb91cf87ba6d11e795bbd6004b475" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Files.FileManagement.CriarLog</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>CriarLog</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement.CriarLog</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>Regista uma exceção no ficheiro de log e notifica o utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Exceção a ser registada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>1:</bold> Log registado com sucesso. <linebreak/>
+ <bold>-1:</bold> Falha ao registar o log. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A exceção original será novamente lançada após o registo. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="168" column="27" bodyfile="Files/FileManagement.cs" bodystart="168" bodyend="180"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_files_1_1_file_management_1ac9c2e288b5470eebab28019e61c5ada0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Files.FileManagement.~FileManagement</definition>
+        <argsstring>()</argsstring>
+        <name>~FileManagement</name>
+        <qualifiedname>MinhasCamadas.Files.FileManagement.~FileManagement</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Files/FileManagement.cs" line="188" column="9" bodyfile="Files/FileManagement.cs" bodystart="188" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/19/2024 12:03:15 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Files/FileManagement.cs" line="29" column="11" bodyfile="Files/FileManagement.cs" bodystart="30" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a1fe31bd5437626eaa66b5e39423e4e8a" prot="private" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>_LogFilePath</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a7cdb5ccad644f5ecc685034f2fe23305" prot="private" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>_medicos</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a50bb7da663d90eb09d57217e0e60312b" prot="private" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>_todasConsultas</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a307fb91cf87ba6d11e795bbd6004b475" prot="public" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>CriarLog</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a960930c85483b9de433b5d4ef1a6f5f4" prot="public" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>FileManagement</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1ae20f634ad2486a1890c11b1de2acd48b" prot="public" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>GuardarTudoFicheiro</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a012a1f22b2a2d2397ab80900bb016eae" prot="public" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>LerTudoFicheiro</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1aff0ba6754ea47caa5a2782b5b5e1534c" prot="public" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>Log</name></member>
+      <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1ac9c2e288b5470eebab28019e61c5ada0" prot="private" virt="non-virtual"><scope>MinhasCamadas::Files::FileManagement</scope><name>~FileManagement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta" kind="class"><name>MinhasCamadas::Objetos::Consulta::Consulta</name>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a879f8fae94475885e72ff46ccdb20737" kind="variable"><name>totalConsultas</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac77bf4e2fb7b147c714c614d1442b374" kind="variable"><name>idConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1aa0ad7c1a2ac163e6df441ad446662caf" kind="variable"><name>dataInicio</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ab86cad11ede5225bc8879fb9c7abc3d3" kind="variable"><name>dataFim</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a67b96c2fda9c56f725cf8e3ac21bd2b5" kind="variable"><name>nif</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a1b45e7a58eb63ae3482498975be7fb08" kind="variable"><name>crm</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ae6762d4ab235b0a4c7ef868a8b987170" kind="variable"><name>numeroStaff</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ae5a274adac98f835b1358523137ce31d" kind="variable"><name>idDiagnostico</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1adf1f5a3f18a16a23af7bcd4735462977" kind="variable"><name>tipoConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1aac7849f4355b511e4c4e9191c5df6297" kind="variable"><name>estado</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a5571361d5d85c97bf5f6216412e9c029" kind="property"><name>TotalConsultas</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a092bf969dd836811dea8810f213e8529" kind="property"><name>IdConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ab0c62268cca253ae61677a6525122265" kind="property"><name>DataInicio</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a5632c7e85cb2b9ee4df75eae9c78c4f5" kind="property"><name>DataFim</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a4af7d72833322bb9efa11c22748e6eb0" kind="property"><name>NIF</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac955c26c24ac064fbdd220844ae9787f" kind="property"><name>CRM</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac2b026115a09d73cd56a581106d3eb3e" kind="property"><name>NumeroStaff</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1add15e9ed9d8a28694d2b92ca0b359e45" kind="property"><name>IdDiagnostico</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a912d8f4ac3d94ebd1ce2fc2284edd278" kind="property"><name>TipoConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a0b495cb52ca147c8ef1f8c3c4ec80363" kind="property"><name>Estado</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac060ed246209e3561a9756c7449a84b3" kind="function"><name>Consulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a85a6ea399270d220b5b52209a78e3f5d" kind="function"><name>Consulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a33617b6b6cef6711d4a259af14be51cb" kind="function"><name>AdicionarDiagnostico</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a3e240d0208996c509b748d72827d873a" kind="function"><name>CriaConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a4cacf0556be544529aacb79fb2e0b15e" kind="function"><name>~Consulta</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception" kind="class"><name>MinhasCamadas::ProjectException::ConsultaException</name>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1ab645a2d2fefe1bb58b8953dcd07bcfaf" kind="variable"><name>errorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1afda24b8ce042f3db7b7ae1c1b3a79cab" kind="variable"><name>ConsultaErrorMessage</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1a4eabae3a1e13bbc36d8356633e226ebb" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1aec1dec5a4e5f2e19dd759ea90fb562be" kind="function"><name>ConsultaException</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_objetos_1_1_enums" kind="class"><name>MinhasCamadas::Objetos::Enums</name>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_files_1_1_file_management" kind="class"><name>MinhasCamadas::Files::FileManagement</name>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a7cdb5ccad644f5ecc685034f2fe23305" kind="variable"><name>_medicos</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a50bb7da663d90eb09d57217e0e60312b" kind="variable"><name>_todasConsultas</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a1fe31bd5437626eaa66b5e39423e4e8a" kind="variable"><name>_LogFilePath</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a960930c85483b9de433b5d4ef1a6f5f4" kind="function"><name>FileManagement</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1ae20f634ad2486a1890c11b1de2acd48b" kind="function"><name>GuardarTudoFicheiro</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a012a1f22b2a2d2397ab80900bb016eae" kind="function"><name>LerTudoFicheiro</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1aff0ba6754ea47caa5a2782b5b5e1534c" kind="function"><name>Log</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1a307fb91cf87ba6d11e795bbd6004b475" kind="function"><name>CriarLog</name></member>
+    <member refid="class_minhas_camadas_1_1_files_1_1_file_management_1ac9c2e288b5470eebab28019e61c5ada0" kind="function"><name>~FileManagement</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception" kind="class"><name>MinhasCamadas::ProjectException::Medico::ListaConsultaException</name>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a38aa475ba113144cdd9fae4bd19821d5" kind="variable"><name>errorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a50f8fb50b81fb440c505d522793ee6d6" kind="variable"><name>LConsultasErrorMessage</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a327a03fa5dc8a63fcbabbf5a4154d7ec" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1acdc6780f4364ab6706adbd77be24dd53" kind="function"><name>ListaConsultaException</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_lista_medicos_exception" kind="class"><name>MinhasCamadas::ListaMedicosException</name>
+    <member refid="class_minhas_camadas_1_1_lista_medicos_exception_1a991d568ac90a8c8d336178c779c4cf9f" kind="variable"><name>errorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_lista_medicos_exception_1ae10f7f9f7e8045053800b5e2d81f1272" kind="variable"><name>LMedicosErrorMessage</name></member>
+    <member refid="class_minhas_camadas_1_1_lista_medicos_exception_1ad0532b79b1c8b866bd1c2cac71a46334" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_lista_medicos_exception_1a57af316c3e652f7e168373c8d67731ee" kind="function"><name>ListaMedicosException</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_medico" kind="class"><name>MinhasCamadas::Medico</name>
+    <member refid="class_minhas_camadas_1_1_medico_1aa9dcd21685ee77353ab6ad6d8c7a0334" kind="variable"><name>crm</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1acedcf00afeb4911dfa4300d67e504113" kind="variable"><name>especialidade</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1a2139d9601cde169d23b19402d6868118" kind="property"><name>CRM</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1ab2d7300792ee4f1beaa5c27a56c941e2" kind="property"><name>Especialidade</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1a3a640ea93bc776a8eee1e0432eabfd91" kind="function"><name>Medico</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1a6d1a9cc7d5710eaa9f35aaad8602aced" kind="function"><name>Medico</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1ae9c64970be10fa698d949aaba7629177" kind="function"><name>ToString</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1a94237479363353a0d7bfb671800ad859" kind="function"><name>CompareTo</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1aae416ccbd710b4d26cf6f8e99c62f404" kind="function"><name>EditaMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1afdc41b59980d382d7ca0faf7ffdc8c1f" kind="function"><name>CriaMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_1af95ad56ea34d5c9a70e23665946f5015" kind="function"><name>~Medico</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_medico_exception" kind="class"><name>MinhasCamadas::MedicoException</name>
+    <member refid="class_minhas_camadas_1_1_medico_exception_1a263d07d43144ed27397056e7437c58f8" kind="variable"><name>errorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_exception_1af922e57c402588d7ab04def0b4d3a104" kind="variable"><name>MedicoErrorMessage</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_exception_1a1d21caa0329df313c5b3a5ca1acc89a9" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_medico_exception_1a9d092fb6a935096a4c40beea8f748241" kind="function"><name>MedicoException</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_medicos" kind="class"><name>MinhasCamadas::Medicos</name>
+    <member refid="class_minhas_camadas_1_1_medicos_1a82f943fd064c6612cedd13c2134710be" kind="variable"><name>_medicos</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a5a831cab9c73ebecff78c253c3f3d08b" kind="variable"><name>_contador</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a6469faf29bfec556d69d54bd458ae2b7" kind="property"><name>Contador</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a6aad64e83fef74009ab3095756f85b98" kind="function"><name>ObterTodos</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a73aa2644606373cf29add94c0df211ae" kind="function"><name>ExisteCRM</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1af503de61ee6bc8a68a8c07fc75860674" kind="function"><name>AdicionarMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a4a2796f2891e4aa4b8127522b0590744" kind="function"><name>RemoverMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a00b55b6fb868b8b1da46adc9842e7fb8" kind="function"><name>AtualizarMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1af03b154729602e1c89111fdd6ecb3feb" kind="function"><name>ObterMedicoFiltro</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1ae224a00c30e40eebab14473b42a53ac2" kind="function"><name>ObterMiniMedicoFiltro</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a2cb645a27de6d1a43538475fa5565f58" kind="function"><name>ObterMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a5724f1f0f6f8665a2b090b1133f05ec7" kind="function"><name>OrganizarMedicosAlfabeticamente</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1a65e975a0a2919b4b7c2966cd14b58bbd" kind="function"><name>GuardarMedicosFicheiro</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1af0771c301175e4844df3ceff9f97b219" kind="function"><name>LerMedicosFicheiro</name></member>
+    <member refid="class_minhas_camadas_1_1_medicos_1abaf1c9f4508cb60683151080286d00f9" kind="function"><name>FindMedico</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kind="class"><name>MinhasCamadas::Objetos::Consulta::MiniConsulta</name>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1aaaaa9d3eaa67cda3f17f1d765d7dd5f1" kind="variable"><name>idConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a3f214406f45fffaf992bd307d5f01699" kind="variable"><name>crm</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a29973bf3d5dca4ffe9ec1fe9c49521f0" kind="variable"><name>nif</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1ad085726bd9c34004913e7a498aa4bdc3" kind="variable"><name>dataInicio</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a14a969512f0e85d7592fe2c60a792b16" kind="variable"><name>dataFim</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a2407016d54a2a00250e934fe2eecbc65" kind="property"><name>IdConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a81596cb6dc795971d0b3db6b51870315" kind="property"><name>DataInicio</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a0c788ef4fd77eb622fbc8646b9217511" kind="property"><name>DataFim</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1ad0e094c2253cc827df3c8eb933cdd204" kind="property"><name>NIF</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1adb2922b613ae5cad8cb58ea70b6a8311" kind="property"><name>CRM</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1afda350b9b79d2d22b992f5fe63f08599" kind="function"><name>MiniConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a4d836df61262f9074a05ef5b3d1e6f8d" kind="function"><name>MiniConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a5eb5b409a04a8bc4a3bc8dabaaf8e194" kind="function"><name>~MiniConsulta</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_mini_medico" kind="class"><name>MinhasCamadas::MiniMedico</name>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1ab285ba261e0264613ee03a845795be80" kind="variable"><name>nome</name></member>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1a609208886500e1ef7547fb0d4ddbcc7f" kind="variable"><name>crm</name></member>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1ab7d2d8981ef2110ac179722e76633311" kind="property"><name>CRM</name></member>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1a0a41d8939c11d76f92fdd43d1b77fba0" kind="property"><name>Nome</name></member>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1ae2a5a4ab282acea6aeb49849f703e6d1" kind="function"><name>MiniMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1a52842f4b7781673979c8feb48cfe763e" kind="function"><name>MiniMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_mini_medico_1a9852da66ed75735c2abd8b36bbab6475" kind="function"><name>~MiniMedico</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_morada" kind="class"><name>MinhasCamadas::Morada</name>
+    <member refid="class_minhas_camadas_1_1_morada_1a02b8cfce50b71fd9426387e9c1030867" kind="variable"><name>cP</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a753ce192acefad926352353f96d22ffc" kind="variable"><name>morada_</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a1157e7b4b36f9920a9cde18236809d24" kind="variable"><name>cidade</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a3aae19b1c0c49d3dc0fa5f17f4ffb7a2" kind="variable"><name>nPorta</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a56872e753e67c80d551d95ee971cf8d1" kind="property"><name>CP</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a1719d30811beb5b21a7361b5ba071afa" kind="property"><name>Morada_</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a924ac95fe87fb379d43a8d1ff5901842" kind="property"><name>Cidade</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a40ef62e7ad653e4c03d34bedffdb0fb9" kind="property"><name>NPorta</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1accd9836824e7118ba73692b39baded24" kind="function"><name>Morada</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a69749586df0f31b39f9db5789c6f6d85" kind="function"><name>Morada</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1ac2bf0b237130c4ff5e078f14a0ee1848" kind="function"><name>ToString</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1af7a0fea619b0bf4b85b094336f851e23" kind="function"><name>CriarMorada</name></member>
+    <member refid="class_minhas_camadas_1_1_morada_1a2683a2500d7426195f8b63029bc594aa" kind="function"><name>~Morada</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_pessoa" kind="class"><name>MinhasCamadas::Pessoa</name>
+    <member refid="class_minhas_camadas_1_1_pessoa_1a67a39a2343ea1c114d00875eb27ff67d" kind="variable"><name>nome</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1af70bebceeb9ba9d2e760745ea7536620" kind="variable"><name>dataN</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1a3c3874e01e49efb3cbba1cb6ab658508" kind="variable"><name>nif</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1ae5d348084cf06ce0161ffaedb6059a6f" kind="variable"><name>morada</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1a1bc1d6364d4ff514839f47c32c18117f" kind="property"><name>Nome</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1a2f56c615172bfd56e686b461823c6dcc" kind="property"><name>DataN</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1ad376ec6e889baf721e99a598c852345f" kind="property"><name>Morada</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1a07a39c11178a2ff9086d6e6cce04cb8e" kind="property"><name>NIF</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1aadbd2f1b977b737d335f75621e53ee9a" kind="function"><name>Pessoa</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1ac76fd1b935f138b969d12d9d7d40cc65" kind="function"><name>Pessoa</name></member>
+    <member refid="class_minhas_camadas_1_1_pessoa_1a844332d5581766eecb93c8a39784c088" kind="function"><name>~Pessoa</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_program" kind="class"><name>MinhasCamadas::Program</name>
+    <member refid="class_minhas_camadas_1_1_program_1ab69e71fa065eb4de4540d82c3f656860" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta" kind="class"><name>MinhasCamadas::Regras::RegrasConsulta</name>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1af2e78fa6b558b0523f8f406ed7dfb37f" kind="function"><name>RegrasConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1af0abfdd64237c5f88a303eeb8afc56bf" kind="function"><name>TentaCriarConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a41f6480150aaee09845e3e30c5a2ba7b" kind="function"><name>TentarAdicionarConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1ab39c6f2cc9a20451ce438c190f407528" kind="function"><name>TentaRemoverConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a4f3f2ba504426e5e7408da71c16331ee" kind="function"><name>ObterConsultasPaciente</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a03d845968973aaae465674bc00c56291" kind="function"><name>ObterConsultasMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1aa383bbed49d975aa4fb7028c89c81aac" kind="function"><name>~RegrasConsulta</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_1_1_regras_consulta_exception" kind="class"><name>MinhasCamadas::ProjectException::Consulta::RegrasConsultaException</name>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_1_1_regras_consulta_exception_1ab79ae7377a6dbeb5fed5853b982551a1" kind="variable"><name>errorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_1_1_regras_consulta_exception_1af78c01dcbb09628969b458791eff1b0c" kind="variable"><name>RConsultasErrorMessage</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_1_1_regras_consulta_exception_1a0ab53c19d4994e99b026283f6bc5e452" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_1_1_regras_consulta_exception_1af7b01f25910c4f83bfc6149e45255549" kind="function"><name>RegrasConsultaException</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_regras_medicos" kind="class"><name>MinhasCamadas::RegrasMedicos</name>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_1a2a1e0ecd7849b32d056f9697142156da" kind="function"><name>TentaCriarMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_1acfd14a27bb670eca585aa9b40ea12f24" kind="function"><name>TentarAdicionarMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_1a3e1a05e92dd2b09d21918cd0dd2d1929" kind="function"><name>TentaRemoverMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_1a8951b03cafc7cc09bf7432f2cdb505f1" kind="function"><name>TentarEditarMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_1a55a603ee437aedfaba2cda560edffc98" kind="function"><name>TentarAtualizarMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_1ae749d8283ac4bc4c722d427bb77f7aa7" kind="function"><name>PesquisaMedicos</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_regras_medicos_exception" kind="class"><name>MinhasCamadas::RegrasMedicosException</name>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1af73de1a7a726ba7941f32f6860a1f466" kind="variable"><name>errorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1a25dbcf49325e93257217c4477188c95e" kind="variable"><name>RegrasMedicosErrorMessage</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1aca8a3afc9b03ed19dea3a4374305e1d0" kind="property"><name>ErrorCode</name></member>
+    <member refid="class_minhas_camadas_1_1_regras_medicos_exception_1a70555250db03d2990943e46ba1b3ae10" kind="function"><name>RegrasMedicosException</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas" kind="class"><name>MinhasCamadas::Dados::TodasConsultas</name>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1ac4092aa76f1dd88c812c47c60fa9f418" kind="variable"><name>_consultas</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1ae873fec5cc66869d9377dcc7b0897dfb" kind="variable"><name>_contador</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1add2d41bce054b511d91008a260902ef7" kind="function"><name>ExisteConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a96315a6d1ca3e6cb522729d6cab357c4" kind="function"><name>AdicionarConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a7322d3a3a0394c99bcdfd8ac44556d39" kind="function"><name>RemoverConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a72c0ec089a66be13bd9652c44d23f71e" kind="function"><name>ObterConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1af0a08e398e598674d3279d61dcad6aa3" kind="function"><name>EncontraTodasConsultasPaciente</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a08b1362f7e28dd9cde6b284199ade271" kind="function"><name>EncontraTodasConsultasMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a9e861e66a7e107d061b2dfbf03e80bf8" kind="function"><name>FindConsultaParam</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1abccaa3c7c376744c3ca873f3ea509b4b" kind="function"><name>GuardarConsultasFicheiro</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a60be1b38eca829aaf827fe00658be32a" kind="function"><name>LerConsultasFicheiro</name></member>
+    <member refid="class_minhas_camadas_1_1_dados_1_1_todas_consultas_1a080e062398a1b8a1bd2902ce28d10107" kind="function"><name>FindConsulta</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta" kind="class"><name>MinhasCamadas::Validacoes::ValidarConsulta</name>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1a6aa343edb6ffd20a83f85550935c1383" kind="function"><name>ValidarConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1af228fb5ad2fd9c13ac6c0647a7cedca7" kind="function"><name>ValidarIdConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1aca7c908f1ed166854ab326ea6ab09e74" kind="function"><name>ValidarCamposConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1a93003e426075b94001b6552eb2a869bf" kind="function"><name>ValidarDataInicio</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1acc467f17964b1580b02e934b7dc3393a" kind="function"><name>ValidarDataFim</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1ab05a0e856f21da20ddf53b063c7b7013" kind="function"><name>ValidarNIF</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1ae30d6f2ced2444373647e20097b95cf8" kind="function"><name>ValidarCRM</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1ae0ce7eda6a1428446220c0f1896f064c" kind="function"><name>ValidarNumeroStaff</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1a69ac92fa5f8db7c837c36df7207b56fb" kind="function"><name>ValidarIDDepartamento</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1a5401a5a7525ff1aee18817e791717a8f" kind="function"><name>ValidarTipoConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1abc275d7645663ba7bb706825d78c14d6" kind="function"><name>ValidarEstado</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1aace05c91931e5968ecb72eec0245ddd0" kind="function"><name>ValidarObjetoConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1aec9ae2de6b5e49ac41198653674f50db" kind="function"><name>ValidarObjetoMiniConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_consulta_1a68ef441184803a710319eb05ee37b8cc" kind="function"><name>~ValidarConsulta</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta" kind="class"><name>MinhasCamadas::Validacoes::ValidarListaConsulta</name>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1acc17861fa5661624f3d24fbaf8ed5fcd" kind="function"><name>ValidarListaConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a568be680d774419a9f5a512fb4167800" kind="function"><name>ValidarLista</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1ac604d32acd26a9e2f8b8da41791dac2f" kind="function"><name>VerificarExisteConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1ac084fb3bc0059c1953a331b9d1f0c18d" kind="function"><name>ComparaIntervalosData</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a77c361920fabbcea845c999305d1ab5a" kind="function"><name>PodeCriarConsulta</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1afa435d4c97f3c629e463aef20b72f90d" kind="function"><name>EncontraDisponbibilidadePaciente</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a3c262af6dc87a7c1e159ad24db35901a" kind="function"><name>EncontraDisponbibilidadeMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_validacoes_1_1_validar_lista_consulta_1a9405ceade63bb9dd67683944288ceb1e" kind="function"><name>~ValidarListaConsulta</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_validar_lista_medicos" kind="class"><name>MinhasCamadas::ValidarListaMedicos</name>
+    <member refid="class_minhas_camadas_1_1_validar_lista_medicos_1afa0947deec853f158da7fb8336346069" kind="function"><name>ValidarLista</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_lista_medicos_1afa444e5ec18dae99887a8b47da0a5f49" kind="function"><name>VerificarCRMDuplicado</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_lista_medicos_1a198f77f0bf49c683e68052714c7f2cad" kind="function"><name>ExisteCRM</name></member>
+  </compound>
+  <compound refid="class_minhas_camadas_1_1_validar_medico" kind="class"><name>MinhasCamadas::ValidarMedico</name>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1acbc29536377dfb41c78b6e40f2b07d88" kind="function"><name>ValidarCamposMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1a4e560b00a69a99f1a6fd8458b9f6ea4e" kind="function"><name>ValidarNome</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1a4d5fcced8804b50812724fca9a29ff53" kind="function"><name>ValidarData</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1a23e935839438b36e13a0d21e8f78d49e" kind="function"><name>ValidarNIF</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1ae025c917a4245462b1c8b1eb6f0a9898" kind="function"><name>ValidarMorada</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1a4c70ae0c68356e3d100d1f0ff49cbcff" kind="function"><name>ValidarCRM</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1a8cc1c9642a17ff243e3f4e984b86d5e2" kind="function"><name>ValidarEspecialidade</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1ab894a9a502faefc3717ac9e3c09fecc0" kind="function"><name>ValidarObjetoMedico</name></member>
+    <member refid="class_minhas_camadas_1_1_validar_medico_1ab58995aad8bfb9eeaf235662e0af4916" kind="function"><name>ValidarMiniObjeto</name></member>
+  </compound>
+  <compound refid="namespace_minhas_camadas" kind="namespace"><name>MinhasCamadas</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_dados" kind="namespace"><name>MinhasCamadas::Dados</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_files" kind="namespace"><name>MinhasCamadas::Files</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_objetos" kind="namespace"><name>MinhasCamadas::Objetos</name>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kind="enum"><name>ESPECIALIDADE</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457ba98ace34065498857b587a3516c7ac3f2" kind="enumvalue"><name>Ginecologia</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457ba36394cbb1163e9e2306fb7e79ef0b743" kind="enumvalue"><name>Neurologia</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457baf45edf73d3aaabc92a5a9acfbdec36bf" kind="enumvalue"><name>Cardiologia</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kind="enum"><name>PERMISSOES</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915a28d0edd045e05cf5af64e35ae0c4c6ef" kind="enumvalue"><name>Low</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915a655d20c1ca69519ca647684edbb2db35" kind="enumvalue"><name>High</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kind="enum"><name>TIPOCONSULTA</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a614de86ae7a6f93884f9306ab26a3c76" kind="enumvalue"><name>Planeamento_Familiar</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a5cfd23bbbb4d08ab0b2893a1f5a48987" kind="enumvalue"><name>Saude_Adultos</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a1a66223cc28ee5345ac46af504bd3601" kind="enumvalue"><name>Saude_Materna</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957afc79ec5d87467a398eb138c2bfafb4d8" kind="enumvalue"><name>Saude_Infantil</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957ac1f7c9f130cd12b7410de40c5b7bea27" kind="enumvalue"><name>Reforco</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a4f8ed57c519cb121ebdf96236ee8687c" kind="enumvalue"><name>Teleconsulta</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kind="enum"><name>ESTADO</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0ac1714b882779df4d6dad2293bd0ec6ed" kind="enumvalue"><name>Agendada</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0a8fa47b56a022772b00f8ba7d853024b4" kind="enumvalue"><name>Concluida</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0afb20a019f9b19e3dc4fd60acf060b31d" kind="enumvalue"><name>NaoRealizada</name></member>
+    <member refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0a480a21f6004e6f30e2a3045dafc29db0" kind="enumvalue"><name>Em_Processo</name></member>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_objetos_1_1_consulta" kind="namespace"><name>MinhasCamadas::Objetos::Consulta</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_project_exception" kind="namespace"><name>MinhasCamadas::ProjectException</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_project_exception_1_1_consulta" kind="namespace"><name>MinhasCamadas::ProjectException::Consulta</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_project_exception_1_1_medico" kind="namespace"><name>MinhasCamadas::ProjectException::Medico</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_regras" kind="namespace"><name>MinhasCamadas::Regras</name>
+  </compound>
+  <compound refid="namespace_minhas_camadas_1_1_validacoes" kind="namespace"><name>MinhasCamadas::Validacoes</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services_1_1_com_types" kind="namespace"><name>System::Runtime::InteropServices::ComTypes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_medicos_8cs" kind="file"><name>Medicos.cs</name>
+  </compound>
+  <compound refid="_todas_consultas_8cs" kind="file"><name>TodasConsultas.cs</name>
+  </compound>
+  <compound refid="_file_management_8cs" kind="file"><name>FileManagement.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_consulta_8cs" kind="file"><name>Consulta.cs</name>
+  </compound>
+  <compound refid="_mini_consulta_8cs" kind="file"><name>MiniConsulta.cs</name>
+  </compound>
+  <compound refid="_enums_8cs" kind="file"><name>Enums.cs</name>
+  </compound>
+  <compound refid="_medico_8cs" kind="file"><name>Medico.cs</name>
+  </compound>
+  <compound refid="_mini_medico_8cs" kind="file"><name>MiniMedico.cs</name>
+  </compound>
+  <compound refid="_morada_8cs" kind="file"><name>Morada.cs</name>
+  </compound>
+  <compound refid="_pessoa_8cs" kind="file"><name>Pessoa.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_consulta_exception_8cs" kind="file"><name>ConsultaException.cs</name>
+  </compound>
+  <compound refid="_lista_consulta_exception_8cs" kind="file"><name>ListaConsultaException.cs</name>
+  </compound>
+  <compound refid="_regras_consulta_exception_8cs" kind="file"><name>RegrasConsultaException.cs</name>
+  </compound>
+  <compound refid="_lista_medicos_exception_8cs" kind="file"><name>ListaMedicosException.cs</name>
+  </compound>
+  <compound refid="_medico_exception_8cs" kind="file"><name>MedicoException.cs</name>
+  </compound>
+  <compound refid="_regras_medicos_exception_8cs" kind="file"><name>RegrasMedicosException.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_regras_consulta_8cs" kind="file"><name>RegrasConsulta.cs</name>
+  </compound>
+  <compound refid="_regras_medicos_8cs" kind="file"><name>RegrasMedicos.cs</name>
+  </compound>
+  <compound refid="_validar_consulta_8cs" kind="file"><name>ValidarConsulta.cs</name>
+  </compound>
+  <compound refid="_validar_lista_consulta_8cs" kind="file"><name>ValidarListaConsulta.cs</name>
+  </compound>
+  <compound refid="_validar_lista_medicos_8cs" kind="file"><name>ValidarListaMedicos.cs</name>
+  </compound>
+  <compound refid="_validar_medico_8cs" kind="file"><name>ValidarMedico.cs</name>
+  </compound>
+  <compound refid="dir_c98c0042d6e8274688c2708fff30ba23" kind="dir"><name>Objetos/Consulta</name>
+  </compound>
+  <compound refid="dir_25eeacc68a093c3284ac87bdbbd8aa5d" kind="dir"><name>ProjectException/Consulta</name>
+  </compound>
+  <compound refid="dir_0411caf43aafedb915b9c9c575da78a8" kind="dir"><name>Dados</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_8d93c22c2bc29a31b9caf9f001593817" kind="dir"><name>Files</name>
+  </compound>
+  <compound refid="dir_54b492789182d39194d6ebadc580f195" kind="dir"><name>Objetos/Medico</name>
+  </compound>
+  <compound refid="dir_a42c251f61102c1990966b5bf748a279" kind="dir"><name>ProjectException/Medico</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_5555721b5545d5495c9dc9d22d18a892" kind="dir"><name>Objetos</name>
+  </compound>
+  <compound refid="dir_98f9fc46bb5ecf0ae0129f7228aa7ce4" kind="dir"><name>ProjectException</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
+  </compound>
+  <compound refid="dir_a9c881126609c30d96576a58354b982d" kind="dir"><name>Regras</name>
+  </compound>
+  <compound refid="dir_fa1c4c2e7d53f928530c89cf93ac2ec2" kind="dir"><name>Validacoes</name>
+  </compound>
+</doxygenindex>

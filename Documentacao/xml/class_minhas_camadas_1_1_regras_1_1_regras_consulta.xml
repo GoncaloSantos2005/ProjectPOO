@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_regras_1_1_regras_consulta" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Regras::RegrasConsulta</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1af2e78fa6b558b0523f8f406ed7dfb37f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Regras.RegrasConsulta.RegrasConsulta</definition>
+        <argsstring>()</argsstring>
+        <name>RegrasConsulta</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.RegrasConsulta</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="40" column="16" bodyfile="Regras/RegrasConsulta.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1af0abfdd64237c5f88a303eeb8afc56bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta" kindref="compound">Consulta</ref></type>
+        <definition>static Consulta MinhasCamadas.Regras.RegrasConsulta.TentaCriarConsulta</definition>
+        <argsstring>(PERMISSOES perm, DateTime dataI, DateTime dataF, int nif, int numeroS, int crm, int? idDiagnostico, TIPOCONSULTA tp, ESTADO e)</argsstring>
+        <name>TentaCriarConsulta</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.TentaCriarConsulta</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataI</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataF</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numeroS</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>idDiagnostico</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref></type>
+          <declname>tp</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Tenta criar um objeto do tipo Consulta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissão do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataI</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de início da consulta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de fim da consulta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NIF do paciente.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numeroS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número do staff associado à consulta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do médico para validações específicas.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idDiagnostico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID do diagnóstico associado (opcional).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo da consulta <ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref>.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estado da consulta <ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o objeto Consulta criado, caso todas as validações sejam bem-sucedidas.</para>
+</simplesect>
+</para>
+<para><bold>Exceções Lançadas:</bold></para>
+<para><itemizedlist>
+<listitem>
+<para><bold>RegrasConsultaException:</bold> Código de erro -141 quando o utilizador não tem permissão. </para>
+</listitem>
+<listitem>
+<para><bold>ConsultaException:</bold> Lançada caso haja um erro na validação dos campos da consulta. </para>
+</listitem>
+<listitem>
+<para><bold>ListaConsultaException:</bold> Lançada caso a consulta seja duplicada, ou existam sobreposições nas datas do paciente ou médico. </para>
+</listitem>
+</itemizedlist>
+</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>RegrasConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código de erro -141: Permissão insuficiente.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Erro na validação dos campos.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ListaConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Erro em validações relacionadas à consulta.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="79" column="32" bodyfile="Regras/RegrasConsulta.cs" bodystart="79" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a41f6480150aaee09845e3e30c5a2ba7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Regras.RegrasConsulta.TentarAdicionarConsulta</definition>
+        <argsstring>(PERMISSOES perm, Consulta consulta)</argsstring>
+        <name>TentarAdicionarConsulta</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.TentarAdicionarConsulta</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta" kindref="compound">Consulta</ref></type>
+          <declname>consulta</declname>
+        </param>
+        <briefdescription>
+<para>Tenta adicionar uma consulta aos dados das Consultas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissão do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>consulta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo Consulta a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>-141:</bold> O utilizador não tem permissão para adicionar a consulta.</para>
+</simplesect>
+</para>
+<para><bold>ListaConsultaException:</bold> Exceção lançada caso haja problemas com a lista de consultas.</para>
+<para><bold>1:</bold> Consulta adicionada com sucesso.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ListaConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando ocorre um erro relacionado à lista de consultas. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="144" column="27" bodyfile="Regras/RegrasConsulta.cs" bodystart="144" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1ab39c6f2cc9a20451ce438c190f407528" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Regras.RegrasConsulta.TentaRemoverConsulta</definition>
+        <argsstring>(PERMISSOES perm, int idConsulta)</argsstring>
+        <name>TentaRemoverConsulta</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.TentaRemoverConsulta</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idConsulta</declname>
+        </param>
+        <briefdescription>
+<para>Tenta remover uma consulta dos dados do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissão do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idConsulta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID da consulta a ser removida.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>-141:</bold> O utilizador não tem permissão para remover a consulta.</para>
+</simplesect>
+</para>
+<para><bold>ListaMedicosException:</bold> Exceção lançada caso haja problemas com a remoção.</para>
+<para><bold>1:</bold> Consulta removida com sucesso.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ListaMedicosException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando ocorre um erro relacionado à remoção da consulta. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="185" column="27" bodyfile="Regras/RegrasConsulta.cs" bodystart="185" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a4f3f2ba504426e5e7408da71c16331ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref> &gt;</type>
+        <definition>static List&lt; MiniConsulta &gt; MinhasCamadas.Regras.RegrasConsulta.ObterConsultasPaciente</definition>
+        <argsstring>(PERMISSOES perm, int nif)</argsstring>
+        <name>ObterConsultasPaciente</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.ObterConsultasPaciente</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <briefdescription>
+<para>Obtém todas as consultas associadas a um paciente com base no NIF fornecido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissão do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de Identificação Fiscal (NIF) do paciente.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>-141:</bold> O utilizador não tem permissão para obter as consultas.</para>
+</simplesect>
+</para>
+<para><bold>ConsultaException:</bold> Exceção lançada caso o NIF seja inválido ou a validação de uma consulta falhe.</para>
+<para><bold>Lista de MiniConsultas:</bold> Devolve uma lista de consultas associadas ao paciente.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando o NIF fornecido é inválido ou uma consulta falha na validação. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RegrasConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando o utilizador não tem permissão suficiente para acessar as consultas. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="227" column="28" bodyfile="Regras/RegrasConsulta.cs" bodystart="227" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a03d845968973aaae465674bc00c56291" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kindref="compound">MiniConsulta</ref> &gt;</type>
+        <definition>static List&lt; MiniConsulta &gt; MinhasCamadas.Regras.RegrasConsulta.ObterConsultasMedico</definition>
+        <argsstring>(PERMISSOES perm, int crm)</argsstring>
+        <name>ObterConsultasMedico</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.ObterConsultasMedico</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Obtém todas as consultas associadas a um médico com base no CRM fornecido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissão do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><bold>-141:</bold> O utilizador não tem permissão para acessar as consultas.</para>
+</simplesect>
+</para>
+<para><bold>ConsultaException:</bold> Exceção lançada caso o CRM seja inválido ou a validação de uma consulta falhe.</para>
+<para><bold>Lista de MiniConsultas:</bold> Retorna uma lista de consultas associadas ao médico.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando o CRM fornecido é inválido ou uma consulta falha na validação. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RegrasConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando o utilizador não tem permissão suficiente para acessar as consultas. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="275" column="28" bodyfile="Regras/RegrasConsulta.cs" bodystart="275" bodyend="306"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1aa383bbed49d975aa4fb7028c89c81aac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Regras.RegrasConsulta.~RegrasConsulta</definition>
+        <argsstring>()</argsstring>
+        <name>~RegrasConsulta</name>
+        <qualifiedname>MinhasCamadas.Regras.RegrasConsulta.~RegrasConsulta</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasConsulta.cs" line="315" column="9" bodyfile="Regras/RegrasConsulta.cs" bodystart="315" bodyend="317"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/18/2024 7:36:12 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Regras/RegrasConsulta.cs" line="28" column="11" bodyfile="Regras/RegrasConsulta.cs" bodystart="29" bodyend="321"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a03d845968973aaae465674bc00c56291" prot="public" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>ObterConsultasMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a4f3f2ba504426e5e7408da71c16331ee" prot="public" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>ObterConsultasPaciente</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1af2e78fa6b558b0523f8f406ed7dfb37f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>RegrasConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1af0abfdd64237c5f88a303eeb8afc56bf" prot="public" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>TentaCriarConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1a41f6480150aaee09845e3e30c5a2ba7b" prot="public" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>TentarAdicionarConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1ab39c6f2cc9a20451ce438c190f407528" prot="public" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>TentaRemoverConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta_1aa383bbed49d975aa4fb7028c89c81aac" prot="private" virt="non-virtual"><scope>MinhasCamadas::Regras::RegrasConsulta</scope><name>~RegrasConsulta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

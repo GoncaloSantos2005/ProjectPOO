@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_validar_lista_medicos" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::ValidarListaMedicos</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_lista_medicos_1afa0947deec853f158da7fb8336346069" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarListaMedicos.ValidarLista</definition>
+        <argsstring>(List&lt; Medico &gt; medicos_)</argsstring>
+        <name>ValidarLista</name>
+        <qualifiedname>MinhasCamadas.ValidarListaMedicos.ValidarLista</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref> &gt;</type>
+          <declname>medicos_</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se a lista tem alguma informação. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>-11: Lista nula -12: Lista vazia -13: CRM Duplicado -14: CRM não existente 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaMedicos.cs" line="46" column="27" bodyfile="Validacoes/ValidarListaMedicos.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_lista_medicos_1afa444e5ec18dae99887a8b47da0a5f49" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarListaMedicos.VerificarCRMDuplicado</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>VerificarCRMDuplicado</name>
+        <qualifiedname>MinhasCamadas.ValidarListaMedicos.VerificarCRMDuplicado</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe algum CRM já na lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>campo crm para validação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-13: CRM duplicado 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaMedicos.cs" line="62" column="27" bodyfile="Validacoes/ValidarListaMedicos.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_validar_lista_medicos_1a198f77f0bf49c683e68052714c7f2cad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.ValidarListaMedicos.ExisteCRM</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>ExisteCRM</name>
+        <qualifiedname>MinhasCamadas.ValidarListaMedicos.ExisteCRM</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe algum CRM já na lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>campo crm para validação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-14: Não existe CRM 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Validacoes/ValidarListaMedicos.cs" line="77" column="27" bodyfile="Validacoes/ValidarListaMedicos.cs" bodystart="77" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/4/2024 11:27:31 AM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Validacoes/ValidarListaMedicos.cs" line="21" column="19" bodyfile="Validacoes/ValidarListaMedicos.cs" bodystart="22" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_validar_lista_medicos_1a198f77f0bf49c683e68052714c7f2cad" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarListaMedicos</scope><name>ExisteCRM</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_lista_medicos_1afa0947deec853f158da7fb8336346069" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarListaMedicos</scope><name>ValidarLista</name></member>
+      <member refid="class_minhas_camadas_1_1_validar_lista_medicos_1afa444e5ec18dae99887a8b47da0a5f49" prot="public" virt="non-virtual"><scope>MinhasCamadas::ValidarListaMedicos</scope><name>VerificarCRMDuplicado</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

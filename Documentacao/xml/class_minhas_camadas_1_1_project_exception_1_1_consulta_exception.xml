@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::ProjectException::ConsultaException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1ab645a2d2fefe1bb58b8953dcd07bcfaf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.ProjectException.ConsultaException.errorCode</definition>
+        <argsstring></argsstring>
+        <name>errorCode</name>
+        <qualifiedname>MinhasCamadas.ProjectException.ConsultaException.errorCode</qualifiedname>
+        <briefdescription>
+<para>Código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ConsultaException.cs" line="26" column="21" bodyfile="ProjectException/Consulta/ConsultaException.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1afda24b8ce042f3db7b7ae1c1b3a79cab" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; int, string &gt;</type>
+        <definition>readonly Dictionary&lt;int, string&gt; MinhasCamadas.ProjectException.ConsultaException.ConsultaErrorMessage</definition>
+        <argsstring></argsstring>
+        <name>ConsultaErrorMessage</name>
+        <qualifiedname>MinhasCamadas.ProjectException.ConsultaException.ConsultaErrorMessage</qualifiedname>
+        <initializer>= new Dictionary&lt;int, string&gt;()
+        {
+            { -100, &quot;Id da Consulta Inválido&quot; },
+            { -101, &quot;Data de Início Inválida&quot; },
+            { -102, &quot;Data de Fim Inválida&quot; },
+            { -103, &quot;NIF Inválido&quot; },
+            { -104, &quot;CRM Inválido&quot; },
+            { -105, &quot;Número do Staff Inválido&quot; },
+            { -106, &quot;ID de Departamento Inválido&quot; },
+            { -107, &quot;Tipo de Consulta Inválido&quot; },
+            { -108, &quot;Estado de Consulta Inválido&quot; },
+            { -109, &quot;Objeto Consulta nulo&quot; },
+            { -110, &quot;Objeto MiniConsulta nulo&quot; }
+        }</initializer>
+        <briefdescription>
+<para>Dicionário que contém mensagens de erro associadas a códigos específicos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ConsultaException.cs" line="31" column="44" bodyfile="ProjectException/Consulta/ConsultaException.cs" bodystart="31" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1a4eabae3a1e13bbc36d8356633e226ebb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.ProjectException.ConsultaException.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <qualifiedname>MinhasCamadas.ProjectException.ConsultaException.ErrorCode</qualifiedname>
+        <briefdescription>
+<para>Propriedade para obter ou definir o código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ConsultaException.cs" line="59" column="20" bodyfile="ProjectException/Consulta/ConsultaException.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1aec1dec5a4e5f2e19dd759ea90fb562be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.ProjectException.ConsultaException.ConsultaException</definition>
+        <argsstring>(int error)</argsstring>
+        <name>ConsultaException</name>
+        <qualifiedname>MinhasCamadas.ProjectException.ConsultaException.ConsultaException</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Construtor que inicializa a exceção com um código de erro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código de erro associado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ConsultaException.cs" line="50" column="16" bodyfile="ProjectException/Consulta/ConsultaException.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/17/2024 4:41:35 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.ProjectException.ConsultaException</label>
+        <link refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.ProjectException.ConsultaException</label>
+        <link refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ProjectException/Consulta/ConsultaException.cs" line="21" column="11" bodyfile="ProjectException/Consulta/ConsultaException.cs" bodystart="22" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1afda24b8ce042f3db7b7ae1c1b3a79cab" prot="private" virt="non-virtual"><scope>MinhasCamadas::ProjectException::ConsultaException</scope><name>ConsultaErrorMessage</name></member>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1aec1dec5a4e5f2e19dd759ea90fb562be" prot="public" virt="non-virtual"><scope>MinhasCamadas::ProjectException::ConsultaException</scope><name>ConsultaException</name></member>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1ab645a2d2fefe1bb58b8953dcd07bcfaf" prot="private" virt="non-virtual"><scope>MinhasCamadas::ProjectException::ConsultaException</scope><name>errorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception_1a4eabae3a1e13bbc36d8356633e226ebb" prot="public" virt="non-virtual"><scope>MinhasCamadas::ProjectException::ConsultaException</scope><name>ErrorCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_98f9fc46bb5ecf0ae0129f7228aa7ce4" kind="dir">
+    <compoundname>ProjectException</compoundname>
+    <innerdir refid="dir_25eeacc68a093c3284ac87bdbbd8aa5d">ProjectException/Consulta</innerdir>
+    <innerdir refid="dir_a42c251f61102c1990966b5bf748a279">ProjectException/Medico</innerdir>
+    <innerfile refid="_regras_medicos_exception_8cs">RegrasMedicosException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ProjectException/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_minhas_camadas" kind="namespace" language="C#">
+    <compoundname>MinhasCamadas</compoundname>
+    <innerclass refid="class_minhas_camadas_1_1_lista_medicos_exception" prot="public">MinhasCamadas::ListaMedicosException</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_medico" prot="public">MinhasCamadas::Medico</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_medico_exception" prot="public">MinhasCamadas::MedicoException</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_medicos" prot="public">MinhasCamadas::Medicos</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_mini_medico" prot="public">MinhasCamadas::MiniMedico</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_morada" prot="public">MinhasCamadas::Morada</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_pessoa" prot="public">MinhasCamadas::Pessoa</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_program" prot="package">MinhasCamadas::Program</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_regras_medicos" prot="public">MinhasCamadas::RegrasMedicos</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_regras_medicos_exception" prot="public">MinhasCamadas::RegrasMedicosException</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_validar_lista_medicos" prot="public">MinhasCamadas::ValidarListaMedicos</innerclass>
+    <innerclass refid="class_minhas_camadas_1_1_validar_medico" prot="public">MinhasCamadas::ValidarMedico</innerclass>
+    <innernamespace refid="namespace_minhas_camadas_1_1_dados">MinhasCamadas::Dados</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_files">MinhasCamadas::Files</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_objetos">MinhasCamadas::Objetos</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_project_exception">MinhasCamadas::ProjectException</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_regras">MinhasCamadas::Regras</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_validacoes">MinhasCamadas::Validacoes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dados/Medicos.cs" line="15" column="1"/>
+  </compounddef>
+</doxygen>

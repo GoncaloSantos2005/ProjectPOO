@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_pessoa" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Pessoa</compoundname>
+    <derivedcompoundref refid="class_minhas_camadas_1_1_medico" prot="public" virt="non-virtual">MinhasCamadas.Medico</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_pessoa_1a67a39a2343ea1c114d00875eb27ff67d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MinhasCamadas.Pessoa.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>MinhasCamadas.Pessoa.nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="24" column="16" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_pessoa_1af70bebceeb9ba9d2e760745ea7536620" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Pessoa.dataN</definition>
+        <argsstring></argsstring>
+        <name>dataN</name>
+        <qualifiedname>MinhasCamadas.Pessoa.dataN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="25" column="18" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_pessoa_1a3c3874e01e49efb3cbba1cb6ab658508" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Pessoa.nif</definition>
+        <argsstring></argsstring>
+        <name>nif</name>
+        <qualifiedname>MinhasCamadas.Pessoa.nif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="26" column="13" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_pessoa_1ae5d348084cf06ce0161ffaedb6059a6f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+        <definition>Morada MinhasCamadas.Pessoa.morada</definition>
+        <argsstring></argsstring>
+        <name>morada</name>
+        <qualifiedname>MinhasCamadas.Pessoa.morada</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="27" column="16" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_pessoa_1a1bc1d6364d4ff514839f47c32c18117f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MinhasCamadas.Pessoa.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>MinhasCamadas.Pessoa.Nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="51" column="23" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_pessoa_1a2f56c615172bfd56e686b461823c6dcc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Pessoa.DataN</definition>
+        <argsstring></argsstring>
+        <name>DataN</name>
+        <qualifiedname>MinhasCamadas.Pessoa.DataN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="56" column="25" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_pessoa_1ad376ec6e889baf721e99a598c852345f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+        <definition>Morada MinhasCamadas.Pessoa.Morada</definition>
+        <argsstring></argsstring>
+        <name>Morada</name>
+        <qualifiedname>MinhasCamadas.Pessoa.Morada</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="62" column="23" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_pessoa_1a07a39c11178a2ff9086d6e6cce04cb8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Pessoa.NIF</definition>
+        <argsstring></argsstring>
+        <name>NIF</name>
+        <qualifiedname>MinhasCamadas.Pessoa.NIF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="68" column="20" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_pessoa_1aadbd2f1b977b737d335f75621e53ee9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Pessoa.Pessoa</definition>
+        <argsstring>()</argsstring>
+        <name>Pessoa</name>
+        <qualifiedname>MinhasCamadas.Pessoa.Pessoa</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="37" column="16" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_pessoa_1ac76fd1b935f138b969d12d9d7d40cc65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Pessoa.Pessoa</definition>
+        <argsstring>(string n, DateTime data, int ni, Morada m)</argsstring>
+        <name>Pessoa</name>
+        <qualifiedname>MinhasCamadas.Pessoa.Pessoa</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ni</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="40" column="16" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_pessoa_1a844332d5581766eecb93c8a39784c088" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Pessoa.~Pessoa</definition>
+        <argsstring>()</argsstring>
+        <name>~Pessoa</name>
+        <qualifiedname>MinhasCamadas.Pessoa.~Pessoa</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Pessoa.cs" line="87" column="9" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="87" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Class pai de algumas Class no projeto Created by: gonca Created on: 12/1/2024 6:21:23 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MinhasCamadas.Pessoa</label>
+        <link refid="class_minhas_camadas_1_1_pessoa"/>
+      </node>
+      <node id="2">
+        <label>MinhasCamadas.Medico</label>
+        <link refid="class_minhas_camadas_1_1_medico"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Objetos/Medico/Pessoa.cs" line="21" column="11" bodyfile="Objetos/Medico/Pessoa.cs" bodystart="22" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_pessoa_1af70bebceeb9ba9d2e760745ea7536620" prot="private" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>dataN</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a2f56c615172bfd56e686b461823c6dcc" prot="public" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>DataN</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1ae5d348084cf06ce0161ffaedb6059a6f" prot="private" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>morada</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1ad376ec6e889baf721e99a598c852345f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>Morada</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a3c3874e01e49efb3cbba1cb6ab658508" prot="private" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>nif</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a07a39c11178a2ff9086d6e6cce04cb8e" prot="public" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>NIF</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a67a39a2343ea1c114d00875eb27ff67d" prot="private" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>nome</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a1bc1d6364d4ff514839f47c32c18117f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>Nome</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1aadbd2f1b977b737d335f75621e53ee9a" prot="public" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1ac76fd1b935f138b969d12d9d7d40cc65" prot="public" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a844332d5581766eecb93c8a39784c088" prot="private" virt="non-virtual"><scope>MinhasCamadas::Pessoa</scope><name>~Pessoa</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

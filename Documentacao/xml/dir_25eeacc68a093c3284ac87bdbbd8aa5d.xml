@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_25eeacc68a093c3284ac87bdbbd8aa5d" kind="dir">
+    <compoundname>ProjectException/Consulta</compoundname>
+    <innerfile refid="_consulta_exception_8cs">ConsultaException.cs</innerfile>
+    <innerfile refid="_lista_consulta_exception_8cs">ListaConsultaException.cs</innerfile>
+    <innerfile refid="_regras_consulta_exception_8cs">RegrasConsultaException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ProjectException/Consulta/"/>
+  </compounddef>
+</doxygen>

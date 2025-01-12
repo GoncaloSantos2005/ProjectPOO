@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_medicos" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Medicos</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_medicos_1a82f943fd064c6612cedd13c2134710be" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref> &gt;</type>
+        <definition>List&lt;Medico&gt; MinhasCamadas.Medicos._medicos</definition>
+        <argsstring></argsstring>
+        <name>_medicos</name>
+        <qualifiedname>MinhasCamadas.Medicos._medicos</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="28" column="21" bodyfile="Dados/Medicos.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_medicos_1a5a831cab9c73ebecff78c253c3f3d08b" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Medicos._contador</definition>
+        <argsstring></argsstring>
+        <name>_contador</name>
+        <qualifiedname>MinhasCamadas.Medicos._contador</qualifiedname>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="30" column="20" bodyfile="Dados/Medicos.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_medicos_1a6469faf29bfec556d69d54bd458ae2b7" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Medicos.Contador</definition>
+        <argsstring></argsstring>
+        <name>Contador</name>
+        <qualifiedname>MinhasCamadas.Medicos.Contador</qualifiedname>
+        <briefdescription>
+<para>Retorna o número total de médicos na lista. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="283" column="27" bodyfile="Dados/Medicos.cs" bodystart="284" bodyend="286"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a6aad64e83fef74009ab3095756f85b98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref> &gt;</type>
+        <definition>static List&lt; Medico &gt; MinhasCamadas.Medicos.ObterTodos</definition>
+        <argsstring>()</argsstring>
+        <name>ObterTodos</name>
+        <qualifiedname>MinhasCamadas.Medicos.ObterTodos</qualifiedname>
+        <briefdescription>
+<para>Retorna todos os médicos da lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Lista de objetos Medico.</para>
+</simplesect>
+</para>
+<para>ESTE METODO É SÓ UTILIZADO PARA TESTAR A LISTA</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="47" column="28" bodyfile="Dados/Medicos.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a73aa2644606373cf29add94c0df211ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool MinhasCamadas.Medicos.ExisteCRM</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>ExisteCRM</name>
+        <qualifiedname>MinhasCamadas.Medicos.ExisteCRM</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe algum CRM na lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true: Existe false: Não existe</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="58" column="28" bodyfile="Dados/Medicos.cs" bodystart="58" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1af503de61ee6bc8a68a8c07fc75860674" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Medicos.AdicionarMedico</definition>
+        <argsstring>(Medico medico)</argsstring>
+        <name>AdicionarMedico</name>
+        <qualifiedname>MinhasCamadas.Medicos.AdicionarMedico</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>medico</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um Médico à lista dos Medicos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>medico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto a adicionar do tipo Medico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível 1: sucesso </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="76" column="27" bodyfile="Dados/Medicos.cs" bodystart="76" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a4a2796f2891e4aa4b8127522b0590744" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Medicos.RemoverMedico</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>RemoverMedico</name>
+        <qualifiedname>MinhasCamadas.Medicos.RemoverMedico</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Remove um Médico da lista através do CRM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do objeto Medico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível ListaMedicosException: Exceção 1: sucesso </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="101" column="27" bodyfile="Dados/Medicos.cs" bodystart="101" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a00b55b6fb868b8b1da46adc9842e7fb8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Medicos.AtualizarMedico</definition>
+        <argsstring>(Medico medicoAtualizado)</argsstring>
+        <name>AtualizarMedico</name>
+        <qualifiedname>MinhasCamadas.Medicos.AtualizarMedico</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>medicoAtualizado</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza um Médico da lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>medicoAtualizado</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto a atualizar do tipo Medico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível ListaMedicosException: Exceção 1: sucesso </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="124" column="27" bodyfile="Dados/Medicos.cs" bodystart="124" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1af03b154729602e1c89111fdd6ecb3feb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref> &gt;</type>
+        <definition>static List&lt; Medico &gt; MinhasCamadas.Medicos.ObterMedicoFiltro</definition>
+        <argsstring>(ESPECIALIDADE esp)</argsstring>
+        <name>ObterMedicoFiltro</name>
+        <qualifiedname>MinhasCamadas.Medicos.ObterMedicoFiltro</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>esp</declname>
+        </param>
+        <briefdescription>
+<para>Encontra uma lista de Médicos com uma certa especialidade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>esp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade a ser filtrada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível lista: Lista do tipo Medico com os resultados encontrados. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="189" column="28" bodyfile="Dados/Medicos.cs" bodystart="189" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1ae224a00c30e40eebab14473b42a53ac2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_minhas_camadas_1_1_mini_medico" kindref="compound">MiniMedico</ref> &gt;</type>
+        <definition>static List&lt; MiniMedico &gt; MinhasCamadas.Medicos.ObterMiniMedicoFiltro</definition>
+        <argsstring>(ESPECIALIDADE esp)</argsstring>
+        <name>ObterMiniMedicoFiltro</name>
+        <qualifiedname>MinhasCamadas.Medicos.ObterMiniMedicoFiltro</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>esp</declname>
+        </param>
+        <briefdescription>
+<para>Encontra uma lista de Médicos com uma certa especialidade e retorna um conjunto de atributos reduzidos do Médico MiniMedico </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>esp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade a ser filtrada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível lista: Lista do tipo MiniMedico com os resultados encontrados e reduzidos. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="215" column="28" bodyfile="Dados/Medicos.cs" bodystart="215" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a2cb645a27de6d1a43538475fa5565f58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_mini_medico" kindref="compound">MiniMedico</ref></type>
+        <definition>static MiniMedico MinhasCamadas.Medicos.ObterMedico</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>ObterMedico</name>
+        <qualifiedname>MinhasCamadas.Medicos.ObterMedico</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Obtem uma informação reduzida de um Médico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do Médico a ser encontrado</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível ListaMedicosException: Exceção Objeto MiniMedico: Objeto com a informação reduzida do Médico MiniMedico </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="242" column="34" bodyfile="Dados/Medicos.cs" bodystart="242" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a5724f1f0f6f8665a2b090b1133f05ec7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Medicos.OrganizarMedicosAlfabeticamente</definition>
+        <argsstring>()</argsstring>
+        <name>OrganizarMedicosAlfabeticamente</name>
+        <qualifiedname>MinhasCamadas.Medicos.OrganizarMedicosAlfabeticamente</qualifiedname>
+        <briefdescription>
+<para>Organiza a Lista de Medicos Alfabeticamente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Ver lista de erros possível MedicoException: Exceção 1: Sucesso </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="265" column="27" bodyfile="Dados/Medicos.cs" bodystart="265" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1a65e975a0a2919b4b7c2966cd14b58bbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Medicos.GuardarMedicosFicheiro</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>GuardarMedicosFicheiro</name>
+        <qualifiedname>MinhasCamadas.Medicos.GuardarMedicosFicheiro</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Guarda a lista de médicos num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do ficheiro onde os dados serão guardados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 em caso de sucesso, 0 caso contrário.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="295" column="27" bodyfile="Dados/Medicos.cs" bodystart="295" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1af0771c301175e4844df3ceff9f97b219" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.Medicos.LerMedicosFicheiro</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LerMedicosFicheiro</name>
+        <qualifiedname>MinhasCamadas.Medicos.LerMedicosFicheiro</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Lê a lista de médicos de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do ficheiro de onde os dados serão lidos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1: Sucesso, -151: Ficheiro não encontrado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="319" column="27" bodyfile="Dados/Medicos.cs" bodystart="319" bodyend="337"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medicos_1abaf1c9f4508cb60683151080286d00f9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+        <definition>static Medico MinhasCamadas.Medicos.FindMedico</definition>
+        <argsstring>(int crm)</argsstring>
+        <name>FindMedico</name>
+        <qualifiedname>MinhasCamadas.Medicos.FindMedico</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Encontra um Médico na lista através do CRM. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identificador do Médico</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ver lista de erros possível ListaMedicosException: Exceção <linebreak/>
+ medico: Objeto encontrado </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dados/Medicos.cs" line="151" column="31" bodyfile="Dados/Medicos.cs" bodystart="151" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Guarda numa List um conjunto de Medico Created by: gonca Created on: 12/2/2024 11:13:59 AM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dados/Medicos.cs" line="25" column="11" bodyfile="Dados/Medicos.cs" bodystart="26" bodyend="342"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_medicos_1a5a831cab9c73ebecff78c253c3f3d08b" prot="private" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>_contador</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a82f943fd064c6612cedd13c2134710be" prot="private" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>_medicos</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1af503de61ee6bc8a68a8c07fc75860674" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>AdicionarMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a00b55b6fb868b8b1da46adc9842e7fb8" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>AtualizarMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a6469faf29bfec556d69d54bd458ae2b7" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>Contador</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a73aa2644606373cf29add94c0df211ae" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>ExisteCRM</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1abaf1c9f4508cb60683151080286d00f9" prot="private" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>FindMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a65e975a0a2919b4b7c2966cd14b58bbd" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>GuardarMedicosFicheiro</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1af0771c301175e4844df3ceff9f97b219" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>LerMedicosFicheiro</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a2cb645a27de6d1a43538475fa5565f58" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>ObterMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1af03b154729602e1c89111fdd6ecb3feb" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>ObterMedicoFiltro</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1ae224a00c30e40eebab14473b42a53ac2" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>ObterMiniMedicoFiltro</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a6aad64e83fef74009ab3095756f85b98" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>ObterTodos</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a5724f1f0f6f8665a2b090b1133f05ec7" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>OrganizarMedicosAlfabeticamente</name></member>
+      <member refid="class_minhas_camadas_1_1_medicos_1a4a2796f2891e4aa4b8127522b0590744" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medicos</scope><name>RemoverMedico</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

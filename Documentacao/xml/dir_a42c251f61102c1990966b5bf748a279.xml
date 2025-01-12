@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_a42c251f61102c1990966b5bf748a279" kind="dir">
+    <compoundname>ProjectException/Medico</compoundname>
+    <innerfile refid="_lista_medicos_exception_8cs">ListaMedicosException.cs</innerfile>
+    <innerfile refid="_medico_exception_8cs">MedicoException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ProjectException/Medico/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_enums_8cs" kind="file" language="C#">
+    <compoundname>Enums.cs</compoundname>
+    <innerclass refid="class_minhas_camadas_1_1_objetos_1_1_enums" prot="public">MinhasCamadas::Objetos::Enums</innerclass>
+    <innernamespace refid="namespace_minhas_camadas">MinhasCamadas</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_objetos">MinhasCamadas::Objetos</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_minhas_camadas_1_1_objetos" kindref="compound">MinhasCamadas.Objetos</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457ba98ace34065498857b587a3516c7ac3f2" kindref="member">Ginecologia</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457ba36394cbb1163e9e2306fb7e79ef0b743" kindref="member">Neurologia</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457baf45edf73d3aaabc92a5a9acfbdec36bf" kindref="member">Cardiologia</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915a28d0edd045e05cf5af64e35ae0c4c6ef" kindref="member">Low</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915a655d20c1ca69519ca647684edbb2db35" kindref="member">High</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a614de86ae7a6f93884f9306ab26a3c76" kindref="member">Planeamento_Familiar</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a5cfd23bbbb4d08ab0b2893a1f5a48987" kindref="member">Saude_Adultos</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a1a66223cc28ee5345ac46af504bd3601" kindref="member">Saude_Materna</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957afc79ec5d87467a398eb138c2bfafb4d8" kindref="member">Saude_Infantil</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957ac1f7c9f130cd12b7410de40c5b7bea27" kindref="member">Reforco</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957a4f8ed57c519cb121ebdf96236ee8687c" kindref="member">Teleconsulta</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0ac1714b882779df4d6dad2293bd0ec6ed" kindref="member">Agendada</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0a8fa47b56a022772b00f8ba7d853024b4" kindref="member">Concluida</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0afb20a019f9b19e3dc4fd60acf060b31d" kindref="member">NaoRealizada</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0a480a21f6004e6f30e2a3045dafc29db0" kindref="member">Em_Processo</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41" refid="class_minhas_camadas_1_1_objetos_1_1_enums" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_minhas_camadas_1_1_objetos_1_1_enums" kindref="compound">Enums</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Objetos/Enums.cs"/>
+  </compounddef>
+</doxygen>

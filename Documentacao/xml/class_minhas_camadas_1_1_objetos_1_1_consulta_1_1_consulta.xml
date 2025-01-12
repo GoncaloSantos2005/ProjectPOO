@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Objetos::Consulta::Consulta</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a879f8fae94475885e72ff46ccdb20737" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.totalConsultas</definition>
+        <argsstring></argsstring>
+        <name>totalConsultas</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.totalConsultas</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="26" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac77bf4e2fb7b147c714c614d1442b374" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.idConsulta</definition>
+        <argsstring></argsstring>
+        <name>idConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.idConsulta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="27" column="13" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1aa0ad7c1a2ac163e6df441ad446662caf" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.Consulta.dataInicio</definition>
+        <argsstring></argsstring>
+        <name>dataInicio</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.dataInicio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="28" column="18" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ab86cad11ede5225bc8879fb9c7abc3d3" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.Consulta.dataFim</definition>
+        <argsstring></argsstring>
+        <name>dataFim</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.dataFim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="29" column="18" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a67b96c2fda9c56f725cf8e3ac21bd2b5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.nif</definition>
+        <argsstring></argsstring>
+        <name>nif</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.nif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="30" column="13" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a1b45e7a58eb63ae3482498975be7fb08" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.crm</definition>
+        <argsstring></argsstring>
+        <name>crm</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.crm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="31" column="13" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ae6762d4ab235b0a4c7ef868a8b987170" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.numeroStaff</definition>
+        <argsstring></argsstring>
+        <name>numeroStaff</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.numeroStaff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="32" column="13" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ae5a274adac98f835b1358523137ce31d" prot="private" static="no" mutable="no">
+        <type>int?</type>
+        <definition>int? MinhasCamadas.Objetos.Consulta.Consulta.idDiagnostico</definition>
+        <argsstring></argsstring>
+        <name>idDiagnostico</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.idDiagnostico</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="33" column="13" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1adf1f5a3f18a16a23af7bcd4735462977" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref></type>
+        <definition>TIPOCONSULTA MinhasCamadas.Objetos.Consulta.Consulta.tipoConsulta</definition>
+        <argsstring></argsstring>
+        <name>tipoConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.tipoConsulta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="34" column="22" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1aac7849f4355b511e4c4e9191c5df6297" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref></type>
+        <definition>ESTADO MinhasCamadas.Objetos.Consulta.Consulta.estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.estado</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="35" column="16" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a5571361d5d85c97bf5f6216412e9c029" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.TotalConsultas</definition>
+        <argsstring></argsstring>
+        <name>TotalConsultas</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.TotalConsultas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="66" column="27" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a092bf969dd836811dea8810f213e8529" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.IdConsulta</definition>
+        <argsstring></argsstring>
+        <name>IdConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.IdConsulta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="69" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ab0c62268cca253ae61677a6525122265" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.Consulta.DataInicio</definition>
+        <argsstring></argsstring>
+        <name>DataInicio</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.DataInicio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="73" column="25" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a5632c7e85cb2b9ee4df75eae9c78c4f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.Consulta.DataFim</definition>
+        <argsstring></argsstring>
+        <name>DataFim</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.DataFim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="78" column="25" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a4af7d72833322bb9efa11c22748e6eb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.NIF</definition>
+        <argsstring></argsstring>
+        <name>NIF</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.NIF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="83" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac955c26c24ac064fbdd220844ae9787f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.CRM</definition>
+        <argsstring></argsstring>
+        <name>CRM</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.CRM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="88" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac2b026115a09d73cd56a581106d3eb3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.NumeroStaff</definition>
+        <argsstring></argsstring>
+        <name>NumeroStaff</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.NumeroStaff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="93" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1add15e9ed9d8a28694d2b92ca0b359e45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? MinhasCamadas.Objetos.Consulta.Consulta.IdDiagnostico</definition>
+        <argsstring></argsstring>
+        <name>IdDiagnostico</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.IdDiagnostico</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="98" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a912d8f4ac3d94ebd1ce2fc2284edd278" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref></type>
+        <definition>TIPOCONSULTA MinhasCamadas.Objetos.Consulta.Consulta.TipoConsulta</definition>
+        <argsstring></argsstring>
+        <name>TipoConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.TipoConsulta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="103" column="29" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a0b495cb52ca147c8ef1f8c3c4ec80363" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref></type>
+        <definition>ESTADO MinhasCamadas.Objetos.Consulta.Consulta.Estado</definition>
+        <argsstring></argsstring>
+        <name>Estado</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.Estado</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="108" column="23" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="109" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac060ed246209e3561a9756c7449a84b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Objetos.Consulta.Consulta.Consulta</definition>
+        <argsstring>()</argsstring>
+        <name>Consulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.Consulta</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="47" column="16" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a85a6ea399270d220b5b52209a78e3f5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Objetos.Consulta.Consulta.Consulta</definition>
+        <argsstring>(DateTime dataI, DateTime dataF, int nif, int crm, int numeroS, int? idDiagnostico, TIPOCONSULTA tp, ESTADO es)</argsstring>
+        <name>Consulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.Consulta</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataI</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataF</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numeroS</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>idDiagnostico</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref></type>
+          <declname>tp</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref></type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="50" column="16" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="50" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a33617b6b6cef6711d4a259af14be51cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.Consulta.AdicionarDiagnostico</definition>
+        <argsstring>(int id)</argsstring>
+        <name>AdicionarDiagnostico</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.AdicionarDiagnostico</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Método para adicionar um diagnostico a uma consulta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id do Diagnostioc</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1: sucesso</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="167" column="20" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="167" bodyend="177"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a3e240d0208996c509b748d72827d873a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta" kindref="compound">Consulta</ref></type>
+        <definition>static Consulta MinhasCamadas.Objetos.Consulta.Consulta.CriaConsulta</definition>
+        <argsstring>(DateTime dataI, DateTime dataF, int nif, int crm, int numeroStaff, int? idDiagnostico, TIPOCONSULTA tp, ESTADO es)</argsstring>
+        <name>CriaConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.CriaConsulta</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataI</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataF</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numeroStaff</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>idDiagnostico</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a2dad4866c441e7f8935560ab3f10e957" kindref="member">TIPOCONSULTA</ref></type>
+          <declname>tp</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1ad053030eec7f6d5445dda4b5037cecb0" kindref="member">ESTADO</ref></type>
+          <declname>es</declname>
+        </param>
+        <briefdescription>
+<para>Cria um objeto da classe Consulta com os parâmetros fornecidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataI</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de início da consulta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de fim da consulta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NIF do paciente.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numeroStaff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número do staff responsável.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idDiagnostico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID do diagnóstico associado (opcional).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo da consulta.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>es</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estado da consulta.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Um objeto do tipo Consulta.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ConsultaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando os parâmetros fornecidos não são válidos. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="135" column="32" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="135" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a4cacf0556be544529aacb79fb2e0b15e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Objetos.Consulta.Consulta.~Consulta</definition>
+        <argsstring>()</argsstring>
+        <name>~Consulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.Consulta.~Consulta</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/Consulta.cs" line="184" column="9" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="184" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/17/2024 2:49:06 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Objetos/Consulta/Consulta.cs" line="23" column="11" bodyfile="Objetos/Consulta/Consulta.cs" bodystart="24" bodyend="190"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a33617b6b6cef6711d4a259af14be51cb" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>AdicionarDiagnostico</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac060ed246209e3561a9756c7449a84b3" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>Consulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a85a6ea399270d220b5b52209a78e3f5d" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>Consulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a3e240d0208996c509b748d72827d873a" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>CriaConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a1b45e7a58eb63ae3482498975be7fb08" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>crm</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac955c26c24ac064fbdd220844ae9787f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>CRM</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ab86cad11ede5225bc8879fb9c7abc3d3" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>dataFim</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a5632c7e85cb2b9ee4df75eae9c78c4f5" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>DataFim</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1aa0ad7c1a2ac163e6df441ad446662caf" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>dataInicio</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ab0c62268cca253ae61677a6525122265" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>DataInicio</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1aac7849f4355b511e4c4e9191c5df6297" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>estado</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a0b495cb52ca147c8ef1f8c3c4ec80363" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>Estado</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac77bf4e2fb7b147c714c614d1442b374" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>idConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a092bf969dd836811dea8810f213e8529" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>IdConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ae5a274adac98f835b1358523137ce31d" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>idDiagnostico</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1add15e9ed9d8a28694d2b92ca0b359e45" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>IdDiagnostico</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a67b96c2fda9c56f725cf8e3ac21bd2b5" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>nif</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a4af7d72833322bb9efa11c22748e6eb0" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>NIF</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ae6762d4ab235b0a4c7ef868a8b987170" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>numeroStaff</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1ac2b026115a09d73cd56a581106d3eb3e" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>NumeroStaff</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1adf1f5a3f18a16a23af7bcd4735462977" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>tipoConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a912d8f4ac3d94ebd1ce2fc2284edd278" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>TipoConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a879f8fae94475885e72ff46ccdb20737" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>totalConsultas</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a5571361d5d85c97bf5f6216412e9c029" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>TotalConsultas</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_consulta_1a4cacf0556be544529aacb79fb2e0b15e" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::Consulta</scope><name>~Consulta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

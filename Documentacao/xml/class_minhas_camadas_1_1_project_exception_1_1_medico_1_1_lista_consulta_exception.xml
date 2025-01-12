@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::ProjectException::Medico::ListaConsultaException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a38aa475ba113144cdd9fae4bd19821d5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.ProjectException.Medico.ListaConsultaException.errorCode</definition>
+        <argsstring></argsstring>
+        <name>errorCode</name>
+        <qualifiedname>MinhasCamadas.ProjectException.Medico.ListaConsultaException.errorCode</qualifiedname>
+        <briefdescription>
+<para>Código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ListaConsultaException.cs" line="26" column="21" bodyfile="ProjectException/Consulta/ListaConsultaException.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a50f8fb50b81fb440c505d522793ee6d6" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; int, string &gt;</type>
+        <definition>readonly Dictionary&lt;int, string&gt; MinhasCamadas.ProjectException.Medico.ListaConsultaException.LConsultasErrorMessage</definition>
+        <argsstring></argsstring>
+        <name>LConsultasErrorMessage</name>
+        <qualifiedname>MinhasCamadas.ProjectException.Medico.ListaConsultaException.LConsultasErrorMessage</qualifiedname>
+        <initializer>= new Dictionary&lt;int, string&gt;()
+        {
+            { -111, &quot;Lista nula&quot; },
+            { -112, &quot;Lista vazia&quot; },
+            { -113, &quot;A data está dentro do intervalo de outra consulta&quot; },
+            { -114, &quot;A consulta está duplicada&quot; },
+            { -115, &quot;A data do Inicio está dentro do intervalo de outra consulta&quot; },
+            { -116, &quot;A data do Fim está dentro do intervalo de outra consulta&quot; },
+        }</initializer>
+        <briefdescription>
+<para>Dicionário que contém mensagens de erro associadas a códigos específicos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ListaConsultaException.cs" line="31" column="44" bodyfile="ProjectException/Consulta/ListaConsultaException.cs" bodystart="31" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a327a03fa5dc8a63fcbabbf5a4154d7ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.ProjectException.Medico.ListaConsultaException.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <qualifiedname>MinhasCamadas.ProjectException.Medico.ListaConsultaException.ErrorCode</qualifiedname>
+        <briefdescription>
+<para>Propriedade para obter ou definir o código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ListaConsultaException.cs" line="54" column="20" bodyfile="ProjectException/Consulta/ListaConsultaException.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1acdc6780f4364ab6706adbd77be24dd53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.ProjectException.Medico.ListaConsultaException.ListaConsultaException</definition>
+        <argsstring>(int error)</argsstring>
+        <name>ListaConsultaException</name>
+        <qualifiedname>MinhasCamadas.ProjectException.Medico.ListaConsultaException.ListaConsultaException</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Construtor que inicializa a exceção com um código de erro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código de erro associado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Consulta/ListaConsultaException.cs" line="45" column="16" bodyfile="ProjectException/Consulta/ListaConsultaException.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/18/2024 3:23:45 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.ProjectException.Medico.ListaConsultaException</label>
+        <link refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.ProjectException.Medico.ListaConsultaException</label>
+        <link refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ProjectException/Consulta/ListaConsultaException.cs" line="21" column="11" bodyfile="ProjectException/Consulta/ListaConsultaException.cs" bodystart="22" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a38aa475ba113144cdd9fae4bd19821d5" prot="private" virt="non-virtual"><scope>MinhasCamadas::ProjectException::Medico::ListaConsultaException</scope><name>errorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a327a03fa5dc8a63fcbabbf5a4154d7ec" prot="public" virt="non-virtual"><scope>MinhasCamadas::ProjectException::Medico::ListaConsultaException</scope><name>ErrorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1a50f8fb50b81fb440c505d522793ee6d6" prot="private" virt="non-virtual"><scope>MinhasCamadas::ProjectException::Medico::ListaConsultaException</scope><name>LConsultasErrorMessage</name></member>
+      <member refid="class_minhas_camadas_1_1_project_exception_1_1_medico_1_1_lista_consulta_exception_1acdc6780f4364ab6706adbd77be24dd53" prot="public" virt="non-virtual"><scope>MinhasCamadas::ProjectException::Medico::ListaConsultaException</scope><name>ListaConsultaException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

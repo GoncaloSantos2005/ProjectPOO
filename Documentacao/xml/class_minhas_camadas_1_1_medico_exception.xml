@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_medico_exception" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::MedicoException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_medico_exception_1a263d07d43144ed27397056e7437c58f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.MedicoException.errorCode</definition>
+        <argsstring></argsstring>
+        <name>errorCode</name>
+        <qualifiedname>MinhasCamadas.MedicoException.errorCode</qualifiedname>
+        <briefdescription>
+<para>Código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Medico/MedicoException.cs" line="25" column="21" bodyfile="ProjectException/Medico/MedicoException.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_medico_exception_1af922e57c402588d7ab04def0b4d3a104" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; int, string &gt;</type>
+        <definition>readonly Dictionary&lt;int, string&gt; MinhasCamadas.MedicoException.MedicoErrorMessage</definition>
+        <argsstring></argsstring>
+        <name>MedicoErrorMessage</name>
+        <qualifiedname>MinhasCamadas.MedicoException.MedicoErrorMessage</qualifiedname>
+        <initializer>= new Dictionary&lt;int, string&gt;()
+        {
+            { -1, &quot;Nome Inválido&quot; },
+            { -2, &quot;Idade Incorreta&quot; },
+            { -3, &quot;NIF Inválido&quot; },
+            { -4, &quot;Morada Inválida&quot; },
+            { -5, &quot;CRM não existente&quot; },
+            { -6, &quot;Especialidade Inválida&quot; },
+            { -7, &quot;Objeto <ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref> nulo&quot; },
+            { -8, &quot;Objeto <ref refid="class_minhas_camadas_1_1_mini_medico" kindref="compound">MiniMedico</ref> nulo&quot; },
+        }</initializer>
+        <briefdescription>
+<para>Dicionário que contém mensagens de erro associadas a códigos específicos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Medico/MedicoException.cs" line="30" column="44" bodyfile="ProjectException/Medico/MedicoException.cs" bodystart="30" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_medico_exception_1a1d21caa0329df313c5b3a5ca1acc89a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.MedicoException.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <qualifiedname>MinhasCamadas.MedicoException.ErrorCode</qualifiedname>
+        <briefdescription>
+<para>Propriedade para obter ou definir o código de erro associado à exceção. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Medico/MedicoException.cs" line="54" column="20" bodyfile="ProjectException/Medico/MedicoException.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_exception_1a9d092fb6a935096a4c40beea8f748241" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.MedicoException.MedicoException</definition>
+        <argsstring>(int error)</argsstring>
+        <name>MedicoException</name>
+        <qualifiedname>MinhasCamadas.MedicoException.MedicoException</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Construtor que inicializa a exceção com um código de erro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código de erro associado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProjectException/Medico/MedicoException.cs" line="45" column="16" bodyfile="ProjectException/Medico/MedicoException.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Exceção personalizada para erros relacionados com médicos. Created by: gonca Created on: 12/2/2024 10:16:12 AM. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Esta classe é usada para lançar exceções específicas quando ocorre um erro relacionado com a criação ou manipulação de objetos do tipo Médico.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.MedicoException</label>
+        <link refid="class_minhas_camadas_1_1_medico_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.MedicoException</label>
+        <link refid="class_minhas_camadas_1_1_medico_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ProjectException/Medico/MedicoException.cs" line="20" column="11" bodyfile="ProjectException/Medico/MedicoException.cs" bodystart="21" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_medico_exception_1a263d07d43144ed27397056e7437c58f8" prot="private" virt="non-virtual"><scope>MinhasCamadas::MedicoException</scope><name>errorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_exception_1a1d21caa0329df313c5b3a5ca1acc89a9" prot="public" virt="non-virtual"><scope>MinhasCamadas::MedicoException</scope><name>ErrorCode</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_exception_1af922e57c402588d7ab04def0b4d3a104" prot="private" virt="non-virtual"><scope>MinhasCamadas::MedicoException</scope><name>MedicoErrorMessage</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_exception_1a9d092fb6a935096a4c40beea8f748241" prot="public" virt="non-virtual"><scope>MinhasCamadas::MedicoException</scope><name>MedicoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

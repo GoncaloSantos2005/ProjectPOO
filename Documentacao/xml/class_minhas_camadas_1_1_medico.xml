@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_medico" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Medico</compoundname>
+    <basecompoundref refid="class_minhas_camadas_1_1_pessoa" prot="public" virt="non-virtual">MinhasCamadas.Pessoa</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; Medico &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_medico_1aa9dcd21685ee77353ab6ad6d8c7a0334" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Medico.crm</definition>
+        <argsstring></argsstring>
+        <name>crm</name>
+        <qualifiedname>MinhasCamadas.Medico.crm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="26" column="13" bodyfile="Objetos/Medico/Medico.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_medico_1acedcf00afeb4911dfa4300d67e504113" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+        <definition>ESPECIALIDADE MinhasCamadas.Medico.especialidade</definition>
+        <argsstring></argsstring>
+        <name>especialidade</name>
+        <qualifiedname>MinhasCamadas.Medico.especialidade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="27" column="23" bodyfile="Objetos/Medico/Medico.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_medico_1a2139d9601cde169d23b19402d6868118" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Medico.CRM</definition>
+        <argsstring></argsstring>
+        <name>CRM</name>
+        <qualifiedname>MinhasCamadas.Medico.CRM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="55" column="20" bodyfile="Objetos/Medico/Medico.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_medico_1ab2d7300792ee4f1beaa5c27a56c941e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+        <definition>ESPECIALIDADE MinhasCamadas.Medico.Especialidade</definition>
+        <argsstring></argsstring>
+        <name>Especialidade</name>
+        <qualifiedname>MinhasCamadas.Medico.Especialidade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="61" column="30" bodyfile="Objetos/Medico/Medico.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1a3a640ea93bc776a8eee1e0432eabfd91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Medico.Medico</definition>
+        <argsstring>()</argsstring>
+        <name>Medico</name>
+        <qualifiedname>MinhasCamadas.Medico.Medico</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="38" column="16" bodyfile="Objetos/Medico/Medico.cs" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1a6d1a9cc7d5710eaa9f35aaad8602aced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Medico.Medico</definition>
+        <argsstring>(string nome, DateTime dataN, int nif, Morada morada, int crm, ESPECIALIDADE especialidade)</argsstring>
+        <name>Medico</name>
+        <qualifiedname>MinhasCamadas.Medico.Medico</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>morada</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="42" column="16" bodyfile="Objetos/Medico/Medico.cs" bodystart="42" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1ae9c64970be10fa698d949aaba7629177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MinhasCamadas.Medico.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>MinhasCamadas.Medico.ToString</qualifiedname>
+        <briefdescription>
+<para>Método que retorna uma representação textual do objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Uma string formatada contendo o CRM, o Nome, o NIF, a Data de Nascimento e a Especialidade. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="75" column="32" bodyfile="Objetos/Medico/Medico.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1a94237479363353a0d7bfb671800ad859" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MinhasCamadas.Medico.CompareTo</definition>
+        <argsstring>(Medico outroMedico)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>MinhasCamadas.Medico.CompareTo</qualifiedname>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>outroMedico</declname>
+        </param>
+        <briefdescription>
+<para>Compara os nomes dos médicos para ordenar alfabeticamente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outroMedico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Outro objeto Medico para comparação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-1 se este nome for menor, 0 se igual, 1 se maior. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="91" column="20" bodyfile="Objetos/Medico/Medico.cs" bodystart="91" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1aae416ccbd710b4d26cf6f8e99c62f404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+        <definition>Medico MinhasCamadas.Medico.EditaMedico</definition>
+        <argsstring>(string novoNome, DateTime novaDataN, int novoNif, Morada novaMorada, ESPECIALIDADE novaEspecialidade)</argsstring>
+        <name>EditaMedico</name>
+        <qualifiedname>MinhasCamadas.Medico.EditaMedico</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>novoNome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>novaDataN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>novoNif</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>novaMorada</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>novaEspecialidade</declname>
+        </param>
+        <briefdescription>
+<para>Edita um objeto da classe Medico após validar os parâmetros fornecidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>novoNome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novaDataN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de nascimento do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novoNif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de Identificação Fiscal (NIF).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novaMorada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo Morada com a morada do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novaEspecialidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade do médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Objeto do tipo Medico já com os atributos editados.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>MedicoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando os parâmetros fornecidos não são válidos. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="141" column="23" bodyfile="Objetos/Medico/Medico.cs" bodystart="141" bodyend="156"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1afdc41b59980d382d7ca0faf7ffdc8c1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+        <definition>static Medico MinhasCamadas.Medico.CriaMedico</definition>
+        <argsstring>(string nome, DateTime dataN, int nif, Morada morada, int crm, ESPECIALIDADE especialidade)</argsstring>
+        <name>CriaMedico</name>
+        <qualifiedname>MinhasCamadas.Medico.CriaMedico</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>morada</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <briefdescription>
+<para>Cria um objeto da classe Medico após validar os parâmetros fornecidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de nascimento do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de Identificação Fiscal (NIF).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>morada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto do tipo Morada com a morada do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do médico.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>especialidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade do médico.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Um objeto do tipo Medico.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>MedicoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada quando os parâmetros fornecidos não são válidos. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="171" column="30" bodyfile="Objetos/Medico/Medico.cs" bodystart="171" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_medico_1af95ad56ea34d5c9a70e23665946f5015" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Medico.~Medico</definition>
+        <argsstring>()</argsstring>
+        <name>~Medico</name>
+        <qualifiedname>MinhasCamadas.Medico.~Medico</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Medico.cs" line="186" column="9" bodyfile="Objetos/Medico/Medico.cs" bodystart="186" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Class responsável por manipular Medico Created by: gonca Created on: 12/1/2024 6:21:02 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IComparable&lt; Medico &gt;</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.Medico</label>
+        <link refid="class_minhas_camadas_1_1_medico"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_minhas_camadas_1_1_pessoa"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IComparable&lt; Medico &gt;</label>
+      </node>
+      <node id="1">
+        <label>MinhasCamadas.Medico</label>
+        <link refid="class_minhas_camadas_1_1_medico"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_minhas_camadas_1_1_pessoa"/>
+      </node>
+    </collaborationgraph>
+    <location file="Objetos/Medico/Medico.cs" line="23" column="11" bodyfile="Objetos/Medico/Medico.cs" bodystart="24" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_medico_1a94237479363353a0d7bfb671800ad859" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>CompareTo</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1afdc41b59980d382d7ca0faf7ffdc8c1f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>CriaMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1aa9dcd21685ee77353ab6ad6d8c7a0334" prot="private" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>crm</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1a2139d9601cde169d23b19402d6868118" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>CRM</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a2f56c615172bfd56e686b461823c6dcc" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>DataN</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1aae416ccbd710b4d26cf6f8e99c62f404" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>EditaMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1acedcf00afeb4911dfa4300d67e504113" prot="private" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>especialidade</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1ab2d7300792ee4f1beaa5c27a56c941e2" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Especialidade</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1a3a640ea93bc776a8eee1e0432eabfd91" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Medico</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1a6d1a9cc7d5710eaa9f35aaad8602aced" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Medico</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1ad376ec6e889baf721e99a598c852345f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Morada</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a07a39c11178a2ff9086d6e6cce04cb8e" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>NIF</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1a1bc1d6364d4ff514839f47c32c18117f" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Nome</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1aadbd2f1b977b737d335f75621e53ee9a" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Pessoa</name></member>
+      <member refid="class_minhas_camadas_1_1_pessoa_1ac76fd1b935f138b969d12d9d7d40cc65" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>Pessoa</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1ae9c64970be10fa698d949aaba7629177" prot="public" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>ToString</name></member>
+      <member refid="class_minhas_camadas_1_1_medico_1af95ad56ea34d5c9a70e23665946f5015" prot="private" virt="non-virtual"><scope>MinhasCamadas::Medico</scope><name>~Medico</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

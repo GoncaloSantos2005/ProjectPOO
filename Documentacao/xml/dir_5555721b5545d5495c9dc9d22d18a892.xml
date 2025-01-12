@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_5555721b5545d5495c9dc9d22d18a892" kind="dir">
+    <compoundname>Objetos</compoundname>
+    <innerdir refid="dir_c98c0042d6e8274688c2708fff30ba23">Objetos/Consulta</innerdir>
+    <innerdir refid="dir_54b492789182d39194d6ebadc580f195">Objetos/Medico</innerdir>
+    <innerfile refid="_enums_8cs">Enums.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Objetos/"/>
+  </compounddef>
+</doxygen>

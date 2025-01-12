@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Objetos::Consulta::MiniConsulta</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1aaaaa9d3eaa67cda3f17f1d765d7dd5f1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.MiniConsulta.idConsulta</definition>
+        <argsstring></argsstring>
+        <name>idConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.idConsulta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="23" column="13" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a3f214406f45fffaf992bd307d5f01699" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.MiniConsulta.crm</definition>
+        <argsstring></argsstring>
+        <name>crm</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.crm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="24" column="13" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a29973bf3d5dca4ffe9ec1fe9c49521f0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.MiniConsulta.nif</definition>
+        <argsstring></argsstring>
+        <name>nif</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.nif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="25" column="13" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1ad085726bd9c34004913e7a498aa4bdc3" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.MiniConsulta.dataInicio</definition>
+        <argsstring></argsstring>
+        <name>dataInicio</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.dataInicio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="26" column="18" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a14a969512f0e85d7592fe2c60a792b16" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.MiniConsulta.dataFim</definition>
+        <argsstring></argsstring>
+        <name>dataFim</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.dataFim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="27" column="18" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a2407016d54a2a00250e934fe2eecbc65" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.MiniConsulta.IdConsulta</definition>
+        <argsstring></argsstring>
+        <name>IdConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.IdConsulta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="52" column="20" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a81596cb6dc795971d0b3db6b51870315" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.MiniConsulta.DataInicio</definition>
+        <argsstring></argsstring>
+        <name>DataInicio</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.DataInicio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="56" column="25" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a0c788ef4fd77eb622fbc8646b9217511" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MinhasCamadas.Objetos.Consulta.MiniConsulta.DataFim</definition>
+        <argsstring></argsstring>
+        <name>DataFim</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.DataFim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="61" column="25" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1ad0e094c2253cc827df3c8eb933cdd204" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.MiniConsulta.NIF</definition>
+        <argsstring></argsstring>
+        <name>NIF</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.NIF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="66" column="20" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1adb2922b613ae5cad8cb58ea70b6a8311" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Objetos.Consulta.MiniConsulta.CRM</definition>
+        <argsstring></argsstring>
+        <name>CRM</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.CRM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="71" column="20" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1afda350b9b79d2d22b992f5fe63f08599" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Objetos.Consulta.MiniConsulta.MiniConsulta</definition>
+        <argsstring>()</argsstring>
+        <name>MiniConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.MiniConsulta</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="37" column="16" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a4d836df61262f9074a05ef5b3d1e6f8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Objetos.Consulta.MiniConsulta.MiniConsulta</definition>
+        <argsstring>(int id, int c, int n, DateTime di, DateTime df)</argsstring>
+        <name>MiniConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.MiniConsulta</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>di</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="40" column="16" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="40" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a5eb5b409a04a8bc4a3bc8dabaaf8e194" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Objetos.Consulta.MiniConsulta.~MiniConsulta</definition>
+        <argsstring>()</argsstring>
+        <name>~MiniConsulta</name>
+        <qualifiedname>MinhasCamadas.Objetos.Consulta.MiniConsulta.~MiniConsulta</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Consulta/MiniConsulta.cs" line="90" column="9" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="90" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: gonca Created on: 12/17/2024 7:51:35 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Objetos/Consulta/MiniConsulta.cs" line="20" column="11" bodyfile="Objetos/Consulta/MiniConsulta.cs" bodystart="21" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a3f214406f45fffaf992bd307d5f01699" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>crm</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1adb2922b613ae5cad8cb58ea70b6a8311" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>CRM</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a14a969512f0e85d7592fe2c60a792b16" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>dataFim</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a0c788ef4fd77eb622fbc8646b9217511" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>DataFim</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1ad085726bd9c34004913e7a498aa4bdc3" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>dataInicio</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a81596cb6dc795971d0b3db6b51870315" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>DataInicio</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1aaaaa9d3eaa67cda3f17f1d765d7dd5f1" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>idConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a2407016d54a2a00250e934fe2eecbc65" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>IdConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1afda350b9b79d2d22b992f5fe63f08599" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>MiniConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a4d836df61262f9074a05ef5b3d1e6f8d" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>MiniConsulta</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a29973bf3d5dca4ffe9ec1fe9c49521f0" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>nif</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1ad0e094c2253cc827df3c8eb933cdd204" prot="public" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>NIF</name></member>
+      <member refid="class_minhas_camadas_1_1_objetos_1_1_consulta_1_1_mini_consulta_1a5eb5b409a04a8bc4a3bc8dabaaf8e194" prot="private" virt="non-virtual"><scope>MinhasCamadas::Objetos::Consulta::MiniConsulta</scope><name>~MiniConsulta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

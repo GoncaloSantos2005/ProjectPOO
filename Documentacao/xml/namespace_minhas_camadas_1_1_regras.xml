@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_minhas_camadas_1_1_regras" kind="namespace" language="C#">
+    <compoundname>MinhasCamadas::Regras</compoundname>
+    <innerclass refid="class_minhas_camadas_1_1_regras_1_1_regras_consulta" prot="public">MinhasCamadas::Regras::RegrasConsulta</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Regras/RegrasConsulta.cs" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_regras_medicos" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::RegrasMedicos</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_1a2a1e0ecd7849b32d056f9697142156da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+        <definition>static Medico MinhasCamadas.RegrasMedicos.TentaCriarMedico</definition>
+        <argsstring>(PERMISSOES perm, string nome, DateTime dataN, int nif, Morada morada, int crm, ESPECIALIDADE especialidade)</argsstring>
+        <name>TentaCriarMedico</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicos.TentaCriarMedico</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>morada</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <briefdescription>
+<para>Tenta criar um objeto do tipo Medico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissao do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de Nascimento do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NIF do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>morada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Morada do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>especialidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade do médico</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null: Sem permissão MedicoException: Exceção <linebreak/>
+ RegrasMedicosException: Exceção <linebreak/>
+ RegrasMedicosException: -21 <linebreak/>
+</para>
+<para>Medico medico: Objeto Criado </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasMedicos.cs" line="56" column="30" bodyfile="Regras/RegrasMedicos.cs" bodystart="56" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_1acfd14a27bb670eca585aa9b40ea12f24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.RegrasMedicos.TentarAdicionarMedico</definition>
+        <argsstring>(PERMISSOES perm, Medico medico)</argsstring>
+        <name>TentarAdicionarMedico</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicos.TentarAdicionarMedico</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>medico</declname>
+        </param>
+        <briefdescription>
+<para>Tenta adicionar um médico aos dados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissão do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>medico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto médico a ser adicionado Medico</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-21: Sem permissão ListaMedicosException: Exceção RegrasMedicosException: -21 <linebreak/>
+ 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasMedicos.cs" line="100" column="27" bodyfile="Regras/RegrasMedicos.cs" bodystart="100" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_1a3e1a05e92dd2b09d21918cd0dd2d1929" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.RegrasMedicos.TentaRemoverMedico</definition>
+        <argsstring>(PERMISSOES perm, int crm)</argsstring>
+        <name>TentaRemoverMedico</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicos.TentaRemoverMedico</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>crm</declname>
+        </param>
+        <briefdescription>
+<para>Tenta adicionar um médico aos dados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissao do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>crm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CRM medico a ser removido</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>-21: Sem permissão ListaMedicosException: Exceção 1: Valido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasMedicos.cs" line="133" column="27" bodyfile="Regras/RegrasMedicos.cs" bodystart="133" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_1a8951b03cafc7cc09bf7432f2cdb505f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+        <definition>static Medico MinhasCamadas.RegrasMedicos.TentarEditarMedico</definition>
+        <argsstring>(PERMISSOES perm, Medico medico, string nome, DateTime dataN, int nif, Morada morada, ESPECIALIDADE especialidade)</argsstring>
+        <name>TentarEditarMedico</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicos.TentarEditarMedico</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>medico</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>morada</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <briefdescription>
+<para>Tenta editar um objeto do tipo Medico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissao do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>medico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto Medico Medico a ser editado</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data de Nascimento do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NIF do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>morada</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Morada do médico</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>especialidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade do médico</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Consultar código de erros ListaMedicosException: Exceção <linebreak/>
+ RegrasMedicosException: -21 <linebreak/>
+ -21 Medico medico: Objeto Editado </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasMedicos.cs" line="176" column="30" bodyfile="Regras/RegrasMedicos.cs" bodystart="176" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_1a55a603ee437aedfaba2cda560edffc98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MinhasCamadas.RegrasMedicos.TentarAtualizarMedico</definition>
+        <argsstring>(PERMISSOES perm, Medico medico)</argsstring>
+        <name>TentarAtualizarMedico</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicos.TentarAtualizarMedico</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>perm</declname>
+        </param>
+        <param>
+          <type><ref refid="class_minhas_camadas_1_1_medico" kindref="compound">Medico</ref></type>
+          <declname>medico</declname>
+        </param>
+        <briefdescription>
+<para>Tenta atualizar um objeto do tipo Medico na lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissao do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>medico</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto Medico Medico a ser editado</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Consultar códigos de erros -21 ListaMedicosException: Exceção <linebreak/>
+ 1: Sucesso </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasMedicos.cs" line="211" column="27" bodyfile="Regras/RegrasMedicos.cs" bodystart="211" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_regras_medicos_1ae749d8283ac4bc4c722d427bb77f7aa7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; object &gt;</type>
+        <definition>static List&lt; object &gt; MinhasCamadas.RegrasMedicos.PesquisaMedicos</definition>
+        <argsstring>(ESPECIALIDADE especialidade, PERMISSOES permissoes)</argsstring>
+        <name>PesquisaMedicos</name>
+        <qualifiedname>MinhasCamadas.RegrasMedicos.PesquisaMedicos</qualifiedname>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a283efb86f3686f5be39421b4a07e457b" kindref="member">ESPECIALIDADE</ref></type>
+          <declname>especialidade</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_minhas_camadas_1_1_objetos_1a0b58f3b6eda01dcca7c3bad8e4277915" kindref="member">PERMISSOES</ref></type>
+          <declname>permissoes</declname>
+        </param>
+        <briefdescription>
+<para>Filtra uma lista de Médicos consoante a especialidade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>especialidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Especialidade a ser filtrada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>permissoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permissao do utilizador.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>RegrasMedicosException: Exceção -21 List&lt;MiniMedico&gt;: Lista com conteudo reduzido List&lt;Medico&gt;: Lista com conteudo total</para>
+<para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Regras/RegrasMedicos.cs" line="248" column="28" bodyfile="Regras/RegrasMedicos.cs" bodystart="248" bodyend="264"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Regras de Negócio para Medico Created by: gonca Created on: 12/2/2024 12:20:26 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Regras/RegrasMedicos.cs" line="23" column="19" bodyfile="Regras/RegrasMedicos.cs" bodystart="24" bodyend="267"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_1ae749d8283ac4bc4c722d427bb77f7aa7" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicos</scope><name>PesquisaMedicos</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_1a2a1e0ecd7849b32d056f9697142156da" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicos</scope><name>TentaCriarMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_1acfd14a27bb670eca585aa9b40ea12f24" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicos</scope><name>TentarAdicionarMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_1a55a603ee437aedfaba2cda560edffc98" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicos</scope><name>TentarAtualizarMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_1a8951b03cafc7cc09bf7432f2cdb505f1" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicos</scope><name>TentarEditarMedico</name></member>
+      <member refid="class_minhas_camadas_1_1_regras_medicos_1a3e1a05e92dd2b09d21918cd0dd2d1929" prot="public" virt="non-virtual"><scope>MinhasCamadas::RegrasMedicos</scope><name>TentaRemoverMedico</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

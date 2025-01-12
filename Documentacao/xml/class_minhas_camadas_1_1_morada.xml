@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_minhas_camadas_1_1_morada" kind="class" language="C#" prot="public">
+    <compoundname>MinhasCamadas::Morada</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_morada_1a02b8cfce50b71fd9426387e9c1030867" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Morada.cP</definition>
+        <argsstring></argsstring>
+        <name>cP</name>
+        <qualifiedname>MinhasCamadas.Morada.cP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="24" column="13" bodyfile="Objetos/Medico/Morada.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_morada_1a753ce192acefad926352353f96d22ffc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MinhasCamadas.Morada.morada_</definition>
+        <argsstring></argsstring>
+        <name>morada_</name>
+        <qualifiedname>MinhasCamadas.Morada.morada_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="25" column="16" bodyfile="Objetos/Medico/Morada.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_morada_1a1157e7b4b36f9920a9cde18236809d24" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MinhasCamadas.Morada.cidade</definition>
+        <argsstring></argsstring>
+        <name>cidade</name>
+        <qualifiedname>MinhasCamadas.Morada.cidade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="26" column="16" bodyfile="Objetos/Medico/Morada.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_minhas_camadas_1_1_morada_1a3aae19b1c0c49d3dc0fa5f17f4ffb7a2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Morada.nPorta</definition>
+        <argsstring></argsstring>
+        <name>nPorta</name>
+        <qualifiedname>MinhasCamadas.Morada.nPorta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="27" column="13" bodyfile="Objetos/Medico/Morada.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_minhas_camadas_1_1_morada_1a56872e753e67c80d551d95ee971cf8d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Morada.CP</definition>
+        <argsstring></argsstring>
+        <name>CP</name>
+        <qualifiedname>MinhasCamadas.Morada.CP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="54" column="20" bodyfile="Objetos/Medico/Morada.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_morada_1a1719d30811beb5b21a7361b5ba071afa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MinhasCamadas.Morada.Morada_</definition>
+        <argsstring></argsstring>
+        <name>Morada_</name>
+        <qualifiedname>MinhasCamadas.Morada.Morada_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="59" column="23" bodyfile="Objetos/Medico/Morada.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_morada_1a924ac95fe87fb379d43a8d1ff5901842" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MinhasCamadas.Morada.Cidade</definition>
+        <argsstring></argsstring>
+        <name>Cidade</name>
+        <qualifiedname>MinhasCamadas.Morada.Cidade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="64" column="23" bodyfile="Objetos/Medico/Morada.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_minhas_camadas_1_1_morada_1a40ef62e7ad653e4c03d34bedffdb0fb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MinhasCamadas.Morada.NPorta</definition>
+        <argsstring></argsstring>
+        <name>NPorta</name>
+        <qualifiedname>MinhasCamadas.Morada.NPorta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="69" column="20" bodyfile="Objetos/Medico/Morada.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_morada_1accd9836824e7118ba73692b39baded24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Morada.Morada</definition>
+        <argsstring>()</argsstring>
+        <name>Morada</name>
+        <qualifiedname>MinhasCamadas.Morada.Morada</qualifiedname>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="37" column="16" bodyfile="Objetos/Medico/Morada.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_morada_1a69749586df0f31b39f9db5789c6f6d85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Morada.Morada</definition>
+        <argsstring>(int cP, string morada_, string cidade, int nPorta)</argsstring>
+        <name>Morada</name>
+        <qualifiedname>MinhasCamadas.Morada.Morada</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cP</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>morada_</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cidade</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPorta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="41" column="16" bodyfile="Objetos/Medico/Morada.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_morada_1ac2bf0b237130c4ff5e078f14a0ee1848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MinhasCamadas.Morada.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>MinhasCamadas.Morada.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="77" column="32" bodyfile="Objetos/Medico/Morada.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_minhas_camadas_1_1_morada_1af7a0fea619b0bf4b85b094336f851e23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_minhas_camadas_1_1_morada" kindref="compound">Morada</ref></type>
+        <definition>Morada MinhasCamadas.Morada.CriarMorada</definition>
+        <argsstring>(int cP, string morada_, string cidade, int nPorta)</argsstring>
+        <name>CriarMorada</name>
+        <qualifiedname>MinhasCamadas.Morada.CriarMorada</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cP</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>morada_</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cidade</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPorta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="84" column="23" bodyfile="Objetos/Medico/Morada.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_minhas_camadas_1_1_morada_1a2683a2500d7426195f8b63029bc594aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinhasCamadas.Morada.~Morada</definition>
+        <argsstring>()</argsstring>
+        <name>~Morada</name>
+        <qualifiedname>MinhasCamadas.Morada.~Morada</qualifiedname>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Objetos/Medico/Morada.cs" line="94" column="9" bodyfile="Objetos/Medico/Morada.cs" bodystart="94" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Purpose: Class responsável por manipular uma respetiva Morada Created by: gonca Created on: 12/1/2024 6:22:26 PM. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Objetos/Medico/Morada.cs" line="21" column="11" bodyfile="Objetos/Medico/Morada.cs" bodystart="22" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_minhas_camadas_1_1_morada_1a1157e7b4b36f9920a9cde18236809d24" prot="private" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>cidade</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a924ac95fe87fb379d43a8d1ff5901842" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>Cidade</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a02b8cfce50b71fd9426387e9c1030867" prot="private" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>cP</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a56872e753e67c80d551d95ee971cf8d1" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>CP</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1af7a0fea619b0bf4b85b094336f851e23" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>CriarMorada</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1accd9836824e7118ba73692b39baded24" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>Morada</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a69749586df0f31b39f9db5789c6f6d85" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>Morada</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a753ce192acefad926352353f96d22ffc" prot="private" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>morada_</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a1719d30811beb5b21a7361b5ba071afa" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>Morada_</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a3aae19b1c0c49d3dc0fa5f17f4ffb7a2" prot="private" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>nPorta</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a40ef62e7ad653e4c03d34bedffdb0fb9" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>NPorta</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1ac2bf0b237130c4ff5e078f14a0ee1848" prot="public" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>ToString</name></member>
+      <member refid="class_minhas_camadas_1_1_morada_1a2683a2500d7426195f8b63029bc594aa" prot="private" virt="non-virtual"><scope>MinhasCamadas::Morada</scope><name>~Morada</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

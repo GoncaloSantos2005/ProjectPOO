@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_minhas_camadas_1_1_project_exception" kind="namespace" language="C#">
+    <compoundname>MinhasCamadas::ProjectException</compoundname>
+    <innerclass refid="class_minhas_camadas_1_1_project_exception_1_1_consulta_exception" prot="public">MinhasCamadas::ProjectException::ConsultaException</innerclass>
+    <innernamespace refid="namespace_minhas_camadas_1_1_project_exception_1_1_consulta">MinhasCamadas::ProjectException::Consulta</innernamespace>
+    <innernamespace refid="namespace_minhas_camadas_1_1_project_exception_1_1_medico">MinhasCamadas::ProjectException::Medico</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ProjectException/Consulta/ConsultaException.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>
